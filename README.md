@@ -5,7 +5,7 @@ This repo contains issues and Istio enhancement proposal. These issues are umbre
 
 ## Why do we need this?
 
-As a project it is vital to be able to track the chain of custody for a proposed enhancement from conception through implementation. The enhancement repository provides a standardized mechanism for describing important enhancements delivered through Istio releases.  This will not only enable the contributors, maintainers and release managers to explaining features to users coherently but also allow adopters to plan their adoption strategy based on a forward looking road map.
+As a project it is vital to be able to track the chain of custody for a proposed enhancement from conception through implementation. The enhancement repository provides a standardized mechanism for describing important enhancements delivered through Istio releases. This will not only enable the contributors, maintainers and release managers to explaining features to users coherently but also allow adopters to plan their adoption strategy based on a forward looking road map.
 
 ## Is My Thing an Enhancement?
 
@@ -65,6 +65,5 @@ Please do not comment on the enhancement issue to:
 - The release managers can label the enhancement for one or more release(s).
 - PRs associated with the enhancement can be merged after approvers from more than 1 companies.
 - The enhancement issue can be closed by the creator or any release managers who have confirmed the issue is fixed in a given release.
-
 
 
