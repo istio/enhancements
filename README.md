@@ -1,5 +1,5 @@
 # Enhancement Tracking and Backlog
-Enhancement Tracking and Backlog Repo for Istio Releases. Owned by TOC.
+Enhancement Tracking and Backlog Repo for Istio Releases.
 
 This repo contains issues and Istio enhancement proposal. These issues are umbrellas for new enhancements to be added to Istio. An enhancement usually takes multiple releases to complete. And an enhancement can be tracked as backlog items before work begins. An enhancement may be filed once there is consensus in at least one Istio working group.
 
