@@ -14,7 +14,7 @@ We are trying to figure out the exact shape of an enhancement. Until then here a
 An enhancement is anything that:
 
 - a blog post would be written about after its release (ex. [v1beta1 authorization policy](https://istio.io/blog/2019/v1beta1-authorization-policy/))
-- requires multiple parties/SIGs/owners participating to complete (ex. auto mTLS)
+- requires multiple parties/working groups/owners participating to complete (ex. auto mTLS)
 - will be graduating from one stage to another (ex. alpha to beta, beta to GA)
 - needs significant effort or changes Istio in a significant way (ex. something that would take 10 person-weeks to implement, introduce or redesign a system component, or introduces API changes)
 - impacts the UX or operation of Istio substantially such that engineers using Istio will need retraining
