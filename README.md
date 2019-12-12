@@ -3,6 +3,10 @@ Enhancement Tracking and Backlog Repo for Istio Releases. Owned by TOC.
 
 This repo contains issues and Istio enhancement proposal. These issues are umbrellas for new enhancements to be added to Istio. An enhancement usually takes multiple releases to complete. And an enhancement can be tracked as backlog items before work begins. An enhancement may be filed once there is consensus in at least one Istio working group.
 
+## Why do we need this?
+
+As a project it is vital to be able to track the chain of custody for a proposed enhancement from conception through implementation. The enhancement repository provides a standardized mechanism for describing important enhancements delivered through Istio releases.  This will not only enable the contributors, maintainers and release managers to explaining features to users coherently but also allow adopters to plan their adoption strategy based on a forward looking road map.
+
 ## Is My Thing an Enhancement?
 
 We are trying to figure out the exact shape of an enhancement. Until then here are a few rough heuristics.
@@ -30,10 +34,10 @@ Create an issue here once you:
 - have circulated your idea to see if there is interest
    - through Community Meetings, working group meetings, discuss.istio.io lists, or an issue in github.com/istio/istio
 - (optionally) have done a prototype in your own fork
-- have identified people who agree to work on the enhancement
+- (optionally) have identified people who agree to work on the enhancement
   - many enhancements will take several releases to progress through Alpha, Beta, and Stable stages
   - you and your team should be prepared to work on the approx. 9mo - 1 year that it takes to progress to Stable status
-- are ready to be the project-manager for the enhancement
+- (optionally) are ready to be the project-manager for the enhancement
 
 ## Why are Enhancements Tracked
 
