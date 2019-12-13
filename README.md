@@ -67,8 +67,11 @@ Please do not comment on the enhancement issue to:
 
 ## Template of an Enhancement Issue
 #### Enhancement Description
+(What is this enhancement?)
 #### User Story
+(Please cover both new users and existing users if applicable.)
 #### Proposal
-(this is the full design doc which can be added later)
+(This is the full design doc which can be added later)
 #### Impacted Working Groups
+(List of working groups that are impacted by this enhancement)
 
