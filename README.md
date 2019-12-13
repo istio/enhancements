@@ -61,7 +61,8 @@ Please do not comment on the enhancement issue to:
 ## Lifecycle of an Enhancement Issue
 
 - An enhancement issue must be presented to corresponding working group(s) meeting first.  If the enhancement spans more than one working groups, it must be presented to each of the working group to secure approvals.
-- Once the enhancement issue is approved by working group(s) and have engineer(s) who agrees to work on it, working group leads can label the enhancement for one or more release(s).
+- Working group leads approve the enhancement issue.  The enhancement issue is considered approved when it has approvers from more than 1 companies.  If there are conflicts, the enhancement issue must be discussed at an upcoming TOC meeting to allow TOC to resolve the conflict.
+- Once the enhancement issue is approved and have engineer(s) who agrees to work on it, working group leads can label the enhancement for one or more release(s).
 - PRs associated with the enhancement can be merged after approvers from more than 1 companies.
 - The enhancement issue can be closed by the creator or any release managers who have confirmed the issue is fixed in a given release.
 
