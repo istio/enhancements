@@ -58,11 +58,10 @@ Please comment on the enhancement issue to:
 Please do not comment on the enhancement issue to:
 - discuss a detail of the design, code or docs. Use a linked-to-issue or PR for that
 
-## Lifecycle of an Ehancement Issue
+## Lifecycle of an Enhancement Issue
 
 - An enhancement issue must be presented to corresponding working group(s) meeting first, with a link to the RFC document.  If the enhancement spans more than one working groups, it must be presented to each of the working group to secure approvals.
 - Once the enhancement issue is approved by working group(s) and have engineer(s) who agrees to work on it, the enhancement issue must be approved by TOC.
 - The release managers can label the enhancement for one or more release(s).
 - PRs associated with the enhancement can be merged after approvers from more than 1 companies.
 - The enhancement issue can be closed by the creator or any release managers who have confirmed the issue is fixed in a given release.
-
