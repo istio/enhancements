@@ -11,7 +11,7 @@ As a project it is vital to be able to track the chain of custody for a proposed
 
 We are trying to figure out the exact shape of an enhancement. Until then here are a few rough heuristics.
 
-An enhancement is anything that:
+An enhancement is anything that meets any of these criteria:
 
 - a blog post would be written about after its release (ex. [v1beta1 authorization policy](https://istio.io/blog/2019/v1beta1-authorization-policy/))
 - requires multiple parties/working groups/owners participating to complete (ex. auto mTLS)
