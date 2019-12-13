@@ -1,11 +1,11 @@
 # Enhancement Tracking and Backlog
 Enhancement Tracking and Backlog Repo for Istio Releases.
 
-This repo contains issues and Istio enhancement proposals. These issues are umbrellas for new enhancements to be added to Istio. An enhancement usually takes multiple releases to complete. And an enhancement can be tracked as backlog items before work begins. An enhancement may be filed once there is consensus in at least one Istio working group.
+This repo contains enhancement issues. These issues are umbrellas for new enhancements to be added to Istio. An enhancement usually takes multiple releases to complete. And an enhancement can be tracked as backlog items before work begins. An enhancement may be filed once there is consensus in at least one Istio working group.
 
 ## Why Do We Need This?
 
-As a project it is vital to be able to track the chain of custody for a proposed enhancement from conception through implementation. The enhancement repository provides a standardized mechanism for describing important enhancements delivered through Istio releases. This will not only enable the contributors, maintainers and release managers to explain features to users coherently but also allow adopters to plan their adoption strategy based on a forward looking road map.
+As a project it is vital to be able to track the chain of custody for a proposed enhancement from conception through implementation. The enhancement repository provides a standardized mechanism for describing important enhancements delivered through Istio releases. This will not only enable the contributors, maintainers and release managers to explain features to users coherently but also allow adopters to plan their adoption strategy based on a forward looking roadmap.
 
 ## Is My Thing an Enhancement?
 
@@ -60,8 +60,15 @@ Please do not comment on the enhancement issue to:
 
 ## Lifecycle of an Enhancement Issue
 
-- An enhancement issue must be presented to corresponding working group(s) meeting first, with a link to the RFC document.  If the enhancement spans more than one working groups, it must be presented to each of the working group to secure approvals.
-- Once the enhancement issue is approved by working group(s) and have engineer(s) who agrees to work on it, the enhancement issue must be approved by TOC.
-- The release managers can label the enhancement for one or more release(s).
+- An enhancement issue must be presented to corresponding working group(s) meeting first.  If the enhancement spans more than one working groups, it must be presented to each of the working group to secure approvals.
+- Once the enhancement issue is approved by working group(s) and have engineer(s) who agrees to work on it, working group leads can label the enhancement for one or more release(s).
 - PRs associated with the enhancement can be merged after approvers from more than 1 companies.
 - The enhancement issue can be closed by the creator or any release managers who have confirmed the issue is fixed in a given release.
+
+## Template of an Enhancement Issue
+#### Enhancement Description
+#### User Story
+#### Proposal
+(this is the full design doc which can be added later)
+#### Impacted Working Groups
+
