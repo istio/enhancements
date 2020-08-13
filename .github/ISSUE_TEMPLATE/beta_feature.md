@@ -54,5 +54,5 @@ This page lists the requirements for promoting a feature to beta. Please check o
 **Promotion**
 
 - [ ] The decision to promote a feature is presented and approved by the workgroup. 
-- [ ] The decision to promote a feature is approved by the TOC in the roadmap for a release. 
+- [ ] The decision to promote the feature has been approved by the TOC.
 - [ ] Supportability review addressing support scenario questions that has been discussed in the appropriate workgroup.
