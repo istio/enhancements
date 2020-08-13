@@ -33,7 +33,7 @@ This page lists the requirements for promoting a feature to beta. Please check o
 - [ ] Integration tests cover feature edge cases
 - [ ] End-to-end tests cover samples/tutorials
 - [ ] Fixed issues have tests to prevent regressions
-- [ ] Ensure that coverage exists for the feature in stability/stress test suite.
+- [ ] Stability/stress test suite includes coverage for the feature.
 
 **Performance**
 
