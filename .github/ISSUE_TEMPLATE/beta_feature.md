@@ -45,7 +45,7 @@ This page lists the requirements for promoting a feature to beta. Please check o
 
 **CLI**
 
-- [ ] Necesssary CLI command has been implemented and are complete. 
+- [ ] Any necessary CLI commands have been implemented and are complete. 
 
 **Bugs**
 
