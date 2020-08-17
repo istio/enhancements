@@ -10,8 +10,17 @@ This page lists the requirements for experimental features. Please check off and
 
 ### Requirements: 
 
-- [ ] Feature is reviewed in a TOC meeting
-- [ ] Design document has been written
+- [ ] Feature is reviewed in a work group meeting
+- [ ] RFC has been written
 - [ ] Feature is disabled by default
-- [ ] Steps for enabling the feature have been documented
-- [ ] Plan exists for getting feedback
+- [ ] Steps for enabling the feature have been documented. This may include
+	instructions for building, running an `istioctl experimental command`, or
+	using the preview profile.
+```
+Link to instructions
+```
+- [ ] Plan exists for getting feedback. This may include user feedback meetings,
+	discuss.istio.io conversations, GitHub issues, or mailing lists. 
+```
+Plan for feedback
+```
