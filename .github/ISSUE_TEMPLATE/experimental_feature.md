@@ -25,3 +25,4 @@ Link to instructions
 ```
 Plan for feedback
 ```
+- [ ] No impact on performance when the feature is disabled.

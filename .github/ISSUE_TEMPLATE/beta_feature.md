@@ -40,15 +40,15 @@ This page lists the requirements for promoting a feature to beta. Promotion to b
 
 **Performance**
 
-- [ ] Feature has baseline performance tests
+- [ ] Performance results and impacts with feature enabled are published on istio.io.
 
 **API**
 
 - [ ] TOC has reviewed the API and determined it to be complete. 
 
-**CLI**
+**Tooling**
 
-- [ ] Any necessary CLI commands have been implemented and are complete. 
+- [ ] Any necessary tooling to use/debug the feature has been implemented and is complete. 
 
 **Bugs**
 

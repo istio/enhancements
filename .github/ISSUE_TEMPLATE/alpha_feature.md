@@ -44,7 +44,9 @@ Link to instructions for enabling
 
 
 **Performance**
-- [ ] Performance impacts have been measured. 
+- [ ] Performance impacts have been measured. Please document below: 
+```
+```
 
 **API**
 
