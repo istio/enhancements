@@ -5,8 +5,14 @@ about: Requirements for promoting a feature to alpha
 
 This page lists the requirements for promoting a feature to alpha. Please check off and document the steps as they are completed.
 
-**Feature Name:** 
+**Feature Name:**  
+
 **Design doc:**
+
+**Relevant documentation:**
+
+```
+```
 --- 
 
 ### Requirements: 
@@ -26,15 +32,7 @@ Link to instructions for enabling
 **Docs**
 
 - [ ] Reference docs are published to Istio.io, or the Istio wiki.
-
-```
-Links to docs
-```
-
 - [ ] Basic feature docs are published on istio.io describing what the feature does, how to use it, and any caveats. 
-```
-Links to docs
-```
 - [ ] Release notes entries added as appropriate
 - [ ] Upgrade notes entries added as appropriate
 
@@ -46,7 +44,7 @@ Links to docs
 
 
 **Performance**
-- [ ] Performance requirements assessed as part of the design. 
+- [ ] Performance impacts have been measured. 
 
 **API**
 
@@ -54,5 +52,8 @@ Links to docs
 
 **Promotion**
 
-- [ ] Reviewed by the appropriate workgroup and added to the workgroup roadmap.
-- [ ] Approved by TOC.
+
+- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [ ] The supportability review panel has reviewed promotion of the feature.  
+- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+	roadmap for a release.

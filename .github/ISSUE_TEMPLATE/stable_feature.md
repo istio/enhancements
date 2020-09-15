@@ -3,28 +3,39 @@ name: Stable Feature Requirements
 about: Requirements for promoting a feature to stable
 ---
 
-This page lists the requirements for promoting a feature to stable. Please check off and document the steps as they are completed.
+This page lists the requirements for promoting a feature to stable. Promotion to stable must meet all requirements of promotion to beta. Please check off and document the steps as they are completed.
 
 **Feature Name:** 
+
+**Promotion to Alpha:**
+
+**Promotion to Beta:**
+
+**Relevant Documentation:**
+
+```
+```
+
 --- 
 
 ### Requirements: 
 
 **Tests**
 
-- [ ] Test coverage is >= 90%
-- [ ] Automated tests are in place to prevent performance regressions. 
+- [ ] Automated tests are in place to prevent regressions. 
 
 **Performance**
 
-- [ ] Latency, throughput, and scale are quantified and documented. 
+- [ ] Latency, throughput, and scalability are quantified and documented on
+	istio.io. 
 
 **Bugs**
 
-- [ ] Feature has no outstanding P0 or P1 bugs. 
+- [ ] Feature has no known major issues. 
 
 **Performance**
 
-- [ ] The decision to promote a feature is presented in the roadmap of the appropriate working group. 
-- [ ] TOC has approved promotion. 
-
+- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [ ] The supportability review panel has reviewed promotion of the feature.  
+- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+	roadmap for a release.

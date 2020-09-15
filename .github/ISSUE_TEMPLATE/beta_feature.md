@@ -3,9 +3,17 @@ name: Beta Feature Requirements
 about: Requirements for promoting a feature to beta
 ---
 
-This page lists the requirements for promoting a feature to beta. Please check off and document the steps as they are completed.
+This page lists the requirements for promoting a feature to beta. Promotion to beta must meet all requirements for promotion to alpha. Please check off and document the steps as they are completed.
 
 **Feature Name:** 
+
+**Promotion to Alpha:**
+
+**Relevant documentation:**
+
+```
+```
+
 --- 
 
 ### Requirements: 
@@ -44,10 +52,11 @@ This page lists the requirements for promoting a feature to beta. Please check o
 
 **Bugs**
 
-- [ ] Feature has no outstanding P0 bugs
+- [ ] Feature has no known major issues.
 
 **Promotion**
 
-- [ ] The decision to promote the feature has been presented and approved by the appropriate work groups. 
-- [ ] The decision to promote the feature has been presented to (and approved by) the supportability review panel. 
-- [ ] The decision to promote the feature has been approved by the TOC.
+- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [ ] The supportability review panel has reviewed promotion of the feature.  
+- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+	road map for a release.
