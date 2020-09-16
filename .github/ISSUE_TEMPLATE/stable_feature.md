@@ -3,18 +3,17 @@ name: Stable Feature Requirements
 about: Requirements for promoting a feature to stable
 ---
 
+# Stable Feature Requirements
+
 This page lists the requirements for promoting a feature to stable. Promotion to stable must meet all requirements of promotion to beta. Please check off and document the steps as they are completed.
 
 **Feature Name:** 
 
-**Promotion to Alpha:**
+**Alpha Checklist:**
 
-**Promotion to Beta:**
+**Beta Checklist:**
 
 **Relevant Documentation:**
-
-```
-```
 
 --- 
 
@@ -33,7 +32,7 @@ This page lists the requirements for promoting a feature to stable. Promotion to
 
 - [ ] Feature has no known major issues. 
 
-**Performance**
+**Approvals**
 
 - [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The supportability review panel has reviewed promotion of the feature.  

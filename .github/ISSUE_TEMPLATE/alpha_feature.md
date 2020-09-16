@@ -3,16 +3,16 @@ name: Alpha Feature Requirements
 about: Requirements for promoting a feature to alpha
 ---
 
+# Alpha Feature Requirements
+
 This page lists the requirements for promoting a feature to alpha. Please check off and document the steps as they are completed.
 
 **Feature Name:**  
 
 **Design doc:**
 
-**Relevant documentation:**
+**Relevant Documentation:**
 
-```
-```
 --- 
 
 ### Requirements: 
@@ -44,16 +44,13 @@ Link to instructions for enabling
 
 
 **Performance**
-- [ ] Performance impacts have been measured. Please document below: 
-```
-```
+- [ ] Performance impacts have been measured. Please document any initial performance tests below:
 
 **API**
 
 - [ ] Initial API review.
 
-**Promotion**
-
+**Approvals**
 
 - [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The supportability review panel has reviewed promotion of the feature.  
