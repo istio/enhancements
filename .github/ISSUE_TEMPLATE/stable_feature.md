@@ -19,10 +19,6 @@ This page lists the requirements for promoting a feature to stable. Promotion to
 
 ### Requirements: 
 
-**Tests**
-
-- [ ] Automated tests are in place to prevent regressions. 
-
 **Performance**
 
 - [ ] Latency, throughput, and scalability are quantified and documented on

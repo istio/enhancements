@@ -9,6 +9,8 @@ This page lists the requirements for promoting a feature to beta. Promotion to b
 
 **Feature Name:** 
 
+**Design Doc:**
+
 **Alpha Checklist:**
 
 **Relevant Documentation:**
@@ -39,7 +41,7 @@ This page lists the requirements for promoting a feature to beta. Promotion to b
 
 **Performance**
 
-- [ ] Performance results and impacts with feature enabled are published on istio.io.
+- [ ] Tests exist with the feature enabled that can be integrated with our automated performance testing.
 
 **API**
 

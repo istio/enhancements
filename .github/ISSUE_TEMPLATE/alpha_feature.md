@@ -9,6 +9,8 @@ This page lists the requirements for promoting a feature to alpha. Please check 
 
 **Feature Name:**  
 
+**RFC:**
+
 **Design doc:**
 
 **Relevant Documentation:**
@@ -25,14 +27,12 @@ This page lists the requirements for promoting a feature to alpha. Please check 
 
 - [ ] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
 
-```
-Link to instructions for enabling
-```
+> Link to instructions for enabling
 
 **Docs**
 
-- [ ] Reference docs are published to Istio.io, or the Istio wiki.
-- [ ] Basic feature docs are published on istio.io describing what the feature does, how to use it, and any caveats. 
+- [ ] Reference docs are published to preliminary.istio.io or the Istio wiki.
+- [ ] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
 - [ ] Release notes entries added as appropriate
 - [ ] Upgrade notes entries added as appropriate
 
@@ -45,6 +45,8 @@ Link to instructions for enabling
 
 **Performance**
 - [ ] Performance impacts have been measured. Please document any initial performance tests below:
+
+> Initial performance tests
 
 **API**
 

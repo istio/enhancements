@@ -22,7 +22,10 @@ document the steps as they are completed.
 - [ ] Steps for enabling the feature have been documented. This may include
 	instructions for building, running an `istioctl experimental command`, or
 	using the preview profile. 
-	**Link to instructions:** 
+
+> Link to instructions 
+
 - [ ] Plan exists for getting feedback. This may include user feedback meetings,
 	discuss.istio.io conversations, GitHub issues, or mailing lists. 
+
 > Plan for feedback
