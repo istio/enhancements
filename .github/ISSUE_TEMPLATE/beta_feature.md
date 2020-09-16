@@ -21,7 +21,10 @@ This page lists the requirements for promoting a feature to beta. Promotion to b
 
 **Design**
 
-- [ ] Design doc has been approved by relevant work group leads
+- [ ] Design doc describing the intention of the feature, how it will be
+	implemented, and any thoughts on how to test the feature has been approved by
+	relevant work group leads
+- [ ] Feature coverage and test plans written and approved.
 
 **Docs** 
 
@@ -41,6 +44,7 @@ This page lists the requirements for promoting a feature to beta. Promotion to b
 
 **Performance**
 
+- [ ] Feature coverage and test plans written and approved 
 - [ ] Tests exist with the feature enabled that can be integrated with our automated performance testing.
 
 **API**

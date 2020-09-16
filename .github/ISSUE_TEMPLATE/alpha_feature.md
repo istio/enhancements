@@ -21,7 +21,7 @@ This page lists the requirements for promoting a feature to alpha. Please check 
 
 **Design**
 
-- [ ] RFC has been approved. 
+- [ ] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
 
 **Config**
 
@@ -40,13 +40,6 @@ This page lists the requirements for promoting a feature to alpha. Please check 
 
 - [ ] Automated integration tests cover core use cases with the feature enabled. 
 - [ ] When disabled, the feature does not affect system stability or performance. 
-- [ ] Feature coverage and test plans written and approved
-
-
-**Performance**
-- [ ] Performance impacts have been measured. Please document any initial performance tests below:
-
-> Initial performance tests
 
 **API**
 
@@ -55,6 +48,5 @@ This page lists the requirements for promoting a feature to alpha. Please check 
 **Approvals**
 
 - [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The supportability review panel has reviewed promotion of the feature.  
 - [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
