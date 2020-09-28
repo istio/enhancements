@@ -35,7 +35,7 @@ This template shall be completed before users are exposed to any new experimetna
 
 **User stories document:**
 
-**RFC document:**
+**RFC document:** [create an RFC using template](https://docs.google.com/document/d/1ewJoCcw5-04crH-M0xw4zFxz1cfwVCPnNyW4K3m4Yyc/template/preview)
 
 **Instructions document:**
 
