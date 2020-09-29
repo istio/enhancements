@@ -49,7 +49,7 @@ about: Requirements for an experimental feature
 [//]: # (An RFC is mandatory to graduate to experimental. The RFC does not have to be reviewed in a work group)
 [//]: # (meeting to graduate to experimental.)
 
-- [ ] [Documention](insert_your_link_here) for enabling and using the feature.
+- [ ] [Documentation](insert_your_link_here) for enabling and using the feature.
 
 [//]: # (The documentation instructions may exist on the developer wiki or the team drive. They may include instructions)
 [//]: # (for building running a `istioctl experimental command`, or using the preview profile,)
