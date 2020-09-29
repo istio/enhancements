@@ -13,9 +13,7 @@ about: Requirements for an experimental feature
 
 [//]: # (The feature implementation section must be completed before submission of the issue.)
 
-
-
-# Feature Information
+# Feature:
 
 [//]: # (All information in this section is mandatory for new issue submission.)
 
@@ -27,12 +25,9 @@ about: Requirements for an experimental feature
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
-
 **Short description:**
 
 [//]: # (A short description of the feature. One or two sentences maximum.)
-
---- 
 
 # Requirements:
 
@@ -62,7 +57,7 @@ about: Requirements for an experimental feature
 
 - [ ] [Feedback plan](insert_your_link_here).
 
-[//]: # (This may include user feedback meetings, discuss.istio.io conversations, GitHub issues, or mailing lists.a)
+[//]: # (This may include user feedback meetings, discuss.istio.io conversations, GitHub issues, or mailing lists.)
 
 - [ ] Disabled by default.
 - [ ] No impact on performance when the feature is disabled.
