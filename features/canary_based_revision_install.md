@@ -1,16 +1,16 @@
-[//]: # (The syntax preceeding this line is a comment marker used to help guide the issue author with submission of an issue)
+[//]: # (The syntax preceeding this line is a comment marker used to help guide the author in populating this document)
 [//]: # (to github. Unlike HTML comments commonly used throughout istio.io documentation, this comment will not be rendered)
 [//]: # (by github. Comments must be separated by carriage return preceding and concluding the text and be a single line.)
 
-[//]: # (This page lists the requirements for an experimental feature. Completion of this template enables Istio work groups)
+[//]: # (This is a living document representing the maturity of a feature. Completion of this template enables Istio work groups)
 [//]: # (to collect information on potential new functionality. This template should be completed before users are exposed to)
 [//]: # (any new experimental feature. Please complete this template during development.)
 
-[//]: # (The feature implementation section must be completed before submission of the issue.)
+[//]: # (The feature implementation section must be completed before submission of the document.)
 
 # Feature: Revision Based Install
 
-[//]: # (All information in this section is mandatory for new issue submission.)
+[//]: # (All information in this section is mandatory.)
 
 **Feature name:** Canary (Revision Based) Install
 
@@ -30,7 +30,7 @@
 
 ### Requirements:
 
-[//]: # (All information in this section is mandatory for promotion. Please edit the issue to modify the links in this)
+[//]: # (All information in this section is mandatory for promotion. Please modify the links in this)
 [//]: # (section.)
 
 - [ ] [User stories](insert_your_link_here) reviewed in a work group meeting.

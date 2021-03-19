@@ -1,55 +1,55 @@
-features: 
-  - name: "Protocols:HTTP1.1/HTTP2/gRPC/TCP" 
-    level: 
+features:
+  - name: "Protocols:HTTP1.1/HTTP2/gRPC/TCP"
+    level:
       - checklist:
-        current: Stable
-        promotionBefore:
-    state: 
+        maturity: Stable
+        nextExpectedPromotion:
+    deprecation:
      - state: active
-       begin: 
-       details: 
+       next:
+       details:
   - name: "Protocols:Websockets/MongoDB"
     level:
      - checklist:
-       current: Stable
-       promotionBefore:
-    state: 
+       maturity: Stable
+       nextExpectedPromotion:
+    deprecation:
      - state: active
-       begin: 
-       details: 
+       next:
+       details:
   - name: "Traffic Control: label/content based routing, traffic shifting"
     level:
      - checklist:
-       current: Stable
-       promotionBefore:
-    state: 
+       maturity: Stable
+       nextExpectedPromotion:
+    deprecation:
      - state: active
-       begin: 
-       details: 
+       next:
+       details:
   - name: "Gateway: Ingress, Egress for all protocols"
     level:
      - checklist:
-       current: Stable
-       promotionBefore:
-    state: 
+       maturity: Stable
+       nextExpectedPromotion:
+    deprecation:
      - state: active
-       begin: 
-       details: 
+       next:
+       details:
   - name: "Gateway: Ingress, Egress for all protocols"
     level:
      - checklist:
-       current: Stable
-       promotionBefore:
-    state: 
+       maturity: Stable
+       nextExpectedPromotion:
+    deprecation:
      - state: active
-       begin: 
-       details: 
+       next:
+       details:
   - name: "SNI (multiple certs) at ingress"
     level:
      - checklist:
-       current: Beta
-       promotionBefore:
-    state: 
+       maturity: Beta
+       nextExpectedPromotion:
+    deprecation:
      - state: active
-       begin: 
-       details: 
+       next:
+       details:
