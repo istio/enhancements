@@ -4,52 +4,28 @@ features:
       - checklist:
         maturity: Stable
         nextExpectedPromotion:
-    deprecation:
-     - state: active
-       next:
-       details:
   - name: "Protocols:Websockets/MongoDB"
     level:
      - checklist:
        maturity: Stable
        nextExpectedPromotion:
-    deprecation:
-     - state: active
-       next:
-       details:
   - name: "Traffic Control: label/content based routing, traffic shifting"
     level:
      - checklist:
        maturity: Stable
        nextExpectedPromotion:
-    deprecation:
-     - state: active
-       next:
-       details:
   - name: "Gateway: Ingress, Egress for all protocols"
     level:
      - checklist:
        maturity: Stable
        nextExpectedPromotion:
-    deprecation:
-     - state: active
-       next:
-       details:
   - name: "Gateway: Ingress, Egress for all protocols"
     level:
      - checklist:
        maturity: Stable
        nextExpectedPromotion:
-    deprecation:
-     - state: active
-       next:
-       details:
   - name: "SNI (multiple certs) at ingress"
     level:
      - checklist:
        maturity: Beta
        nextExpectedPromotion:
-    deprecation:
-     - state: active
-       next:
-       details:
