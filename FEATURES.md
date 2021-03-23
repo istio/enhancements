@@ -19,6 +19,7 @@ features:
       - checkList: 
         maturity:
         nextExpectedPromotion:
+        area: Core 
 	deprecation:
       - state:
         begin:
@@ -27,6 +28,7 @@ features:
 ```
 
 * **Name** indicates the name of the feature.
+* **Area** indicates the area of the feature.
 * **level** indicates the maturity level of a feature.
 * **level.checklist** is the path to the checklist to track a feature's maturity.
 * **level.maturity** is the current maturity level of the feature. This can be `experimental`, `alpha`, `beta`, or `stable`. Experimental is an optional maturity level that can be skipped. For alpha, beta, and stable, all requirements for the previous levels must be met before a feature can meet the next level (i.e. a stable feature has met the requirements of both alpha and beta). There may be features for which a requirement is not applicable.

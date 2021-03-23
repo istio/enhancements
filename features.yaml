@@ -4,28 +4,255 @@ features:
       - checklist:
         maturity: Stable
         nextExpectedPromotion:
+        area: Traffic Management
   - name: "Protocols:Websockets/MongoDB"
     level:
      - checklist:
        maturity: Stable
        nextExpectedPromotion:
+       area: Traffic Management
   - name: "Traffic Control: label/content based routing, traffic shifting"
     level:
      - checklist:
        maturity: Stable
        nextExpectedPromotion:
+       area: Traffic Management
   - name: "Gateway: Ingress, Egress for all protocols"
     level:
      - checklist:
        maturity: Stable
        nextExpectedPromotion:
-  - name: "Gateway: Ingress, Egress for all protocols"
+       area: Traffic Management
+  - name: "TLS termination and SNI Support in Gateways"
     level:
      - checklist:
        maturity: Stable
        nextExpectedPromotion:
+       area: Traffic Management
   - name: "SNI (multiple certs) at ingress"
+    level:
+     - checklist:
+       maturity: Stable
+       nextExpectedPromotion:
+       area: Traffic Management
+  - name: "Locality load balancing"
     level:
      - checklist:
        maturity: Beta
        nextExpectedPromotion:
+       area: Traffic Management
+  - name: "Enabling custom filters in Envoy"
+    level:
+     - checklist:
+       maturity: Alpha
+       nextExpectedPromotion:
+       area: Traffic Management
+  - name: "CNI container interface"
+    level:
+     - checklist: features/cni.md
+       maturity: Alpha
+       nextExpectedPromotion:
+       area: Traffic Management
+  - name: "Sidecar API"
+    level:
+     - checklist:
+       maturity: Beta
+       nextExpectedPromotion:
+       area: Traffic Management
+  - name: "DNS Proxying"
+    level:
+     - checklist:
+       maturity: Alpha
+       nextExpectedPromotion:
+       area: Traffic Management
+  - name: "Service APIs"
+    level:
+     - checklist: features/service_apis.md
+       maturity: Alpha
+       nextExpectedPromotion:
+       area: Traffic Management
+  - name: "Kubernetes Service APIs"
+    level:
+     - checklist:
+       maturity: Alpha
+       nextExpectedPromotion:
+       area: Traffic Management
+  - name: "Prometheus Integration"
+    level:
+     - checklist:
+       maturity: Stable
+       nextExpectedPromotion:
+       area: Observability
+  - name: "Client and Server Telemetry Reporting"
+    level:
+     - checklist:
+       maturity: Stable
+       nextExpectedPromotion:
+       area: Observability
+  - name: "Service Dashboard in Grafana"
+    level:
+     - checklist:
+       maturity: Stable
+       nextExpectedPromotion:
+       area: Observability
+  - name: "Distributed Tracing"
+    level:
+     - checklist:
+       maturity: Stable
+       nextExpectedPromotion:
+       area: Observability
+  - name: "Stackdriver Integration"
+    level:
+     - checklist:
+       maturity: Stable
+       nextExpectedPromotion:
+       area: Observability
+  - name: "Distributed Tracing to Zipkin/Jaeger"
+    level:
+     - checklist:
+       maturity: Beta
+       nextExpectedPromotion:
+       area: Observability
+  - name: "Trace Sampling"
+    level:
+     - checklist:
+       maturity: Beta
+       nextExpectedPromotion:
+       area: Observability
+  - name: "Request Classification"
+    level:
+     - checklist:
+       maturity: Beta
+       nextExpectedPromotion:
+       area: Observability
+  - name: "WebAssembly Extension"
+    level:
+     - checklist:
+       maturity: Alpha
+       nextExpectedPromotion:
+       area: Extensibility
+  - name: "Service-to-service Mutual TLS"
+    level:
+     - checklist:
+       maturity: Stable
+       nextExpectedPromotion:
+       area: Security and policy enforcement
+  - name: "Kubernetes: Service Credential Distribution"
+    level:
+     - checklist:
+       maturity: Stable
+       nextExpectedPromotion:
+       area: Security and policy enforcement
+  - name: "Certificate management on Ingress Gateway"
+    level:
+     - checklist:
+       maturity: Stable
+       nextExpectedPromotion:
+       area: Security and policy enforcement
+  - name: "Pluggable Key/Cert Support for istio CA"
+    level:
+     - checklist:
+       maturity: Stable
+       nextExpectedPromotion:
+       area: Security and policy enforcement
+  - name: "Authorization"
+    level:
+     - checklist:
+       maturity: Beta
+       nextExpectedPromotion:
+       area: Security and policy enforcement
+  - name: "End User (JWT) Authentication"
+    level:
+     - checklist:
+       maturity: Beta
+       nextExpectedPromotion:
+       area: Security and policy enforcement
+  - name: "Automatic mutual TLS"
+    level:
+     - checklist: features/auto_mtls.md
+       maturity: Beta
+       nextExpectedPromotion:
+       area: Security and policy enforcement
+  - name: "VM: Service Credential Distribution"
+    level:
+     - checklist:
+       maturity: Beta
+       nextExpectedPromotion:
+  - name: "Mutual TLS Migration"
+    level:
+     - checklist:
+       maturity: Beta
+       nextExpectedPromotion:
+       area: Security and policy enforcement
+  - name: "Standalone Operator"
+    level:
+     - checklist:
+       maturity: Beta
+       nextExpectedPromotion:
+       area: Core
+  - name: "Kubernetes: Envoy Installation and Traffic Interception"
+    level:
+     - checklist:
+       maturity: Stable
+       nextExpectedPromotion:
+       area: Core
+  - name: "Kubernetes: Istio Control Plane Installation"
+    level:
+     - checklist:
+       maturity: Stable
+       nextExpectedPromotion:
+       area: Core
+  - name: "Multicluster Mesh"
+    level:
+     - checklist: features/Multi-cluster support.md
+       maturity: Beta
+       nextExpectedPromotion:
+       area: Core
+  - name: "External Control Plane"
+    level:
+     - checklist: features/external_istiod.md
+       maturity: Alpha
+       nextExpectedPromotion:
+       area: Core
+  - name: "Kubernetes: Istio Control Plane Upgrade"
+    level:
+     - checklist:
+       maturity: Beta
+       nextExpectedPromotion:
+       area: Core
+  - name: "Basic Configuration Resource Validation"
+    level:
+     - checklist:
+       maturity: Beta
+       nextExpectedPromotion:
+       area: Core
+  - name: "Istio CNI Plugin"
+    level:
+     - checklist:
+       maturity: Alpha
+       nextExpectedPromotion:
+       area: Core
+  - name: "IPv6 Support for Kubernetes"
+    level:
+     - checklist:
+       maturity: Alpha. Dual-stack IPv4 and IPv6 is not supported.
+       nextExpectedPromotion:
+       area: Core
+  - name: "Distroless Base Images for Istio"
+    level:
+     - checklist: features/distroless_images.md
+       maturity: Alpha
+       nextExpectedPromotion:
+       area: Core
+  - name: "Virtual Machine Integration"
+    level:
+     - checklist: features/virtual_machines.md
+       maturity: Beta
+       nextExpectedPromotion:
+       area: Core
+  - name: "Helm Based Installation"
+    level:
+     - checklist: features/helm_v3_support.md
+       maturity: Alpha
+       nextExpectedPromotion:
+       area: Core

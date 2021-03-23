@@ -12,29 +12,37 @@
 
 [//]: # (All information in this section is mandatory.)
 
-**Feature name:** Canary (Revision Based) Install
+**Feature name:** Configuration Status
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
-**Primary lead(s):** Brian Avery, Martin Ostrowski
+**Primary lead(s):** @therealmitchconnors
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
-**Short description:** Canary based upgrades for Istio
+**Short description:**
 
 [//]: # (A short description of the feature. One or two sentences maximum.)
 
+
 **Design Docs:**
 
-[//]: # (Links to any design docs. Not required until beta.)
+[//]: # (Design docs for feature)
 
-**RFC:**
-
-[//]: # (Links to any RFCs. Not required until alpha.)
+* https://docs.google.com/document/d/13z0K3mVof0KlE9wZenE6RNmr01YJdGelxHcGKt36dNA
+* https://docs.google.com/document/d/1J-yRkDlwQ9NBN4gjYXY-tvqSNE0N01sMKevuLBqjltA
 
 **Relevant Documentation:**
 
-[//]: # (Links to any relevant documentation. Not required until alpha.)
+[//]: # (Links to relevant documentation for feature)
+
+**RFC:**
+
+[//]: # (Link to RFC for feature)
+
+N/A Design doc presented instead.
+
+
 ---
 
 ## Experimental
@@ -81,7 +89,7 @@
 
 **Design**
 
-- [x] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
+- [ ] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
 
 **Config**
 
@@ -91,10 +99,10 @@
 
 **Docs**
 
-- [x] Reference docs are published to preliminary.istio.io or the Istio wiki.
-- [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
-- [x] Release notes entries added as appropriate
-- [x] Upgrade notes entries added as appropriate
+- [ ] Reference docs are published to preliminary.istio.io or the Istio wiki.
+- [ ] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
+- [ ] Release notes entries added as appropriate
+- [ ] Upgrade notes entries added as appropriate
 
 **Tests**
 
@@ -122,7 +130,7 @@
 - [x] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
-- [ ] Feature coverage and test plans written and approved.
+- [x] Feature coverage and test plans written and approved.
 
 **Docs** 
 
@@ -130,20 +138,20 @@
 - [x] Documentation on istio.io includes samples/tutorials. 
 - [x] Documentation on istio.io includes appropriate glossary entries. 
 - [ ] All new documentation containing user actions includes istio.io tests.
-- [x] Release notes have been added. 
-- [x] Upgrade notes have been added. 
+- [ ] Release notes have been added. 
+- [ ] Upgrade notes have been added. 
 
 **Tests**
 
-- [ ] Integration tests cover feature edge cases
+- [x] Integration tests cover feature edge cases
 - [x] End-to-end tests cover samples/tutorials
-- [ ] Fixed issues have tests to prevent regressions
+- [x] Fixed issues have tests to prevent regressions
 - [ ] Stability/stress test suite includes coverage for the feature.
 
 **Performance**
 
-- [ ] Feature coverage and test plans written and approved 
-- [ ] Tests exist with the feature enabled that can be integrated with our automated performance testing.
+- [x] Feature coverage and test plans written and approved 
+- [x] Tests exist with the feature enabled that can be integrated with our automated performance testing.
 
 **API**
 
@@ -155,13 +163,13 @@
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
+- [x] Feature has no known major issues.
 
 **Approvals**
 
 - [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The supportability review panel has reviewed promotion of the feature.  
-- [x] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The supportability review panel has reviewed promotion of the feature.  
+- [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
 ---

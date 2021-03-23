@@ -1,34 +1,22 @@
-**Feature Name:**  
-**RFC (Alpha and above):**
-**Design doc (Beta and above):**
-**Relevant Documentation:**
-**State:**
-**Next Expected Promotion:**
-
----
-
-## Experimental
-
-
-[//]: # (The syntax preceeding this line is a comment marker used to help guide the issue author with submission of an issue)
+[//]: # (The syntax preceeding this line is a comment marker used to help guide the author in populating this document)
 [//]: # (to github. Unlike HTML comments commonly used throughout istio.io documentation, this comment will not be rendered)
 [//]: # (by github. Comments must be separated by carriage return preceding and concluding the text and be a single line.)
 
-[//]: # (This page lists the requirements for an experimental feature. Completion of this template enables Istio work groups)
+[//]: # (This is a living document representing the maturity of a feature. Completion of this template enables Istio work groups)
 [//]: # (to collect information on potential new functionality. This template should be completed before users are exposed to)
 [//]: # (any new experimental feature. Please complete this template during development.)
 
-[//]: # (The feature implementation section must be completed before submission of the issue.)
+[//]: # (The feature implementation section must be completed before submission of the document.)
 
 # Feature:
 
-[//]: # (All information in this section is mandatory for new issue submission.)
+[//]: # (All information in this section is mandatory.)
 
-**Feature name:**
+**Feature name:** Virtual Service Delegation
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
-**Primary lead(s):**
+**Primary lead(s):** @ericvn
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
@@ -36,9 +24,33 @@
 
 [//]: # (A short description of the feature. One or two sentences maximum.)
 
-# Requirements:
 
-[//]: # (All information in this section is mandatory for promotion. Please edit the issue to modify the links in this)
+**Design Docs:**
+
+* [Original Design Doc](https://docs.google.com/document/d/17K0Tbp2Hv1RAkpFxVTIYPLQRuceyUnABtt0amd9ZVow/edit#)
+* [Actual Implementation](https://docs.google.com/document/d/1TzXjvbEqeRKHQ7FonAY_yS1zHa8rVH2DIq4EM5BuDQ4/edit#)
+
+
+
+**Relevant Documentation:**
+
+* https://istio.io/latest/docs/reference/config/networking/virtual-service/#Delegate
+* 
+
+**RFC:**
+
+N/A. Design doc presented instead
+
+---
+**Notes**
+* [Implementation](https://github.com/istio/istio/pull/22118)
+---
+
+## Experimental
+
+### Requirements:
+
+[//]: # (All information in this section is mandatory for promotion. Please modify the links in this)
 [//]: # (section.)
 
 - [ ] [User stories](insert_your_link_here) reviewed in a work group meeting.
@@ -82,13 +94,13 @@
 
 **Config**
 
-- [ ] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
+- [x] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
 
-> Link to instructions for enabling
+> [Link to instructions for enabling](https://istio.io/latest/docs/reference/config/networking/virtual-service/#Delegate)
 
 **Docs**
 
-- [ ] Reference docs are published to preliminary.istio.io or the Istio wiki.
+- [x] Reference docs are published to preliminary.istio.io or the Istio wiki.
 - [ ] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
 - [ ] Release notes entries added as appropriate
 - [ ] Upgrade notes entries added as appropriate
@@ -96,11 +108,13 @@
 **Tests**
 
 - [ ] Automated integration tests cover core use cases with the feature enabled. 
-- [ ] When disabled, the feature does not affect system stability or performance. 
+- [x] When disabled, the feature does not affect system stability or performance. 
 
 **API**
 
-- [ ] Initial API review.
+- [x] Initial API review.
+
+https://github.com/istio/api/pull/1209
 
 **Approvals**
 
