@@ -44,7 +44,7 @@ features:
   - name: "Locality load balancing"
     link: "/docs/tasks/traffic-management/locality-load-balancing/"
     level:
-      checklist: ""
+      checklist: features/locality_load_balancing.md
       maturity: Beta
       nextExpectedPromotion: ""
     area: Traffic Management
