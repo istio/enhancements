@@ -144,7 +144,7 @@ features:
     area: Observability
   - name: "WebAssembly Extension"
     level:
-      checklist: ""
+      checklist: features/webassembly_extensions.md
       maturity: Alpha
       nextExpectedPromotion: ""
     area: Extensibility
