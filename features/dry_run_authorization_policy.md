@@ -12,29 +12,36 @@
 
 [//]: # (All information in this section is mandatory.)
 
-**Feature name:** Canary (Revision Based) Install
+**Feature name:** Dry-run authorization policy
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
-**Primary lead(s):** Brian Avery, Martin Ostrowski
+**Primary lead(s):** Yangmin Zhu
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
-**Short description:** Canary based upgrades for Istio
+**Short description:** 
 
 [//]: # (A short description of the feature. One or two sentences maximum.)
 
+Allow customers to dry-run an authorization policy to test the effect using real traffic without enforcing the policy, reducing the risk of creating or changing the authorization policy.
+
 **Design Docs:**
 
-[//]: # (Links to any design docs. Not required until beta.)
+[//]: # (Design docs for feature)
 
-**RFC:**
-
-[//]: # (Links to any RFCs. Not required until alpha.)
 
 **Relevant Documentation:**
 
-[//]: # (Links to any relevant documentation. Not required until alpha.)
+[//]: # (Links to relevant documentation for feature)
+
+https://docs.google.com/document/d/1xQdZsEgJ3Ld2qebfT3EJkg2COTtCR1TqBVojmnvI78g/edit
+
+**RFC:**
+
+[//]: # (Link to RFC for feature)
+
+
 ---
 
 ## Experimental
@@ -44,7 +51,7 @@
 [//]: # (All information in this section is mandatory for promotion. Please modify the links in this)
 [//]: # (section.)
 
-- [ ] [User stories](insert_your_link_here) reviewed in a work group meeting.
+- [ ] [User stories](https://github.com/istio/enhancements/issues/insert_your_link_here) reviewed in a work group meeting.
 
 [//]: # (User stories are a way to communicate user value. User stories follow the style)
 [//]: # (as a [type of user], I want [an action] so that [a benefit/a value]. Istio currently has no user)
@@ -54,24 +61,26 @@
 [//]: # (into the RFCs, which do need approval for alpha. You may find value to negotiate within the work group where the)
 [//]: # (user stories are presented to help clarify the user stories.)
 
-- [ ] [RFC Authored] - [create an RFC using template](https://docs.google.com/document/d/1ewJoCcw5-04crH-M0xw4zFxz1cfwVCPnNyW4K3m4Yyc/template/preview).
+- [ ] [RFC Authored] - [RFC](https://docs.google.com/document/d/1xQdZsEgJ3Ld2qebfT3EJkg2COTtCR1TqBVojmnvI78g/edit).
 
 [//]: # (An RFC is mandatory to graduate to experimental. The RFC does not have to be reviewed in a work group)
 [//]: # (meeting to graduate to experimental.)
 
-- [ ] [Documentation](insert_your_link_here) for enabling and using the feature.
+- [ ] [Documentation](TBD, will update istio.io later) for enabling and using the feature.
 
 [//]: # (The documentation instructions may exist on the developer wiki or the team drive. They may include instructions)
 [//]: # (for building running a `istioctl experimental command`, or using the preview profile,)
 [//]: # (or any other relevant information.)
 
-- [ ] [Feedback plan](insert_your_link_here).
+- [ ] [Feedback plan](will collect feedback on github, discuss.istio.io and slack).
 
 [//]: # (This may include user feedback meetings, discuss.istio.io conversations, GitHub issues, or mailing lists.)
 
 - [ ] Disabled by default.
+(Requires specifying an annotation `istio.io/dry-run: true` on authorization policy to enable the feature)
 
 - [ ] No impact on performance when the feature is disabled.
+(No changes to current code flow when disabled)
 
 ---
 
@@ -81,7 +90,7 @@
 
 **Design**
 
-- [x] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
+- [ ] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
 
 **Config**
 
@@ -91,10 +100,10 @@
 
 **Docs**
 
-- [x] Reference docs are published to preliminary.istio.io or the Istio wiki.
-- [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
-- [x] Release notes entries added as appropriate
-- [x] Upgrade notes entries added as appropriate
+- [ ] Reference docs are published to preliminary.istio.io or the Istio wiki.
+- [ ] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
+- [ ] Release notes entries added as appropriate
+- [ ] Upgrade notes entries added as appropriate
 
 **Tests**
 
@@ -119,24 +128,24 @@
 
 **Design**
 
-- [x] Design doc describing the intention of the feature, how it will be
+- [ ] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
 - [ ] Feature coverage and test plans written and approved.
 
 **Docs** 
 
-- [x] Documentation on istio.io includes performance expectations; may have caveats. 
-- [x] Documentation on istio.io includes samples/tutorials. 
-- [x] Documentation on istio.io includes appropriate glossary entries. 
+- [ ] Documentation on istio.io includes performance expectations; may have caveats. 
+- [ ] Documentation on istio.io includes samples/tutorials. 
+- [ ] Documentation on istio.io includes appropriate glossary entries. 
 - [ ] All new documentation containing user actions includes istio.io tests.
-- [x] Release notes have been added. 
-- [x] Upgrade notes have been added. 
+- [ ] Release notes have been added. 
+- [ ] Upgrade notes have been added. 
 
 **Tests**
 
 - [ ] Integration tests cover feature edge cases
-- [x] End-to-end tests cover samples/tutorials
+- [ ] End-to-end tests cover samples/tutorials
 - [ ] Fixed issues have tests to prevent regressions
 - [ ] Stability/stress test suite includes coverage for the feature.
 
@@ -147,11 +156,11 @@
 
 **API**
 
-- [x] TOC has reviewed the API and determined it to be complete. 
+- [ ] TOC has reviewed the API and determined it to be complete. 
 
 **Tooling**
 
-- [x] Any necessary tooling to use/debug the feature has been implemented and is complete. 
+- [ ] Any necessary tooling to use/debug the feature has been implemented and is complete. 
 
 **Bugs**
 
@@ -159,9 +168,9 @@
 
 **Approvals**
 
-- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The supportability review panel has reviewed promotion of the feature.  
-- [x] The TOC has reviewed and approved promotion of the feature as part of the
+- [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
 ---

@@ -12,29 +12,39 @@
 
 [//]: # (All information in this section is mandatory.)
 
-**Feature name:** Canary (Revision Based) Install
+**Feature name:** Virtual Machines
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
-**Primary lead(s):** Brian Avery, Martin Ostrowski
+**Primary lead(s):** John Howard
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
-**Short description:** Canary based upgrades for Istio
+**Short description:** Virtual Machine Support for Istio
 
 [//]: # (A short description of the feature. One or two sentences maximum.)
 
 **Design Docs:**
 
-[//]: # (Links to any design docs. Not required until beta.)
-
-**RFC:**
-
-[//]: # (Links to any RFCs. Not required until alpha.)
+*  docs.google.com/document/d/1aMdRacznhGUsBWTx-KNzYEcEPKDgVtVQBLcRCBAMTb8
+* docs.google.com/document/d/1VDV4-prbMbzW06hslfp12sn7V6oUvnIAst6mT6FtSWc
+* docs.google.com/document/d/10TyPy-6bOs0_7JljGpc2RneDdsaR9GktjwwaaVbz6fs
+* docs.google.com/document/d/1G4s_PrmvkwCKoH_kXVeSUAszsaj3ZfpIlraSdeTSPKU
+* docs.google.com/document/d/1BuwOX6D30Yy6lTvj4RHwLzcUoaAu61pAdtKnLx312ec
+* docs.google.com/document/d/1-612Sgz_skeoX44dw3MU6Z8ONgq1f29wLUI9zggyLec
+* docs.google.com/document/d/1QReA8XjWrWTnErQYPZUdPA5d2O6fc3VkLWr47hY0Nbg
+* docs.google.com/document/d/1-RVOpCGbcDdr-yM4UrT0WgfHZglgQZlPL1d1aZbqEbk
 
 **Relevant Documentation:**
 
-[//]: # (Links to any relevant documentation. Not required until alpha.)
+  * preliminary.istio.io/latest/docs/setup/install/virtual-machine
+    
+  * preliminary.istio.io/latest/docs/examples/virtual-machines
+
+**RFC:** 
+
+N/A. Design docs presented instead. 
+
 ---
 
 ## Experimental
@@ -54,7 +64,7 @@
 [//]: # (into the RFCs, which do need approval for alpha. You may find value to negotiate within the work group where the)
 [//]: # (user stories are presented to help clarify the user stories.)
 
-- [ ] [RFC Authored] - [create an RFC using template](https://docs.google.com/document/d/1ewJoCcw5-04crH-M0xw4zFxz1cfwVCPnNyW4K3m4Yyc/template/preview).
+- [x] [RFC Authored] - [create an RFC using template](https://docs.google.com/document/d/1ewJoCcw5-04crH-M0xw4zFxz1cfwVCPnNyW4K3m4Yyc/template/preview).
 
 [//]: # (An RFC is mandatory to graduate to experimental. The RFC does not have to be reviewed in a work group)
 [//]: # (meeting to graduate to experimental.)
@@ -81,13 +91,11 @@
 
 **Design**
 
-- [x] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
+- [x] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. **N/A** design doc presented instead
 
 **Config**
 
-- [ ] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
-
-> Link to instructions for enabling
+- [x] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). **N/A** no longer required as feature is beta at time of evaluation. 
 
 **Docs**
 
@@ -98,17 +106,17 @@
 
 **Tests**
 
-- [ ] Automated integration tests cover core use cases with the feature enabled. 
-- [ ] When disabled, the feature does not affect system stability or performance. 
+- [x] Automated integration tests cover core use cases with the feature enabled. 
+- [x] When disabled, the feature does not affect system stability or performance. 
 
 **API**
 
-- [ ] Initial API review.
+- [x] Initial API review.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
 ---
@@ -122,45 +130,64 @@
 - [x] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
-- [ ] Feature coverage and test plans written and approved.
+**YES**: see links above. The design docs cover every working group; this feature has been collaborated on by all groups.
+- [x] Feature coverage and test plans written and approved.
 
 **Docs** 
 
 - [x] Documentation on istio.io includes performance expectations; may have caveats. 
+**YES**: VMs do not have a different performance profile from Kubernetes pods.
 - [x] Documentation on istio.io includes samples/tutorials. 
+**YES**: see docs above
 - [x] Documentation on istio.io includes appropriate glossary entries. 
-- [ ] All new documentation containing user actions includes istio.io tests.
+**YES**: This feature does not introduce new vocabulary.
+- [x] All new documentation containing user actions includes istio.io tests.
+**YES** the docs have tests
 - [x] Release notes have been added. 
+**YES** Individual features have release notes
 - [x] Upgrade notes have been added. 
+**YES** No upgrade notes have been needed as these are new features.
 
 **Tests**
 
-- [ ] Integration tests cover feature edge cases
+- [x] Integration tests cover feature edge cases 
+**YES** we have VMs as part of networking, security, and telemetry tests.
 - [x] End-to-end tests cover samples/tutorials
-- [ ] Fixed issues have tests to prevent regressions
-- [ ] Stability/stress test suite includes coverage for the feature.
+**YES** docs all have tests and are extensive
+- [x] Fixed issues have tests to prevent regressions
+**YES** we have included regression tests for various `WorkloadEntry` bugs and for certificate rotation bugs.
+- [x] Stability/stress test suite includes coverage for the feature.
+**YES** we have added VM
 
 **Performance**
 
-- [ ] Feature coverage and test plans written and approved 
-- [ ] Tests exist with the feature enabled that can be integrated with our automated performance testing.
+- [x] Feature coverage and test plans written and approved 
+- [x] Tests exist with the feature enabled that can be integrated with our automated performance testing.
+**YES** istio/tools#1432
 
 **API**
 
 - [x] TOC has reviewed the API and determined it to be complete. 
+**YES**: all APIs (workload entry, workload group) were approved during their introduction. 
 
 **Tooling**
 
 - [x] Any necessary tooling to use/debug the feature has been implemented and is complete. 
+**YES** istioctl has commands to bootstrap VMs and has support for common commands like `proxy-config` and `proxy-status`.
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
+- [x] Feature has no known major issues.
 
 **Approvals**
 
 - [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The supportability review panel has reviewed promotion of the feature.  
+  - [x] Environments
+  - [x] Networking
+  - [x] Security
+  - [x] Telemetry
+- [x] The supportability review panel has reviewed promotion of the feature.  
+[Meeting results](https://docs.google.com/document/d/1mSB5r2RwegClg5TY3m5yr5Cgf6mvtvqRFmrfmX1DU2c/edit#). Some documentation updates are blocking.
 - [x] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 

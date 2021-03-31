@@ -12,29 +12,27 @@
 
 [//]: # (All information in this section is mandatory.)
 
-**Feature name:** Canary (Revision Based) Install
+**Feature name:** Helm v3 support
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
-**Primary lead(s):** Brian Avery, Martin Ostrowski
+**Primary lead(s):** Neeraj Poddar
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
-**Short description:** Canary based upgrades for Istio
+**Short description:** Helm v3 installation support in Istio
 
 [//]: # (A short description of the feature. One or two sentences maximum.)
 
-**Design Docs:**
+**Relevant Documentation:**
 
-[//]: # (Links to any design docs. Not required until beta.)
+* preliminary.istio.io/latest/docs/setup/install/helm
+* preliminary.istio.io/latest/faq/setup
 
 **RFC:**
 
-[//]: # (Links to any RFCs. Not required until alpha.)
+[//]: # (Link to RFC for feature)
 
-**Relevant Documentation:**
-
-[//]: # (Links to any relevant documentation. Not required until alpha.)
 ---
 
 ## Experimental
@@ -82,12 +80,13 @@
 **Design**
 
 - [x] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
+https://docs.google.com/document/d/1upInT_Qe3-CU2ig_XnUNjP2wLyBr6ImpJfMXvz-BYec/edit#heading=h.h4dnnbkwzgzw
 
 **Config**
 
-- [ ] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
+- [x] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
 
-> Link to instructions for enabling
+> https://preliminary.istio.io/latest/docs/setup/install/helm/
 
 **Docs**
 
@@ -95,20 +94,24 @@
 - [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
 - [x] Release notes entries added as appropriate
 - [x] Upgrade notes entries added as appropriate
+**N/A** as only upgrades from 1.8.x and above are supported.
 
 **Tests**
 
-- [ ] Automated integration tests cover core use cases with the feature enabled. 
-- [ ] When disabled, the feature does not affect system stability or performance. 
+- [x] Automated integration tests cover core use cases with the feature enabled. 
+https://github.com/istio/istio/tree/1ec9f765e3b938b519e393c8a04675cfc6d0470b/tests/integration/helm
+
+- [x] When disabled, the feature does not affect system stability or performance. 
 
 **API**
 
-- [ ] Initial API review.
+- [x] Initial API review.
+Helm install/upgrade commands are well known APIs. Configuring options via Helm values is considered experimental and will be matured in 1.9 and above.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
 ---

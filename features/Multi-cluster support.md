@@ -8,33 +8,42 @@
 
 [//]: # (The feature implementation section must be completed before submission of the document.)
 
-# Feature:
+# Feature: 
 
 [//]: # (All information in this section is mandatory.)
 
-**Feature name:** Canary (Revision Based) Install
+**Feature name:** Multi-cluster support
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
-**Primary lead(s):** Brian Avery, Martin Ostrowski
+**Primary lead(s):** Martin Ostrowski
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
-**Short description:** Canary based upgrades for Istio
+**Short description:** Multi cluster support
 
 [//]: # (A short description of the feature. One or two sentences maximum.)
 
-**Design Docs:**
+**Design Docs:** 
 
 [//]: # (Links to any design docs. Not required until beta.)
 
 **RFC:**
 
 [//]: # (Links to any RFCs. Not required until alpha.)
+---
+### Notes: 
+**Components**: 
 
-**Relevant Documentation:**
+- [x] Simplify multi-network onboarding @stevenctl
+   -  [x] (Merged, istio/istio#25554) Implement Simplify Multi-network Configuration
+    - [x] (Merged, istio/istio#27049 ) Implement Decouple Cross-Network Gateways from Clusters
+- [x] Support a custom gateway for east-west traffic (#27774) @stevenctl
+- [x] Default network for cluster (#28126) @stevenctl
+- [x] Use remote profile (istio/istio.io#8331) @nmittler. This allows us to automatically upgrade to remote clusters as features evolve.
 
-[//]: # (Links to any relevant documentation. Not required until alpha.)
+**Istio Multicluster beta tasks** 
+* https://docs.google.com/document/d/1eskMB7OUwSvL_keTsQa3BWRmHAmGkWwUWsKCfBLk1V4/edit?skip_itp2_check=true&pli=1#heading=h.7hjlw95p9liw
 ---
 
 ## Experimental
@@ -81,7 +90,7 @@
 
 **Design**
 
-- [x] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
+- [ ] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
 
 **Config**
 
@@ -91,10 +100,10 @@
 
 **Docs**
 
-- [x] Reference docs are published to preliminary.istio.io or the Istio wiki.
-- [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
-- [x] Release notes entries added as appropriate
-- [x] Upgrade notes entries added as appropriate
+- [ ] Reference docs are published to preliminary.istio.io or the Istio wiki.
+- [ ] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
+- [ ] Release notes entries added as appropriate
+- [ ] Upgrade notes entries added as appropriate
 
 **Tests**
 
@@ -119,24 +128,24 @@
 
 **Design**
 
-- [x] Design doc describing the intention of the feature, how it will be
+- [ ] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
 - [ ] Feature coverage and test plans written and approved.
 
 **Docs** 
 
-- [x] Documentation on istio.io includes performance expectations; may have caveats. 
-- [x] Documentation on istio.io includes samples/tutorials. 
-- [x] Documentation on istio.io includes appropriate glossary entries. 
+- [ ] Documentation on istio.io includes performance expectations; may have caveats. 
+- [ ] Documentation on istio.io includes samples/tutorials. 
+- [ ] Documentation on istio.io includes appropriate glossary entries. 
 - [ ] All new documentation containing user actions includes istio.io tests.
-- [x] Release notes have been added. 
-- [x] Upgrade notes have been added. 
+- [ ] Release notes have been added. 
+- [ ] Upgrade notes have been added. 
 
 **Tests**
 
 - [ ] Integration tests cover feature edge cases
-- [x] End-to-end tests cover samples/tutorials
+- [ ] End-to-end tests cover samples/tutorials
 - [ ] Fixed issues have tests to prevent regressions
 - [ ] Stability/stress test suite includes coverage for the feature.
 
@@ -147,11 +156,11 @@
 
 **API**
 
-- [x] TOC has reviewed the API and determined it to be complete. 
+- [ ] TOC has reviewed the API and determined it to be complete. 
 
 **Tooling**
 
-- [x] Any necessary tooling to use/debug the feature has been implemented and is complete. 
+- [ ] Any necessary tooling to use/debug the feature has been implemented and is complete. 
 
 **Bugs**
 
@@ -159,9 +168,9 @@
 
 **Approvals**
 
-- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The supportability review panel has reviewed promotion of the feature.  
-- [x] The TOC has reviewed and approved promotion of the feature as part of the
+- [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
 ---

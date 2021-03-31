@@ -24,6 +24,21 @@
 
 [//]: # (A short description of the feature. One or two sentences maximum.)
 
+
+**Design Docs:**
+
+[//]: # (Design docs for feature)
+
+
+**Relevant Documentation:**
+
+[//]: # (Links to relevant documentation for feature)
+
+**RFC:**
+
+[//]: # (Link to RFC for feature)
+
+
 ---
 
 ## Experimental

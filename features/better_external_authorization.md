@@ -12,29 +12,37 @@
 
 [//]: # (All information in this section is mandatory.)
 
-**Feature name:** Canary (Revision Based) Install
+**Feature name:** Better External Authorization
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
-**Primary lead(s):** Brian Avery, Martin Ostrowski
+**Primary lead(s):** @yangminzhu
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
-**Short description:** Canary based upgrades for Istio
+**Short description:**
 
 [//]: # (A short description of the feature. One or two sentences maximum.)
 
+
 **Design Docs:**
 
-[//]: # (Links to any design docs. Not required until beta.)
+[//]: # (Design docs for feature)
 
-**RFC:**
-
-[//]: # (Links to any RFCs. Not required until alpha.)
+https://docs.google.com/document/d/1V4mCQCw7mlGp0zSQQXYoBdbKMDnkPOjeyUb85U07iSI/edit
 
 **Relevant Documentation:**
 
-[//]: # (Links to any relevant documentation. Not required until alpha.)
+[//]: # (Links to relevant documentation for feature)
+
+* https://istio.io/latest/blog/2021/better-external-authz/
+  
+**RFC:**
+
+[//]: # (Link to RFC for feature)
+N/A. Design doc presented instead. 
+
+
 ---
 
 ## Experimental
@@ -85,25 +93,45 @@
 
 **Config**
 
-- [ ] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
+- [x] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
 
-> Link to instructions for enabling
+> (the user needs to configure extension provider and authz policy to enable the feature, see task in istio.io/latest/docs/tasks/security/authorization/authz-custom)
+
 
 **Docs**
 
-- [x] Reference docs are published to preliminary.istio.io or the Istio wiki.
-- [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
-- [x] Release notes entries added as appropriate
-- [x] Upgrade notes entries added as appropriate
+- [x] Reference docs are published to 
+
+preliminary.istio.io or the Istio wiki.
+https://istio.io/latest/docs/tasks/security/authorization/authz-custom/
+
+- [x] Basic feature docs are published on 
+
+preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
+https://istio.io/latest/docs/tasks/security/authorization/authz-custom/
+
+- [ ] Release notes entries added as appropriate
+
+istio.io/latest/news/releases/1.9.x/announcing-1.9/change-notes/#security added the feature as experimental. Will need another PR for promoting to alpha in the release notes
+
+- [ ] Upgrade notes entries added as appropriate
 
 **Tests**
 
-- [ ] Automated integration tests cover core use cases with the feature enabled. 
-- [ ] When disabled, the feature does not affect system stability or performance. 
+- [x] Automated integration tests cover core use cases with the feature enabled.
+
+istio/istio@6d54066/tests/integration/security/authorization_test.go#L1256 
+
+- [x] When disabled, the feature does not affect system stability or performance. 
+
+No filter generated when the feature is disabled.
+
 
 **API**
 
 - [ ] Initial API review.
+
+istio/api#1698 approved and merged for the experimental, we may need a few API update for alpha
 
 **Approvals**
 
@@ -119,24 +147,24 @@
 
 **Design**
 
-- [x] Design doc describing the intention of the feature, how it will be
+- [ ] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
 - [ ] Feature coverage and test plans written and approved.
 
 **Docs** 
 
-- [x] Documentation on istio.io includes performance expectations; may have caveats. 
-- [x] Documentation on istio.io includes samples/tutorials. 
-- [x] Documentation on istio.io includes appropriate glossary entries. 
+- [ ] Documentation on istio.io includes performance expectations; may have caveats. 
+- [ ] Documentation on istio.io includes samples/tutorials. 
+- [ ] Documentation on istio.io includes appropriate glossary entries. 
 - [ ] All new documentation containing user actions includes istio.io tests.
-- [x] Release notes have been added. 
-- [x] Upgrade notes have been added. 
+- [ ] Release notes have been added. 
+- [ ] Upgrade notes have been added. 
 
 **Tests**
 
 - [ ] Integration tests cover feature edge cases
-- [x] End-to-end tests cover samples/tutorials
+- [ ] End-to-end tests cover samples/tutorials
 - [ ] Fixed issues have tests to prevent regressions
 - [ ] Stability/stress test suite includes coverage for the feature.
 
@@ -147,11 +175,11 @@
 
 **API**
 
-- [x] TOC has reviewed the API and determined it to be complete. 
+- [ ] TOC has reviewed the API and determined it to be complete. 
 
 **Tooling**
 
-- [x] Any necessary tooling to use/debug the feature has been implemented and is complete. 
+- [ ] Any necessary tooling to use/debug the feature has been implemented and is complete. 
 
 **Bugs**
 
@@ -159,9 +187,9 @@
 
 **Approvals**
 
-- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The supportability review panel has reviewed promotion of the feature.  
-- [x] The TOC has reviewed and approved promotion of the feature as part of the
+- [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
 ---

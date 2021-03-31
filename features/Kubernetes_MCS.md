@@ -8,33 +8,37 @@
 
 [//]: # (The feature implementation section must be completed before submission of the document.)
 
-# Feature:
+# Feature: Support Kubernetes MCS
 
 [//]: # (All information in this section is mandatory.)
 
-**Feature name:** Canary (Revision Based) Install
+**Feature name:** Nathan Mittler (@nmittler)
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
-**Primary lead(s):** Brian Avery, Martin Ostrowski
+**Primary lead(s):**
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
-**Short description:** Canary based upgrades for Istio
+**Short description:**
 
-[//]: # (A short description of the feature. One or two sentences maximum.)
+Add support for [Kubernetes Multi-cluster Services (MCS)](https://github.com/kubernetes/enhancements/tree/master/keps/sig-multicluster/1645-multi-cluster-services-api?rgh-link-date=2020-10-21T20%3A30%3A39Z) to Istio.
+
 
 **Design Docs:**
 
-[//]: # (Links to any design docs. Not required until beta.)
+[//]: # (Design docs for feature)
 
-**RFC:**
-
-[//]: # (Links to any RFCs. Not required until alpha.)
 
 **Relevant Documentation:**
 
-[//]: # (Links to any relevant documentation. Not required until alpha.)
+[//]: # (Links to relevant documentation for feature)
+
+**RFC:**
+
+* https://docs.google.com/document/d/1K8hvQ83UcJ9a7U8oqXIefwr6pFJn-VBEi40Ak-fwQtk/edit#
+
+
 ---
 
 ## Experimental
@@ -54,7 +58,7 @@
 [//]: # (into the RFCs, which do need approval for alpha. You may find value to negotiate within the work group where the)
 [//]: # (user stories are presented to help clarify the user stories.)
 
-- [ ] [RFC Authored] - [create an RFC using template](https://docs.google.com/document/d/1ewJoCcw5-04crH-M0xw4zFxz1cfwVCPnNyW4K3m4Yyc/template/preview).
+- [x] [RFC Authored]
 
 [//]: # (An RFC is mandatory to graduate to experimental. The RFC does not have to be reviewed in a work group)
 [//]: # (meeting to graduate to experimental.)
@@ -69,9 +73,9 @@
 
 [//]: # (This may include user feedback meetings, discuss.istio.io conversations, GitHub issues, or mailing lists.)
 
-- [ ] Disabled by default.
+- [x] Disabled by default.
 
-- [ ] No impact on performance when the feature is disabled.
+- [x] No impact on performance when the feature is disabled.
 
 ---
 
@@ -81,7 +85,7 @@
 
 **Design**
 
-- [x] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
+- [ ] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
 
 **Config**
 
@@ -91,10 +95,10 @@
 
 **Docs**
 
-- [x] Reference docs are published to preliminary.istio.io or the Istio wiki.
-- [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
-- [x] Release notes entries added as appropriate
-- [x] Upgrade notes entries added as appropriate
+- [ ] Reference docs are published to preliminary.istio.io or the Istio wiki.
+- [ ] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
+- [ ] Release notes entries added as appropriate
+- [ ] Upgrade notes entries added as appropriate
 
 **Tests**
 
@@ -119,24 +123,24 @@
 
 **Design**
 
-- [x] Design doc describing the intention of the feature, how it will be
+- [ ] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
 - [ ] Feature coverage and test plans written and approved.
 
 **Docs** 
 
-- [x] Documentation on istio.io includes performance expectations; may have caveats. 
-- [x] Documentation on istio.io includes samples/tutorials. 
-- [x] Documentation on istio.io includes appropriate glossary entries. 
+- [ ] Documentation on istio.io includes performance expectations; may have caveats. 
+- [ ] Documentation on istio.io includes samples/tutorials. 
+- [ ] Documentation on istio.io includes appropriate glossary entries. 
 - [ ] All new documentation containing user actions includes istio.io tests.
-- [x] Release notes have been added. 
-- [x] Upgrade notes have been added. 
+- [ ] Release notes have been added. 
+- [ ] Upgrade notes have been added. 
 
 **Tests**
 
 - [ ] Integration tests cover feature edge cases
-- [x] End-to-end tests cover samples/tutorials
+- [ ] End-to-end tests cover samples/tutorials
 - [ ] Fixed issues have tests to prevent regressions
 - [ ] Stability/stress test suite includes coverage for the feature.
 
@@ -147,11 +151,11 @@
 
 **API**
 
-- [x] TOC has reviewed the API and determined it to be complete. 
+- [ ] TOC has reviewed the API and determined it to be complete. 
 
 **Tooling**
 
-- [x] Any necessary tooling to use/debug the feature has been implemented and is complete. 
+- [ ] Any necessary tooling to use/debug the feature has been implemented and is complete. 
 
 **Bugs**
 
@@ -159,9 +163,9 @@
 
 **Approvals**
 
-- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The supportability review panel has reviewed promotion of the feature.  
-- [x] The TOC has reviewed and approved promotion of the feature as part of the
+- [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
 ---

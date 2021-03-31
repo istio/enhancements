@@ -12,21 +12,23 @@
 
 [//]: # (All information in this section is mandatory.)
 
-**Feature name:** Canary (Revision Based) Install
+**Feature name:** External Istiod
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
-**Primary lead(s):** Brian Avery, Martin Ostrowski
+**Primary lead(s):** Lin Sun
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
-**Short description:** Canary based upgrades for Istio
+**Short description:** Support for External Istiod
 
 [//]: # (A short description of the feature. One or two sentences maximum.)
+https://docs.google.com/document/d/1r58al52otp1uvB7YFHh8ifA_78hYeyd0hNLq4qPDSUM/edit
 
 **Design Docs:**
 
 [//]: # (Links to any design docs. Not required until beta.)
+https://docs.google.com/document/d/1EymnzMqa7hdmKn8sEoaf1elajyp4gXEDSUavxzXB3jw/edit#
 
 **RFC:**
 
@@ -34,7 +36,8 @@
 
 **Relevant Documentation:**
 
-[//]: # (Links to any relevant documentation. Not required until alpha.)
+* https://preliminary.istio.io/latest/docs/setup/additional-setup/external-controlplane/
+
 ---
 
 ## Experimental
@@ -85,30 +88,33 @@
 
 **Config**
 
-- [ ] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
+- [x] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
 
-> Link to instructions for enabling
+> https://preliminary.istio.io/latest/docs/setup/additional-setup/external-controlplane/
 
 **Docs**
 
-- [x] Reference docs are published to preliminary.istio.io or the Istio wiki.
+- [x] Reference docs are published to preliminary.istio.io or the Istio wiki. https://preliminary.istio.io/latest/docs/setup/additional-setup/external-controlplane/
 - [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
 - [x] Release notes entries added as appropriate
 - [x] Upgrade notes entries added as appropriate
+Doesn't apply
 
 **Tests**
 
-- [ ] Automated integration tests cover core use cases with the feature enabled. 
-- [ ] When disabled, the feature does not affect system stability or performance. 
+- [x] Automated integration tests cover core use cases with the feature enabled. 
+
+- [x] When disabled, the feature does not affect system stability or performance. 
 
 **API**
 
-- [ ] Initial API review.
+- [x] Initial API review. 
+No API added in 1.8
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
 ---
