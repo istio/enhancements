@@ -214,7 +214,7 @@ features:
        maturity: Alpha
        nextExpectedPromotion:
        area: Core
-  - name: "Kubernetes: Istio Control Plane Upgrade"
+  - name: "Kubernetes: Istio In-Place Control Plane Upgrade"
     level:
      - checklist:
        maturity: Beta

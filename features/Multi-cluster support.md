@@ -34,13 +34,16 @@
 ---
 ### Notes: 
 **Components**: 
-[x] Simplify multi-network onboarding @stevenctl
-    [x] (Merged, istio/istio#25554) Implement Simplify Multi-network Configuration
-    [x] (Merged, istio/istio#27049 ) Implement Decouple Cross-Network Gateways from Clusters
-[x] Support a custom gateway for east-west traffic (#27774) @stevenctl
-[x] Default network for cluster (#28126) @stevenctl
-[x] Use remote profile (istio/istio.io#8331) @nmittler. This allows us to automatically upgrade to remote clusters as features evolve.
-[**Istio Multicluster beta tasks**] (https://docs.google.com/document/d/1eskMB7OUwSvL_keTsQa3BWRmHAmGkWwUWsKCfBLk1V4/edit?skip_itp2_check=true&pli=1#heading=h.7hjlw95p9liw)
+
+- [x] Simplify multi-network onboarding @stevenctl
+   -  [x] (Merged, istio/istio#25554) Implement Simplify Multi-network Configuration
+    - [x] (Merged, istio/istio#27049 ) Implement Decouple Cross-Network Gateways from Clusters
+- [x] Support a custom gateway for east-west traffic (#27774) @stevenctl
+- [x] Default network for cluster (#28126) @stevenctl
+- [x] Use remote profile (istio/istio.io#8331) @nmittler. This allows us to automatically upgrade to remote clusters as features evolve.
+
+**Istio Multicluster beta tasks** 
+* https://docs.google.com/document/d/1eskMB7OUwSvL_keTsQa3BWRmHAmGkWwUWsKCfBLk1V4/edit?skip_itp2_check=true&pli=1#heading=h.7hjlw95p9liw
 ---
 
 ## Experimental
