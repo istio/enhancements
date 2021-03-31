@@ -184,7 +184,7 @@ features:
        maturity: Beta
        nextExpectedPromotion:
        area: Security and policy enforcement
-  - name: "Standalone Operator"
+  - name: "In-Cluster Operator"
     level:
      - checklist:
        maturity: Beta
