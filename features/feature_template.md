@@ -186,7 +186,7 @@
 **Approvals**
 
 - [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The supportability review panel has reviewed promotion of the feature.  
+- [ ] The [supportability review panel](https://docs.google.com/document/d/1w0epyFhhDSf_TwFEfa_lrn1v61mXNJKpEp_kUgp4sSc/edit#) has reviewed the feature in order to find any supportability concerns.  
 - [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
