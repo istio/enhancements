@@ -87,34 +87,32 @@
 
 **Design**
 
-- [ ] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
+- [X] [RFC](https://docs.google.com/document/d/1yEMDRO2FZCyZnDK1AzNmjQtbtQqE7wN8YoM65FAH7uA/edit) has been approved describing the intention of the feature as well as the user stories behind the feature. 
 
 **Config**
 
-- [ ] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
-
-> Link to instructions for enabling
+- [X] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). `enableAutoMtls` in [MeshConfig](https://istio.io/latest/docs/reference/config/istio.mesh.v1alpha1/)
 
 **Docs**
 
-- [ ] Reference docs are published to preliminary.istio.io or the Istio wiki.
-- [ ] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
-- [ ] Release notes entries added as appropriate
-- [ ] Upgrade notes entries added as appropriate
+- [X] [Reference docs](https://istio.io/latest/docs/tasks/security/authentication/authn-policy/#auto-mutual-tls) are published to preliminary.istio.io or the Istio wiki.
+- [X] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. Same as above.
+- [X] [Release notes](https://istio.io/latest/news/releases/1.4.x/announcing-1.4/#automatic-mutual-tls) entries added as appropriate
+- [X] Upgrade notes entries added as appropriate. N/A
 
 **Tests**
 
-- [ ] Automated integration tests cover core use cases with the feature enabled. 
-- [ ] When disabled, the feature does not affect system stability or performance. 
+- [X] [Automated integration](https://github.com/istio/istio/blob/e68b6b629d64277943e736ad7c6104ff1dd295a3/tests/integration/security/reachability_test.go#L114) tests cover core use cases with the feature enabled. 
+- [X] When disabled, the feature does not affect system stability or performance. 
 
 **API**
 
-- [ ] Initial API review.
+- [X] Initial API review. `enableAutomaticMTLS` Existing in MeshConfig since 1.4.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [X] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [X] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
 ---
@@ -133,22 +131,20 @@
 **Docs** 
 
 - [x] Documentation on istio.io includes performance expectations; may have caveats. 
- Same as above, mTLS vs Plaintext performance comparison
+ Same as above, mTLS vs Plaintext performance comparison.
 - [x] Documentation on istio.io includes samples/tutorials. 
 istio.io/latest/docs/tasks/security/authentication/authn-policy/#auto-mutual-tls
-- [ ] Documentation on istio.io includes appropriate glossary entries. 
+- [X] Documentation on istio.io includes appropriate [glossary entries](https://preliminary.istio.io/latest/docs/reference/glossary/#auto-mtls).
 - [x] All new documentation containing user actions includes istio.io tests.
-- [x] Release notes have been added. 
-On By Default Since 1.5, Not Applied
-- [x] Upgrade notes have been added. 
-Not Applied.
+- [x] Release notes have been added. On By Default Since 1.5, Not Applied
+- [x] Upgrade notes have been added. N/A.
 
 **Tests**
 
-- [ ] Integration tests cover feature edge cases
-- [ ] End-to-end tests cover samples/tutorials
-- [ ] Fixed issues have tests to prevent regressions
-- [ ] Stability/stress test suite includes coverage for the feature.
+- [X] Integration tests cover feature edge cases, [headless service](https://github.com/istio/istio/blob/e68b6b629d64277943e736ad7c6104ff1dd295a3/tests/integration/security/reachability_test.go#L162)
+- [X] End-to-end tests cover samples/tutorials. N/A existing feature post requirement.
+- [X] Fixed issues have tests to prevent regressions. N/A.
+- [X] Stability/stress [test](https://github.com/istio/tools/tree/master/perf/load/auto-mtls) suite includes coverage for the feature.
 
 **Performance**
 
@@ -156,7 +152,7 @@ Not Applied.
 
 [Test Plan Section](https://docs.google.com/document/d/1yEMDRO2FZCyZnDK1AzNmjQtbtQqE7wN8YoM65FAH7uA/edit#heading=h.7df973t639nj)
 
-- [ ] Tests exist with the feature enabled that can be integrated with our automated performance testing.
+- [X] [Tests exist](https://github.com/istio/tools/tree/master/perf/benchmark/configs/istio/plaintext) with the feature enabled that can be integrated with our automated performance testing.
 
 **API**
 
@@ -168,13 +164,13 @@ Not Applied.
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
+- [X] Feature has no known major issues.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The supportability review panel has reviewed promotion of the feature.  
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [X] The appropriate work group(s) have reviewed and approved promotion of the [feature](https://docs.google.com/document/d/1cU4TFqYdir1luUN4gf3mTvujb4LugNLhcNffOluQyns/edit?disco=AAAALq26fXg&ts=60467f2f&usp_dm=true&resourcekey=0-tIc8kq3LHGokG4FHfXJ5CQ).
+- [ ] The supportability review panel has reviewed promotion of the feature. TODO: WIP.  
+- [X] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
 ---
@@ -196,9 +192,9 @@ istio.io/latest/blog/2020/large-scale-security-policy-performance-tests/#data
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [X] The appropriate work group(s) have reviewed and approved promotion of the [feature](https://docs.google.com/document/d/1cU4TFqYdir1luUN4gf3mTvujb4LugNLhcNffOluQyns/edit?disco=AAAALq26fXg&ts=60467f2f&usp_dm=true&resourcekey=0-tIc8kq3LHGokG4FHfXJ5CQ).
 - [ ] The supportability review panel has reviewed promotion of the feature.  
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [X] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
 
