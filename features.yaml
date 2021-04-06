@@ -179,7 +179,7 @@ features:
   - name: "Authorization"
     link: "/docs/concepts/security/#authorization"
     level:
-      checklist: ""
+      checklist: features/authorization.md
       maturity: Beta
       nextExpectedPromotion: ""
     area: Security and policy enforcement
