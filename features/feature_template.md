@@ -77,6 +77,10 @@
 
 - [ ] No impact on performance when the feature is disabled.
 
+
+[//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
+
+- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
 ---
 
 ## Alpha
@@ -114,6 +118,12 @@
 - [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
+
+**Promotion**
+
+[//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
+
+- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
 
 ---
 
@@ -168,6 +178,12 @@
 - [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
+
+**Promotion**
+
+[//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
+
+- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
 ---
 
 ## Stable
@@ -191,3 +207,8 @@
 	roadmap for a release.
 
 
+**Promotion**
+
+[//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
+
+- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
