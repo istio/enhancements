@@ -121,9 +121,11 @@ https://istio.io/latest/docs/ops/configuration/traffic-management/network-topolo
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
+    * Cleaned up docs: https://github.com/istio/istio.io/pull/9090
+    * Automated test for Network topology: https://istio.io/latest/docs/ops/configuration/traffic-management/network-topologies/ (https://github.com/istio/istio.io/pull/9096).
 
 ---
 
