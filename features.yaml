@@ -215,10 +215,10 @@ features:
     id: "security.jwt_authentication"
     link: "/docs/concepts/security/#authentication"
     level:
-      checklist: ""
-      maturity: Beta
-      nextExpectedPromotion: ""
-    area: Security and policy enforcement
+       checklist: features/jwt-authentication.md
+       maturity: Beta
+       nextExpectedPromotion:
+       area: Security and policy enforcement
   - name: "Automatic mutual TLS"
     id: "security.automatic_mtls"
     link: "/docs/tasks/security/authentication/authn-policy/#auto-mutual-tls"
