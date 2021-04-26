@@ -186,7 +186,7 @@ features:
   - name: "End User (JWT) Authentication"
     link: "/docs/concepts/security/#authentication"
     level:
-      checklist: ""
+      checklist: features/jwt-authentication.md
       maturity: Beta
       nextExpectedPromotion: ""
     area: Security and policy enforcement
