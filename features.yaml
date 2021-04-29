@@ -249,7 +249,7 @@ features:
     area: Core
   - name: "Basic Configuration Resource Validation"
     level:
-      checklist: ""
+      checklist: features/config-resource-validation.md
       maturity: Beta
       nextExpectedPromotion: ""
     area: Core
