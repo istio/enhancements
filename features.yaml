@@ -96,7 +96,7 @@ features:
   - name: "Prometheus Integration"
     link: "/docs/tasks/observability/metrics/querying-metrics/"
     level:
-      checklist: ""
+      checklist: features/prometheus-integration.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Observability
