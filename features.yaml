@@ -117,7 +117,7 @@ features:
   - name: "Stackdriver Integration"
     link: "/docs/reference/config/proxy_extensions/stackdriver/"
     level:
-      checklist: ""
+      checklist: features/stackdriver-integration.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Observability
