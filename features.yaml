@@ -172,7 +172,7 @@ features:
   - name: "Pluggable Key/Cert Support for istio CA"
     link: "/docs/tasks/security/cert-management/plugin-ca-cert/"
     level:
-      checklist: ""
+      checklist: features/pluggable-key-cert-istio-ca.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Security and policy enforcement
