@@ -159,7 +159,7 @@ features:
   - name: "Certificate management on Ingress Gateway"
     link: "/docs/tasks/traffic-management/ingress/secure-ingress"
     level:
-      checklist: ""
+      checklist: features/certificate-management-ingress.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Security and policy enforcement
