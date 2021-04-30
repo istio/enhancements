@@ -104,7 +104,7 @@ features:
   - name: "Distributed Tracing"
     link: "/docs/tasks/observability/distributed-tracing/"
     level:
-      checklist: ""
+      checklist: features/distributed-tracing.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Observability
