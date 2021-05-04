@@ -215,7 +215,7 @@ features:
   - name: "Kubernetes: Envoy Installation and Traffic Interception"
     link: "/docs/setup/"
     level:
-      checklist: ""
+      checklist: features/envoy-install-traffic-interception.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Core
