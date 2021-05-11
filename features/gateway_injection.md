@@ -1,4 +1,4 @@
-# Feature: Gateway Injection
+# Feature
 
 **Feature name:** Gateway Injection
 
@@ -18,7 +18,7 @@
 
 - [x] [Documentation](https://preliminary.istio.io/latest/docs/setup/additional-setup/sidecar-injection/#custom-templates-experimental) and [here](https://preliminary.istio.io/latest/docs/setup/additional-setup/external-controlplane/) for enabling and using the feature.
 
-- [ ] [Feedback plan](insert_your_link_here). ??
+- [x] [Feedback plan](insert_your_link_here). N/A, we already have feedback from users that this is desired and useful.
 
 - [x] Disabled by default.
 
