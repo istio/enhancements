@@ -86,7 +86,7 @@ features:
      - checklist: features/configuring_gateway_network_topology.md
        maturity: Alpha
        nextExpectedPromotion:
-       area: Traffic Management
+    area: Traffic Management
   - name: "Prometheus Integration"
     link: "/docs/tasks/observability/metrics/querying-metrics/"
     level:
