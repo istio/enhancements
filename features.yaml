@@ -31,9 +31,9 @@ features:
     area: Traffic Management
   - name: "Gateway Injection"
     level:
-      checklist: ""
-      maturity: Stable
-      nextExpectedPromotion: ""
+      checklist: features/gateway_injection.md
+      maturity: Alpha
+      nextExpectedPromotion: "1.11"
     area: Traffic Management
   - name: "TLS termination and SNI Support in Gateways"
     level:
