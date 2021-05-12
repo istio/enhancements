@@ -4,7 +4,7 @@
 
 **Primary lead(s):** @howardjohn
 
-**Short description:** Injecting gateway deployments to enabled minimal configuration and simplified operations.
+**Short description:** Injecting gateway deployments to enable minimal configuration and simplified operations.
 
 ---
 
@@ -12,7 +12,7 @@
 
 ### Requirements:
 
-- [ ] [User stories](insert_your_link_here) reviewed in a work group meeting.
+- [x] [User stories](https://docs.google.com/document/d/1Rmp9B3DDypgMCau-YAqidx_r3qvKLZj6jUX-t22zj84/edit#heading=h.shjmd7wzzhhl) reviewed in a work group meeting.
 
 - [x] [RFC Authored] - [Injector V2](https://docs.google.com/document/d/1Rmp9B3DDypgMCau-YAqidx_r3qvKLZj6jUX-t22zj84/).
 
