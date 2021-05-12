@@ -12,7 +12,7 @@
 
 [//]: # (All information in this section is mandatory.)
 
-**Feature name:** Istio CNI
+**Feature name:** Istio CNI Plugin
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
@@ -22,10 +22,13 @@
 
 **Short description:**
 
+Istio CNI Plugin for handling traffic redirection to the sidecar proxy in Istio user application pods.
+
 [//]: # (A short description of the feature. One or two sentences maximum.)
 
 
 **Design Docs:**
+[Istio CNI Plugin](https://docs.google.com/document/d/1B5gGvdlZEfk5oAL8Qx8NdRKDYb3YlGphJoQLhwPBXYw/edit#)
 
 [//]: # (Design docs for feature)
 
@@ -34,7 +37,7 @@
 
 [//]: # (Links to relevant documentation for feature)
 
-* https://istio.io/latest/docs/setup/additional-setup/cni/
+*[Install Istio with the Istio CNI plugin](https://istio.io/latest/docs/setup/additional-setup/cni/)
 
 **RFC:**
 
@@ -87,34 +90,37 @@
 
 **Design**
 
-- [ ] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
+- [x] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
 
 **Config**
 
-- [ ] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
+- [x] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
+[NET_ADMIN and NET_RAW capabilities](https://istio.io/latest/docs/ops/deployment/requirements/#pod-requirements)
 
 > Link to instructions for enabling
 
 **Docs**
 
-- [ ] Reference docs are published to preliminary.istio.io or the Istio wiki.
-- [ ] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
+- [x] Reference docs are published to preliminary.istio.io or the Istio wiki.
+- [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
 - [ ] Release notes entries added as appropriate
+N/A
 - [ ] Upgrade notes entries added as appropriate
+N/A
 
 **Tests**
 
-- [ ] Automated integration tests cover core use cases with the feature enabled. 
-- [ ] When disabled, the feature does not affect system stability or performance. 
+- [x] Automated integration tests cover core use cases with the feature enabled. 
+- [x] When disabled, the feature does not affect system stability or performance. 
 
 **API**
 
-- [ ] Initial API review.
+- [x] Initial API review.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
 ---
