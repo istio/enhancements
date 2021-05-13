@@ -2,7 +2,7 @@
 
 Maturity of features in Istio indicate to users what they can [expect](https://istio.io/latest/about/feature-stages/) by using these
 features. In Istio, we track these requirements using a [template](features/feature_template.md). Once all
-requirements for the next level are met, [features.yaml](features.yaml) can be updated in order to promote the feature.
+requirements for the next level are met, [features.yaml](features.yaml) can be updated in order to promote the feature. The schema can be found in [features_schema.json](features_schema.json)
 
 ## Features.yaml
 
@@ -18,6 +18,7 @@ features:
     level:
       checklist: ""
       maturity: Stable
+      maturityNotes: "This is a test"
       nextExpectedPromotion: ""
     deprecation:
       state: "deprecated"
@@ -33,6 +34,7 @@ features:
 * **level** indicates the maturity level of a feature.
 * **level.checklist** is the path to the checklist to track a feature's maturity.
 * **level.maturity** is the current maturity level of the feature. This can be `experimental`, `alpha`, `beta`, or `stable`. Experimental is an optional maturity level that can be skipped. For alpha, beta, and stable, all requirements for the previous levels must be met before a feature can meet the next level (i.e. a stable feature has met the requirements of both alpha and beta). There may be features for which a requirement is not applicable.
+* **level.maturityNotes** Specific notes that may be needed alongside a maturity level.
 * **level.nextExpectedPromotion** indicates the Istio release by which the next promotion of a feature is expected. Up until a feature is stable, a feature is expected to continuously mature. If a feature doesn't get promoted, this should be extended or the feature should be deprecated.  In some rare circumstances, features will be permanently in a state below stable and never expected to be promoted. For those circumstances, this field can be marked `never`.
 * **deprecation** describes details of deprecated features. 
 * **deprecation.state** This can be `deprecated` or `retired`. When a feature is deprecated, users should consider migrating to a replacement as retired features may be removed. Deprecation time varies depending on the [current maturity level](https://istio.io/latest/about/feature-stages/).
