@@ -36,7 +36,7 @@ https://docs.google.com/document/d/1EymnzMqa7hdmKn8sEoaf1elajyp4gXEDSUavxzXB3jw/
 
 **Relevant Documentation:**
 
-* https://preliminary.istio.io/latest/docs/setup/additional-setup/external-controlplane/
+* https://preliminary.istio.io/latest/docs/setup/install/external-controlplane/
 
 ---
 
@@ -90,11 +90,11 @@ https://docs.google.com/document/d/1EymnzMqa7hdmKn8sEoaf1elajyp4gXEDSUavxzXB3jw/
 
 - [x] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
 
-> https://preliminary.istio.io/latest/docs/setup/additional-setup/external-controlplane/
+> https://preliminary.istio.io/latest/docs/setup/install/external-controlplane/
 
 **Docs**
 
-- [x] Reference docs are published to preliminary.istio.io or the Istio wiki. https://preliminary.istio.io/latest/docs/setup/additional-setup/external-controlplane/
+- [x] Reference docs are published to preliminary.istio.io or the Istio wiki. https://preliminary.istio.io/latest/docs/setup/install/external-controlplane/
 - [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
 - [x] Release notes entries added as appropriate
 - [x] Upgrade notes entries added as appropriate
