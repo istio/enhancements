@@ -263,7 +263,8 @@ features:
   - name: "IPv6 Support for Kubernetes"
     level:
       checklist: ""
-      maturity: Alpha. Dual-stack IPv4 and IPv6 is not supported.
+      maturity: Alpha
+      maturityNotes: Dual-stack IPv4 and IPv6 is not supported.
       nextExpectedPromotion: ""
     area: Core
   - name: "Distroless Base Images for Istio"
