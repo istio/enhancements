@@ -12,32 +12,32 @@
 
 [//]: # (All information in this section is mandatory.)
 
-**Feature name:** Nathan Mittler (@nmittler)
+**Feature name:** MCS Service Discovery
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
 **Primary lead(s):**
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
+- Nathan Mittler (@nmittler)
 
 **Short description:**
 
-Add support for [Kubernetes Multi-cluster Services (MCS)](https://github.com/kubernetes/enhancements/tree/master/keps/sig-multicluster/1645-multi-cluster-services-api?rgh-link-date=2020-10-21T20%3A30%3A39Z) to Istio.
-
+Add support for [Kubernetes Multi-cluster Services (MCS)](https://github.com/kubernetes/enhancements/tree/master/keps/sig-multicluster/1645-multi-cluster-services-api?rgh-link-date=2020-10-21T20%3A30%3A39Z) to drive service discovery in Istio.
 
 **Design Docs:**
 
-[//]: # (Design docs for feature)
-
+- [Istio with MCS Service Discovery](https://docs.google.com/document/d/125JiDxXjvqHXu_678mUXKy3pKOvfSw4zKwXJjulU_ug/edit)
 
 **Relevant Documentation:**
 
 [//]: # (Links to relevant documentation for feature)
+- [MCS KEP](https://github.com/kubernetes/enhancements/tree/master/keps/sig-multicluster/1645-multi-cluster-services-api)
+- [MCS API](https://github.com/kubernetes-sigs/mcs-api)
 
 **RFC:**
 
-* https://docs.google.com/document/d/1K8hvQ83UcJ9a7U8oqXIefwr6pFJn-VBEi40Ak-fwQtk/edit#
-
+- [Istio + MCS RFC](https://docs.google.com/document/d/1K8hvQ83UcJ9a7U8oqXIefwr6pFJn-VBEi40Ak-fwQtk/edit#)
 
 ---
 
@@ -48,7 +48,8 @@ Add support for [Kubernetes Multi-cluster Services (MCS)](https://github.com/kub
 [//]: # (All information in this section is mandatory for promotion. Please modify the links in this)
 [//]: # (section.)
 
-- [ ] [User stories](insert_your_link_here) reviewed in a work group meeting.
+- [ ] User stories
+   - As a service owner or mesh administrator, I want to migrate the endpoints for a service on a per-cluster basis from being discoverable only within the same cluster to being discoverable across the mesh.
 
 [//]: # (User stories are a way to communicate user value. User stories follow the style)
 [//]: # (as a [type of user], I want [an action] so that [a benefit/a value]. Istio currently has no user)
@@ -58,7 +59,7 @@ Add support for [Kubernetes Multi-cluster Services (MCS)](https://github.com/kub
 [//]: # (into the RFCs, which do need approval for alpha. You may find value to negotiate within the work group where the)
 [//]: # (user stories are presented to help clarify the user stories.)
 
-- [x] [RFC Authored]
+- [x] [RFC Authored](https://docs.google.com/document/d/1K8hvQ83UcJ9a7U8oqXIefwr6pFJn-VBEi40Ak-fwQtk/edit#)
 
 [//]: # (An RFC is mandatory to graduate to experimental. The RFC does not have to be reviewed in a work group)
 [//]: # (meeting to graduate to experimental.)
@@ -69,7 +70,8 @@ Add support for [Kubernetes Multi-cluster Services (MCS)](https://github.com/kub
 [//]: # (for building running a `istioctl experimental command`, or using the preview profile,)
 [//]: # (or any other relevant information.)
 
-- [ ] [Feedback plan](insert_your_link_here).
+- [ ] Feedback plan
+   - Github issues
 
 [//]: # (This may include user feedback meetings, discuss.istio.io conversations, GitHub issues, or mailing lists.)
 
