@@ -70,7 +70,7 @@ Add support for [Kubernetes Multi-cluster Services (MCS)](https://github.com/kub
 [//]: # (for building running a `istioctl experimental command`, or using the preview profile,)
 [//]: # (or any other relevant information.)
 
-- [ ] Feedback plan
+- [x] Feedback plan
    - Will watch for GitHub issues for two releases in order to decide how best to configure the feature.
 
 [//]: # (This may include user feedback meetings, discuss.istio.io conversations, GitHub issues, or mailing lists.)
