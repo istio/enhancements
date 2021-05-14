@@ -48,7 +48,7 @@ Add support for [Kubernetes Multi-cluster Services (MCS)](https://github.com/kub
 [//]: # (All information in this section is mandatory for promotion. Please modify the links in this)
 [//]: # (section.)
 
-- [ ] User stories
+- [x] User stories
    - As a service owner or mesh administrator, I want to migrate the endpoints for a service on a per-cluster basis from being discoverable only within the same cluster to being discoverable across the mesh.
 
 [//]: # (User stories are a way to communicate user value. User stories follow the style)
@@ -191,4 +191,3 @@ Add support for [Kubernetes Multi-cluster Services (MCS)](https://github.com/kub
 - [ ] The supportability review panel has reviewed promotion of the feature.  
 - [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
-
