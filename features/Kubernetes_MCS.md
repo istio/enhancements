@@ -71,7 +71,7 @@ Add support for [Kubernetes Multi-cluster Services (MCS)](https://github.com/kub
 [//]: # (or any other relevant information.)
 
 - [ ] Feedback plan
-   - Github issues
+   - Will watch for GitHub issues for two releases in order to decide how best to configure the feature.
 
 [//]: # (This may include user feedback meetings, discuss.istio.io conversations, GitHub issues, or mailing lists.)
 
@@ -191,5 +191,4 @@ Add support for [Kubernetes Multi-cluster Services (MCS)](https://github.com/kub
 - [ ] The supportability review panel has reviewed promotion of the feature.  
 - [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
-
 
