@@ -12,7 +12,7 @@
 
 [//]: # (All information in this section is mandatory.)
 
-**Feature name:** MCS Service Discovery
+**Feature name:** Kubernetes Multi-Cluster Service (MCS) Discovery
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
