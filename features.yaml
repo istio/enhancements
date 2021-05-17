@@ -70,7 +70,7 @@ features:
   - name: "DNS Proxying"
     link: "/docs/ops/configuration/traffic-management/dns-proxy/"
     level:
-      checklist: ""
+      checklist: features/dns-proxying.md
       maturity: Alpha
       nextExpectedPromotion: ""
     area: Traffic Management
