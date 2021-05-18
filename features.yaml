@@ -131,7 +131,7 @@ features:
   - name: "Trace Sampling"
     link: "/docs/tasks/observability/distributed-tracing/configurability/#trace-sampling"
     level:
-      checklist: ""
+      checklist: features/trace-sampling.md
       maturity: Beta
       nextExpectedPromotion: ""
     area: Observability
