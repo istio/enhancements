@@ -124,7 +124,7 @@ features:
   - name: "Distributed Tracing to Zipkin/Jaeger"
     link: "/docs/tasks/observability/distributed-tracing/"
     level:
-      checklist: ""
+      checklist: features/distributed-tracing-to-zipkin-jaeger.md
       maturity: Beta
       nextExpectedPromotion: ""
     area: Observability
