@@ -207,7 +207,7 @@ features:
   - name: "Mutual TLS Migration"
     link: "/docs/tasks/security/authentication/mtls-migration"
     level:
-      checklist: ""
+      checklist: features/mutual-tls-migration.md
       maturity: Beta
       nextExpectedPromotion: ""
     area: Security and policy enforcement
