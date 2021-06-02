@@ -16,7 +16,7 @@
 
 - [x] [RFC Authored] - [Injector V2](https://docs.google.com/document/d/1Rmp9B3DDypgMCau-YAqidx_r3qvKLZj6jUX-t22zj84/).
 
-- [x] [Documentation](https://preliminary.istio.io/latest/docs/setup/additional-setup/sidecar-injection/#custom-templates-experimental) and [here](https://preliminary.istio.io/latest/docs/setup/additional-setup/external-controlplane/) for enabling and using the feature.
+- [x] Documentation: [Primary documentation](https://preliminary.istio.io/latest/docs/setup/additional-setup/gateway/), as well as [custom templates](https://preliminary.istio.io/latest/docs/setup/additional-setup/sidecar-injection/#custom-templates-experimental) and [external control plane](https://preliminary.istio.io/latest/docs/setup/additional-setup/external-controlplane/) for enabling and using the feature.
 
 - [x] [Feedback plan](insert_your_link_here). N/A, we already have feedback from users that this is desired and useful.
 
@@ -44,11 +44,11 @@
 
 - [x] Reference docs are published to preliminary.istio.io or the Istio wiki.
   
-There are no reference docs required for this feature.
+    [Custom sidecar injection annotations](https://preliminary.istio.io/latest/docs/reference/config/annotations/) are document. Most documentation for this feature is in the install guide, not reference docs.
 
 - [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats.
 
-> [Documentation](https://preliminary.istio.io/latest/docs/setup/additional-setup/sidecar-injection/#custom-templates-experimental).
+> [Documentation](https://preliminary.istio.io/latest/docs/setup/additional-setup/gateway/).
 
 - [x] Release notes entries added as appropriate
 - [x] Upgrade notes entries added as appropriate
@@ -64,7 +64,7 @@ There are no reference docs required for this feature.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The TOC has reviewed and approved promotion of the feature as part of the
   roadmap for a release.
 
