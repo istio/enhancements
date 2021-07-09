@@ -16,7 +16,7 @@
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
-**Primary lead(s):** Lin Sun
+**Primary lead(s):** Frank Budinsky, Eric Van Norman
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
@@ -135,7 +135,7 @@ No API added in 1.8
 - [x] Documentation on istio.io includes performance expectations; may have caveats. 
 - [x] Documentation on istio.io includes samples/tutorials. 
 - [x] Documentation on istio.io includes appropriate glossary entries. 
-- [ ] All new documentation containing user actions includes istio.io tests.
+- [x] All new documentation containing user actions includes istio.io tests.
 - [x] Release notes have been added. 
 - [x] Upgrade notes have been added. 
 
@@ -161,12 +161,12 @@ No API added in 1.8
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
+- [x] Feature has no known major issues.
 
 **Approvals**
 
 - [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The supportability review panel has reviewed promotion of the feature.  
+- [x] The supportability review panel has reviewed promotion of the feature.
 - [x] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
