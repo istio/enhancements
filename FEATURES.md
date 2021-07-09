@@ -27,7 +27,7 @@ features:
         next: "1.10"
     area:  Observability
 ```
-
+* **id** is a unique, machine readable identifier for the feature.
 * **name** indicates the name of the feature.
 * **area** indicates the area of the feature.
 * **link** indicates a primary link that users can navigate to in order to find out more about a feature. This link may be provided to users by tooling consuming features.yaml.

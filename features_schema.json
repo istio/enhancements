@@ -9,6 +9,10 @@
             "items": {
                 "type": "object",
                 "properties": {
+                     "id": {
+                       "type": "string",
+                       "description":"A unique machine-readable identifier for the feature"
+                     },
                     "name": {
                         "type": "string",
                         "description": "The name of the feature."
@@ -97,7 +101,8 @@
                 "required": [
                     "name",
                     "level",
-                    "area"
+                    "area",
+                    "id"
                 ]
             }
         }
