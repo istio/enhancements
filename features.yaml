@@ -255,7 +255,7 @@ features:
   - name: "Kubernetes: Istio In-Place Control Plane Upgrade"
     link: "/docs/setup/upgrade/in-place"
     level:
-      checklist: ""
+      checklist: features/control-plane-upgrade.md
       maturity: Beta
       nextExpectedPromotion: ""
     area: Core
