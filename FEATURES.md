@@ -41,4 +41,4 @@ features:
 * **deprecation.details** should be set when a feature moves out of the active state.
 * **deprecation.details.replacement** should specify the checklist(s) for any
 	feature replacing this deprecated feature. 
-* **deprecation.next** indicates the release in which the feature will be retired. 
+* **deprecation.details.next** indicates the release in which the feature will be retired.
