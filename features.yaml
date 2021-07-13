@@ -1,7 +1,7 @@
 features:
   - name: "Protocols:HTTP1.1/HTTP2/gRPC/TCP"
     level:
-      checklist: ""
+      checklist: features/protocol-support.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Traffic Management
