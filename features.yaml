@@ -234,7 +234,7 @@ features:
   - name: "Kubernetes: Istio Control Plane Installation"
     link: "/docs/setup/"
     level:
-      checklist: ""
+      checklist: features/control-plane-installation.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Core
