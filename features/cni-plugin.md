@@ -133,7 +133,7 @@ N/A
 - [x] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
-- [ ] Feature coverage and test plans written and approved.
+- [x] Feature coverage and test plans written and approved.
 
 **Docs** 
 
@@ -146,15 +146,14 @@ N/A
 
 **Tests**
 
-- [ ] Integration tests cover feature edge cases
+- [x] Integration tests cover feature edge cases
 - [x] End-to-end tests cover samples/tutorials
-- [ ] Fixed issues have tests to prevent regressions
+- [x] Fixed issues have tests to prevent regressions
 - [ ] Stability/stress test suite includes coverage for the feature.
 
 **Performance**
 
-- [ ] Feature coverage and test plans written and approved 
-- [ ] Tests exist with the feature enabled that can be integrated with our automated performance testing.
+- [x] Tests exist with the feature enabled that can be integrated with our automated performance testing.
 
 **API**
 
@@ -170,9 +169,9 @@ N/A
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The supportability review panel has reviewed promotion of the feature.  
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
 ---
