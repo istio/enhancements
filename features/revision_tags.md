@@ -1,4 +1,4 @@
-[//]: # (The syntax preceeding this line is a comment marker used to help guide the author in populating this document)
+[//]: # (The syntax preceding this line is a comment marker used to help guide the author in populating this document)
 [//]: # (to github. Unlike HTML comments commonly used throughout istio.io documentation, this comment will not be rendered)
 [//]: # (by github. Comments must be separated by carriage return preceding and concluding the text and be a single line.)
 
@@ -88,7 +88,7 @@
 **Design**
 
 - [x] Design doc describing the intention of the feature, how it will be
-  implemented, and any thoughts on how to test the feature has been approved by
+  implemented, and any thoughts on how to test the feature have been approved by
   relevant work group leads
 - [x] Feature coverage and test plans written and approved (in main design doc).
 
