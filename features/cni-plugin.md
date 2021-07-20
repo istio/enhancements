@@ -137,12 +137,12 @@ N/A
 
 **Docs** 
 
-- [ ] Documentation on istio.io includes performance expectations; may have caveats. 
-- [ ] Documentation on istio.io includes samples/tutorials. 
-- [ ] Documentation on istio.io includes appropriate glossary entries. 
-- [ ] All new documentation containing user actions includes istio.io tests.
-- [ ] Release notes have been added. 
-- [ ] Upgrade notes have been added. 
+- [x] Documentation on istio.io includes performance expectations; may have caveats.
+- [x] Documentation on istio.io includes samples/tutorials.
+- [x] Documentation on istio.io includes appropriate glossary entries.
+- [x] All new documentation containing user actions includes istio.io tests.
+- [x] Release notes have been added.
+- [x] Upgrade notes have been added.
 
 **Tests**
 
