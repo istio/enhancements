@@ -149,7 +149,7 @@ N/A
 - [x] Integration tests cover feature edge cases
 - [x] End-to-end tests cover samples/tutorials
 - [x] Fixed issues have tests to prevent regressions
-- [ ] Stability/stress test suite includes coverage for the feature.
+- [x] Stability/stress test suite includes coverage for the feature.
 
 **Performance**
 
@@ -161,7 +161,7 @@ N/A
 
 **Tooling**
 
-- [ ] Any necessary tooling to use/debug the feature has been implemented and is complete. 
+- [x] Any necessary tooling to use/debug the feature has been implemented and is complete. 
 
 **Bugs**
 
@@ -170,7 +170,7 @@ N/A
 **Approvals**
 
 - [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The supportability review panel has reviewed promotion of the feature.  
+- [x] The supportability review panel has reviewed promotion of the feature.  
 - [x] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
