@@ -262,7 +262,7 @@ features:
   - name: "Istio CNI Plugin"
     link: "/docs/setup/additional-setup/cni/"
     level:
-      checklist: ""
+      checklist: "features/cni.md"
       maturity: Beta
       nextExpectedPromotion: ""
     area: Core
