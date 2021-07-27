@@ -93,11 +93,10 @@ features:
       maturity: Alpha
       nextExpectedPromotion: ""
     area: Traffic Management
-  - name: "Kubernetes Service APIs"
-    id: "traffic.kubernetesserviceapis"
+  - name: "Kubernetes Gateway APIs"
     link: "/docs/tasks/traffic-management/ingress/gateway-api/"
     level:
-      checklist: features/service_apis.md
+      checklist: features/k8s-gateway-apis.md
       maturity: Alpha
       nextExpectedPromotion: ""
     area: Traffic Management
@@ -342,6 +341,20 @@ features:
     link: "/docs/setup/install/helm/"
     level:
       checklist: features/helm_v3_support.md
+      maturity: Alpha
+      nextExpectedPromotion: ""
+    area: Core
+  - name: "Revision Based Upgrade"
+    link: "/docs/setup/upgrade/canary/"
+    level:
+      checklist: features/canary_based_revision_install.md
+      maturity: Alpha
+      nextExpectedPromotion: ""
+    area: Core
+  - name: "Revision Tags"
+    link: "/docs/setup/upgrade/canary/#stable-revision-labels-experimental"
+    level:
+      checklist: features/revision_tags.md
       maturity: Alpha
       nextExpectedPromotion: ""
     area: Core

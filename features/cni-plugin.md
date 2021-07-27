@@ -16,19 +16,18 @@
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
-**Primary lead(s):**
+**Primary lead(s):** [Pengyuan Bian](https://github.com/bianpengyuan), [Mandar Jog](https://github.com/mandarjog)
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
-**Short description:**
-
-Istio CNI Plugin for handling traffic redirection to the sidecar proxy in Istio user application pods.
+**Short description:** Istio CNI Plugin for handling traffic redirection to the sidecar proxy in Istio user application pods.
 
 [//]: # (A short description of the feature. One or two sentences maximum.)
 
-
 **Design Docs:**
 [Istio CNI Plugin](https://docs.google.com/document/d/1B5gGvdlZEfk5oAL8Qx8NdRKDYb3YlGphJoQLhwPBXYw/edit#)
+[Istio CNI Race Condition Mitigation](https://docs.google.com/document/d/1SQzrFxtcn3o_79OtJYbSHMPuqZNhR3EaEhbkpBVMXAw/edit)
+[Istio CNI Upgrade Safety](https://docs.google.com/document/d/1CVRNAlDEsU6Lmssv01gWLt3uaaWJNBVLlIyZeGWh0KA/edit)
 
 [//]: # (Design docs for feature)
 
@@ -131,7 +130,7 @@ N/A
 
 **Design**
 
-- [ ] Design doc describing the intention of the feature, how it will be
+- [x] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
 - [ ] Feature coverage and test plans written and approved.
@@ -148,7 +147,7 @@ N/A
 **Tests**
 
 - [ ] Integration tests cover feature edge cases
-- [ ] End-to-end tests cover samples/tutorials
+- [x] End-to-end tests cover samples/tutorials
 - [ ] Fixed issues have tests to prevent regressions
 - [ ] Stability/stress test suite includes coverage for the feature.
 
@@ -159,7 +158,7 @@ N/A
 
 **API**
 
-- [ ] TOC has reviewed the API and determined it to be complete. 
+- [x] TOC has reviewed the API and determined it to be complete. 
 
 **Tooling**
 
@@ -167,7 +166,7 @@ N/A
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
+- [x] Feature has no known major issues.
 
 **Approvals**
 

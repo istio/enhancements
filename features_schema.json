@@ -49,7 +49,7 @@
                                     "Stable"
                                 ]
                             },
-                            "maturity_notes": {
+                            "maturityNotes": {
                                 "type": "string",
                                 "description": "Specific notes that may be needed alongside a maturity level."
                             },
