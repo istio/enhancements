@@ -70,13 +70,6 @@ features:
       maturity: Alpha
       nextExpectedPromotion: ""
     area: Traffic Management
-  - name: "CNI container interface"
-    id: "traffic.cni"
-    level:
-      checklist: features/cni.md
-      maturity: Alpha
-      nextExpectedPromotion: ""
-    area: Traffic Management
   - name: "Sidecar API"
     id: "traffic.sidecar"
     link: "/docs/reference/config/networking/sidecar/"
@@ -309,8 +302,8 @@ features:
     id: "core.cni"
     link: "/docs/setup/additional-setup/cni/"
     level:
-      checklist: ""
-      maturity: Alpha
+      checklist: "features/cni.md"
+      maturity: Beta
       nextExpectedPromotion: ""
     area: Core
   - name: "IPv6 Support for Kubernetes"
