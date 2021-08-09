@@ -128,7 +128,7 @@ No API added in 1.8
 - [x] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
-- [ ] Feature coverage and test plans written and approved.
+- [x] Feature coverage and test plans written and approved.
 
 **Docs** 
 
@@ -143,13 +143,13 @@ No API added in 1.8
 
 - [ ] Integration tests cover feature edge cases
 - [x] End-to-end tests cover samples/tutorials
-- [ ] Fixed issues have tests to prevent regressions
-- [ ] Stability/stress test suite includes coverage for the feature.
+- [x] Fixed issues have tests to prevent regressions
+- [x] Stability/stress test suite includes coverage for the feature.
 
 **Performance**
 
-- [ ] Feature coverage and test plans written and approved 
-- [ ] Tests exist with the feature enabled that can be integrated with our automated performance testing.
+- [x] Feature coverage and test plans written and approved
+- [x] Tests exist with the feature enabled that can be integrated with our automated performance testing.
 
 **API**
 
