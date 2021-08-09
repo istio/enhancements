@@ -16,7 +16,7 @@
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
-**Primary lead(s):** Lin Sun
+**Primary lead(s):** Frank Budinsky, Eric Van Norman
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
@@ -128,28 +128,28 @@ No API added in 1.8
 - [x] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
-- [ ] Feature coverage and test plans written and approved.
+- [x] Feature coverage and test plans written and approved.
 
 **Docs** 
 
 - [x] Documentation on istio.io includes performance expectations; may have caveats. 
 - [x] Documentation on istio.io includes samples/tutorials. 
 - [x] Documentation on istio.io includes appropriate glossary entries. 
-- [ ] All new documentation containing user actions includes istio.io tests.
+- [x] All new documentation containing user actions includes istio.io tests.
 - [x] Release notes have been added. 
 - [x] Upgrade notes have been added. 
 
 **Tests**
 
-- [ ] Integration tests cover feature edge cases
+- [x] Integration tests cover feature edge cases (Note: The integration test framework has been updated to fully support the external control plane topology, and basic testing is in place. The remaining tests needed for full coverage already exist (MC test suite) and will be added to the external control plane suite in the coming weeks).
 - [x] End-to-end tests cover samples/tutorials
-- [ ] Fixed issues have tests to prevent regressions
-- [ ] Stability/stress test suite includes coverage for the feature.
+- [x] Fixed issues have tests to prevent regressions
+- [x] Stability/stress test suite includes coverage for the feature.
 
 **Performance**
 
-- [ ] Feature coverage and test plans written and approved 
-- [ ] Tests exist with the feature enabled that can be integrated with our automated performance testing.
+- [x] Feature coverage and test plans written and approved
+- [x] Tests exist with the feature enabled that can be integrated with our automated performance testing.
 
 **API**
 
@@ -161,12 +161,12 @@ No API added in 1.8
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
+- [x] Feature has no known major issues.
 
 **Approvals**
 
 - [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The supportability review panel has reviewed promotion of the feature.  
+- [x] The supportability review panel has reviewed promotion of the feature.
 - [x] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
