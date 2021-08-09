@@ -141,7 +141,7 @@ No API added in 1.8
 
 **Tests**
 
-- [ ] Integration tests cover feature edge cases (Note: The integration test framework has been updated to fully support the external control plane topology, and basic testing is in place. The remaining tests needed for full coverage already exist (MC test suite) and will be added to the external control plane suite in the comming weeks).
+- [ ] Integration tests cover feature edge cases (Note: The integration test framework has been updated to fully support the external control plane topology, and basic testing is in place. The remaining tests needed for full coverage already exist (MC test suite) and will be added to the external control plane suite in the coming weeks).
 - [x] End-to-end tests cover samples/tutorials
 - [x] Fixed issues have tests to prevent regressions
 - [x] Stability/stress test suite includes coverage for the feature.
