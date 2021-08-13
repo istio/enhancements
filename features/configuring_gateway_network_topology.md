@@ -143,9 +143,9 @@ https://istio.io/latest/docs/ops/configuration/traffic-management/network-topolo
 **Docs** 
 
 - [ ] Documentation on istio.io includes performance expectations; may have caveats. 
-- [ ] Documentation on istio.io includes samples/tutorials. 
-- [ ] Documentation on istio.io includes appropriate glossary entries. 
-- [ ] All new documentation containing user actions includes istio.io tests.
+- [x] Documentation on istio.io includes samples/tutorials. 
+- [x] Documentation on istio.io includes appropriate glossary entries. 
+- [x] All new documentation containing user actions includes istio.io tests.
 - [ ] Release notes have been added. 
 - [ ] Upgrade notes have been added. 
 
@@ -171,12 +171,12 @@ https://istio.io/latest/docs/ops/configuration/traffic-management/network-topolo
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
+- [x] Feature has no known major issues.
 
 **Approvals**
 
 - [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The supportability review panel has reviewed promotion of the feature.  
+- [ ] The supportability review panel has reviewed promotion of the feature. N/A. Feature is too minor to involve panel
 - [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
