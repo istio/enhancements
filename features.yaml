@@ -98,7 +98,7 @@ features:
     id: "traffic.gateway_topology"
     level:
        checklist: features/configuring_gateway_network_topology.md
-       maturity: Alpha
+       maturity: Beta
        nextExpectedPromotion: ""
     area: Traffic Management
   - name: "Kubernetes Multi-Cluster Service (MCS) Discovery"
