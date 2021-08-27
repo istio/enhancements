@@ -91,53 +91,58 @@ N/A. Design doc presented instead.
 
 - [x] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
 
+> Design doc already approved: https://docs.google.com/document/d/1V4mCQCw7mlGp0zSQQXYoBdbKMDnkPOjeyUb85U07iSI/edit
+
 **Config**
 
 - [x] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
 
-> (the user needs to configure extension provider and authz policy to enable the feature, see task in istio.io/latest/docs/tasks/security/authorization/authz-custom)
-
+> The user needs to configure extension provider and authz policy to enable the feature, see task in istio.io/latest/docs/tasks/security/authorization/authz-custom
 
 **Docs**
 
-- [x] Reference docs are published to 
+- [x] Reference docs are published to preliminary.istio.io or the Istio wiki.
 
-preliminary.istio.io or the Istio wiki.
-https://istio.io/latest/docs/tasks/security/authorization/authz-custom/
+> The reference doc of the new CUSTOM action is published at https://preliminary.istio.io/latest/docs/reference/config/security/authorization-policy/#AuthorizationPolicy-Action
 
-- [x] Basic feature docs are published on 
+- [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats.
 
-preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
-https://istio.io/latest/docs/tasks/security/authorization/authz-custom/
+> The task page of the feature is published at https://istio.io/latest/docs/tasks/security/authorization/authz-custom/
 
 - [ ] Release notes entries added as appropriate
 
-istio.io/latest/news/releases/1.9.x/announcing-1.9/change-notes/#security added the feature as experimental. Will need another PR for promoting to alpha in the release notes
+> This is targeting 1.12 release, will add corresponding release note later.
 
-- [ ] Upgrade notes entries added as appropriate
+- [x] Upgrade notes entries added as appropriate
+
+> The alpha promotion of the feature is fully compatible with the experimental version, we do not need upgrade notes.
 
 **Tests**
 
 - [x] Automated integration tests cover core use cases with the feature enabled.
 
-istio/istio@6d54066/tests/integration/security/authorization_test.go#L1256 
+> The feature is covered by the e2e tests: https://github.com/istio/istio/blob/2dd90cefe1ac405ba8bf96a66a35af61e4fd99ae/tests/integration/security/authorization_test.go#L1309
 
 - [x] When disabled, the feature does not affect system stability or performance. 
 
-No filter generated when the feature is disabled.
+> No ext-authz filter generated when disabled.
 
 
 **API**
 
-- [ ] Initial API review.
+- [x] Initial API review.
 
-istio/api#1698 approved and merged for the experimental, we may need a few API update for alpha
+> The alpha promotion includes a few API changes based on customer feedback, the change has been approved: https://github.com/istio/api/pull/1926.
 
 **Approvals**
 
 - [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
-	roadmap for a release.
+
+> Promoting of this feature to alpha is on the security WG roadmap for Istio 1.12 release, see https://docs.google.com/document/d/1KEqes4TiyfNnX8DF8TEilyRTMTwsLD9UNMPrm86PgmU/edit#heading=h.tmxzuzkx5jj2
+
+- [ ] The TOC has reviewed and approved promotion of the feature as part of the roadmap for a release.
+
+> To be reviewed.
 
 ---
 
