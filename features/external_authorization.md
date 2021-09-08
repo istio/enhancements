@@ -136,9 +136,11 @@ N/A. Design doc presented instead.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
 
 > Promoting of this feature to alpha is on the security WG roadmap for Istio 1.12 release, see https://docs.google.com/document/d/1KEqes4TiyfNnX8DF8TEilyRTMTwsLD9UNMPrm86PgmU/edit#heading=h.tmxzuzkx5jj2
+
+> Approved in this PR.
 
 - [ ] The TOC has reviewed and approved promotion of the feature as part of the roadmap for a release.
 
