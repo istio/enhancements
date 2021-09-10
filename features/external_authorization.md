@@ -97,7 +97,7 @@ N/A. Design doc presented instead.
 
 - [x] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
 
-> The user needs to configure extension provider and authz policy to enable the feature, see task in istio.io/latest/docs/tasks/security/authorization/authz-custom
+> The user needs to configure extension provider and AuthorizationPolicy to enable the feature, see task in istio.io/latest/docs/tasks/security/authorization/authz-custom
 
 **Docs**
 
@@ -142,9 +142,9 @@ N/A. Design doc presented instead.
 
 > Approved in this PR.
 
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the roadmap for a release.
+- [x] The TOC has reviewed and approved promotion of the feature as part of the roadmap for a release.
 
-> To be reviewed.
+> TOC has reviewed and approved security WG 1.12 roadmap.
 
 ---
 
