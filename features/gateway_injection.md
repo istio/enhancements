@@ -65,7 +65,7 @@
 **Approvals**
 
 - [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
   roadmap for a release.
 
 ---
@@ -79,11 +79,11 @@
 - [x] Design doc describing the intention of the feature, how it will be
   implemented, and any thoughts on how to test the feature has been approved by
   relevant work group leads. [Design Doc](https://docs.google.com/document/d/1Rmp9B3DDypgMCau-YAqidx_r3qvKLZj6jUX-t22zj84/).
-- [ ] Feature coverage and test plans written and approved.
+- [x] Feature coverage and test plans written and approved.
 
 **Docs**
 
-- [ ] Documentation on istio.io includes performance expectations; may have caveats.
+- [x] Documentation on istio.io includes performance expectations; may have caveats.
 - [x] Documentation on istio.io includes samples/tutorials. [Here](https://preliminary.istio.io/latest/docs/setup/additional-setup/sidecar-injection/#custom-templates-experimental) and [here](https://preliminary.istio.io/latest/docs/setup/additional-setup/external-controlplane/) for enabling and using the feature.
 - [x] Documentation on istio.io includes appropriate glossary entries. No glossary entries needed, this uses existing concepts.
 - [x] All new documentation containing user actions includes istio.io tests. Yes, the documentation has a test.
@@ -92,19 +92,19 @@
 
 **Tests**
 
-- [ ] Integration tests cover feature edge cases
+- [x] Integration tests cover feature edge cases
 - [x] End-to-end tests cover samples/tutorials. Documentation has page tests.
 - [x] Fixed issues have tests to prevent regressions. There are no known issues with this feature.
-- [ ] Stability/stress test suite includes coverage for the feature.
+- [x] Stability/stress test suite includes coverage for the feature.
 
 **Performance**
 
-- [ ] Feature coverage and test plans written and approved
-- [ ] Tests exist with the feature enabled that can be integrated with our automated performance testing.
+- [x] Feature coverage and test plans written and approved
+- [x] Tests exist with the feature enabled that can be integrated with our automated performance testing.
 
 **API**
 
-- [ ] TOC has reviewed the API and determined it to be complete.
+- [x] TOC has reviewed the API and determined it to be complete.
 
 **Tooling**
 
@@ -116,9 +116,9 @@
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The supportability review panel has reviewed promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [ ] The supportability review panel has reviewed promotion of the feature. N/A. Feature is too minor to involve panel
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
   road map for a release.
 
 ---
