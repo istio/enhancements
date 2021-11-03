@@ -280,7 +280,7 @@ features:
     link: "/docs/setup/install/multicluster/"
     level:
       checklist: features/Multi-cluster support.md
-      maturity: Beta
+      maturity: Stable
       nextExpectedPromotion: ""
     area: Core
   - name: "External Control Plane"
