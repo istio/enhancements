@@ -251,6 +251,14 @@ features:
       maturity: Alpha
       nextExpectedPromotion: ""
     area: Security and policy enforcement
+  - name: "Authorization Dry Run"
+    id: "security.authorization_dry_run"
+    link: "/docs/tasks/security/authorization/authz-dry-run"
+    level:
+      checklist: features/dry_run_authorization_policy.md
+      maturity: Experimental
+      nextExpectedPromotion: "1.13"
+    area: Security and policy enforcement
   - name: "In-Cluster Operator"
     id: "core.in_cluster_operator"
     link: "/docs/setup/install/operator/"

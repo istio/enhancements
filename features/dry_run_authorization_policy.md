@@ -30,12 +30,13 @@ Allow customers to dry-run an authorization policy to test the effect using real
 
 [//]: # (Design docs for feature)
 
+https://docs.google.com/document/d/1xQdZsEgJ3Ld2qebfT3EJkg2COTtCR1TqBVojmnvI78g/edit#
 
 **Relevant Documentation:**
 
 [//]: # (Links to relevant documentation for feature)
 
-https://docs.google.com/document/d/1xQdZsEgJ3Ld2qebfT3EJkg2COTtCR1TqBVojmnvI78g/edit
+https://istio.io/latest/docs/tasks/security/authorization/authz-dry-run/
 
 **RFC:**
 
@@ -51,7 +52,7 @@ https://docs.google.com/document/d/1xQdZsEgJ3Ld2qebfT3EJkg2COTtCR1TqBVojmnvI78g/
 [//]: # (All information in this section is mandatory for promotion. Please modify the links in this)
 [//]: # (section.)
 
-- [ ] [User stories](https://github.com/istio/enhancements/issues/insert_your_link_here) reviewed in a work group meeting.
+- [x] [User stories](https://docs.google.com/document/d/1xQdZsEgJ3Ld2qebfT3EJkg2COTtCR1TqBVojmnvI78g/edit#heading=h.pizsw9vhd30a).
 
 [//]: # (User stories are a way to communicate user value. User stories follow the style)
 [//]: # (as a [type of user], I want [an action] so that [a benefit/a value]. Istio currently has no user)
@@ -61,26 +62,24 @@ https://docs.google.com/document/d/1xQdZsEgJ3Ld2qebfT3EJkg2COTtCR1TqBVojmnvI78g/
 [//]: # (into the RFCs, which do need approval for alpha. You may find value to negotiate within the work group where the)
 [//]: # (user stories are presented to help clarify the user stories.)
 
-- [ ] [RFC Authored] - [RFC](https://docs.google.com/document/d/1xQdZsEgJ3Ld2qebfT3EJkg2COTtCR1TqBVojmnvI78g/edit).
+- [x] [RFC Authored]: see the design doc.
 
 [//]: # (An RFC is mandatory to graduate to experimental. The RFC does not have to be reviewed in a work group)
 [//]: # (meeting to graduate to experimental.)
 
-- [ ] [Documentation](TBD, will update istio.io later) for enabling and using the feature.
+- [x] Documentation: https://istio.io/latest/docs/tasks/security/authorization/authz-dry-run/
 
 [//]: # (The documentation instructions may exist on the developer wiki or the team drive. They may include instructions)
 [//]: # (for building running a `istioctl experimental command`, or using the preview profile,)
 [//]: # (or any other relevant information.)
 
-- [ ] [Feedback plan](will collect feedback on github, discuss.istio.io and slack).
+- [x] Feedback plan: will collect feedback on github, discuss.istio.io and slack.
 
 [//]: # (This may include user feedback meetings, discuss.istio.io conversations, GitHub issues, or mailing lists.)
 
-- [ ] Disabled by default.
-(Requires specifying an annotation `istio.io/dry-run: true` on authorization policy to enable the feature)
+- [x] Disabled by default: Requires specifying an annotation `istio.io/dry-run: true` on authorization policy to enable the feature)
 
-- [ ] No impact on performance when the feature is disabled.
-(No changes to current code flow when disabled)
+- [x] No impact on performance when the feature is disabled: No changes to current code flow when disabled
 
 ---
 
