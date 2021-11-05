@@ -250,6 +250,7 @@ features:
       checklist: ""
       maturity: Alpha
       nextExpectedPromotion: ""
+    area: Security and policy enforcement
   - name: "Authorization Dry Run"
     id: "security.authorization_dry_run"
     link: "/docs/tasks/security/authorization/authz-dry-run"
