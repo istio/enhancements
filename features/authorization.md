@@ -140,7 +140,9 @@ Istio Authorization provides access control for workloads in the mesh at the nam
 
 **Docs** 
 
-- [ ] Documentation on istio.io includes performance expectations; may have caveats. 
+- [X] Documentation on istio.io includes performance expectations; may have caveats.
+  [Large Scale Security Policy Performance Tests](https://istio.io/latest/blog/2020/large-scale-security-policy-performance-tests/)
+  
 - [X] Documentation on istio.io includes samples/tutorials. 
 - [ ] Documentation on istio.io includes appropriate glossary entries. 
 - [X] All new documentation containing user actions includes istio.io tests.
