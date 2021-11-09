@@ -117,19 +117,19 @@ Resource Validation for Istio Configs
 
 **API**
 
-- [ ] Initial API review.
+- [x] Initial API review.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
 **Promotion**
 
 [//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
 
-- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
+- [x] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
 
 ---
 
@@ -167,7 +167,7 @@ Resource Validation for Istio Configs
 
 **API**
 
-- [ ] TOC has reviewed the API and determined it to be complete. 
+- [x] TOC has reviewed the API and determined it to be complete. 
 
 **Tooling**
 
@@ -175,13 +175,13 @@ Resource Validation for Istio Configs
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
+- [x] Feature has no known major issues.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The supportability review panel has reviewed promotion of the feature.  
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
 
@@ -189,7 +189,7 @@ Resource Validation for Istio Configs
 
 [//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
 
-- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
+- [x] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
 ---
 
 ## Stable
@@ -198,23 +198,25 @@ Resource Validation for Istio Configs
 
 **Performance**
 
-- [ ] Latency, throughput, and scalability are quantified and documented on
-	istio.io. 
+- [x] Latency, throughput, and scalability are quantified and documented on
+	istio.io.
+   Performance tests are done by Kuberenetes. Istio is not conducting performance tests for this.
 
 **Bugs**
 
-- [ ] Feature has no known major issues. 
+- [x] Feature has no known major issues. 
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The [supportability review panel](https://docs.google.com/document/d/1w0epyFhhDSf_TwFEfa_lrn1v61mXNJKpEp_kUgp4sSc/edit#) has reviewed the feature in order to find any supportability concerns.  
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
-	roadmap for a release.
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+We are leveraging much of Kubernetes capability for resource validation. The feature is GA in Kubernetes.
 
+- [ ] The [supportability review panel](https://docs.google.com/document/d/1w0epyFhhDSf_TwFEfa_lrn1v61mXNJKpEp_kUgp4sSc/edit#) has reviewed the feature in order to find any supportability concerns.  
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
+	roadmap for a release.
 
 **Promotion**
 
 [//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
 
-- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
+- [x] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
