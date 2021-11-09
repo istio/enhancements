@@ -250,7 +250,7 @@ features:
   - name: "Basic Configuration Resource Validation"
     level:
       checklist: features/config-resource-validation.md
-      maturity: Beta
+      maturity: Stable
       nextExpectedPromotion: ""
     area: Core
   - name: "Istio CNI Plugin"
