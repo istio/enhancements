@@ -325,7 +325,7 @@ features:
   - name: "IPv6 Support for Kubernetes"
     id: "core.ipv6"
     level:
-      checklist: ""
+      checklist: features/ipv6-support.md
       maturity: Alpha
       maturityNotes: Dual-stack IPv4 and IPv6 is not supported.
       nextExpectedPromotion: ""
