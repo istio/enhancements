@@ -96,7 +96,7 @@ Opt-in failure recovery and fault injection features that can be configured dyna
 
 **Design**
 
-- [ ] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
+- [x] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
 
 **Config**
 
@@ -106,31 +106,31 @@ Opt-in failure recovery and fault injection features that can be configured dyna
 
 **Docs**
 
-- [ ] Reference docs are published to preliminary.istio.io or the Istio wiki.
-- [ ] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
-- [ ] Release notes entries added as appropriate
-- [ ] Upgrade notes entries added as appropriate
+- [x] Reference docs are published to preliminary.istio.io or the Istio wiki.
+- [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
+- [x] Release notes entries added as appropriate
+- [x] Upgrade notes entries added as appropriate
 
 **Tests**
 
-- [ ] Automated integration tests cover core use cases with the feature enabled. 
-- [ ] When disabled, the feature does not affect system stability or performance. 
+- [x] Automated integration tests cover core use cases with the feature enabled. 
+- [x] When disabled, the feature does not affect system stability or performance. 
 
 **API**
 
-- [ ] Initial API review.
+- [x] Initial API review.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
 **Promotion**
 
 [//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
 
-- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
+- [x] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
 
 ---
 
@@ -140,49 +140,49 @@ Opt-in failure recovery and fault injection features that can be configured dyna
 
 **Design**
 
-- [ ] Design doc describing the intention of the feature, how it will be
+- [x] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
-- [ ] Feature coverage and test plans written and approved.
+- [x] Feature coverage and test plans written and approved.
 
 **Docs** 
 
-- [ ] Documentation on istio.io includes performance expectations; may have caveats. 
-- [ ] Documentation on istio.io includes samples/tutorials. 
-- [ ] Documentation on istio.io includes appropriate glossary entries. 
-- [ ] All new documentation containing user actions includes istio.io tests.
-- [ ] Release notes have been added. 
-- [ ] Upgrade notes have been added. 
+- [x] Documentation on istio.io includes performance expectations; may have caveats. 
+- [x] Documentation on istio.io includes samples/tutorials. 
+- [x] Documentation on istio.io includes appropriate glossary entries. 
+- [x] All new documentation containing user actions includes istio.io tests.
+- [x] Release notes have been added. 
+- [x] Upgrade notes have been added. 
 
 **Tests**
 
-- [ ] Integration tests cover feature edge cases
-- [ ] End-to-end tests cover samples/tutorials
-- [ ] Fixed issues have tests to prevent regressions
-- [ ] Stability/stress test suite includes coverage for the feature.
+- [x] Integration tests cover feature edge cases
+- [x] End-to-end tests cover samples/tutorials
+- [x] Fixed issues have tests to prevent regressions
+- [x] Stability/stress test suite includes coverage for the feature.
 
 **Performance**
 
-- [ ] Feature coverage and test plans written and approved 
-- [ ] Tests exist with the feature enabled that can be integrated with our automated performance testing.
+- [x] Feature coverage and test plans written and approved 
+- [x] Tests exist with the feature enabled that can be integrated with our automated performance testing.
 
 **API**
 
-- [ ] TOC has reviewed the API and determined it to be complete. 
+- [x] TOC has reviewed the API and determined it to be complete. 
 
 **Tooling**
 
-- [ ] Any necessary tooling to use/debug the feature has been implemented and is complete. 
+- [x] Any necessary tooling to use/debug the feature has been implemented and is complete. 
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
+- [x] Feature has no known major issues.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The supportability review panel has reviewed promotion of the feature.  
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
 
@@ -190,7 +190,7 @@ Opt-in failure recovery and fault injection features that can be configured dyna
 
 [//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
 
-- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
+- [x] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
 ---
 
 ## Stable
