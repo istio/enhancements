@@ -20,7 +20,7 @@ Pluggable Key/Cert Support for Istio CA
 
 **Primary lead(s):**
 
-Limin Wang
+Oliver Liu [myidpt]
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
