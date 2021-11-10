@@ -20,11 +20,13 @@ Certificate Management for Istio Ingress Gateway
 
 **Primary lead(s):**
 
-Limin Wang
+Limin Wang[@liminw], Oliver Liu[@myidpt] and Jimmy Chen[@JimmyCYJ]
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
 **Short description:**
+
+Allow users to manage external-facing certificates on Istio Ingress gateway.
 
 [//]: # (A short description of the feature. One or two sentences maximum.)
 
