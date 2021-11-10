@@ -118,15 +118,15 @@ Customize Envoy configurations using custom filters.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
 **Promotion**
 
 [//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
 
-- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
+- [x] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
 
 ---
 
@@ -200,14 +200,14 @@ Customize Envoy configurations using custom filters.
 
 **Bugs**
 
-- [x] Feature has no known major issues. 
+- [ ] Feature has no known major issues. 
 
 **Approvals**
 
-- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The [supportability review panel](https://docs.google.com/document/d/1w0epyFhhDSf_TwFEfa_lrn1v61mXNJKpEp_kUgp4sSc/edit#) has reviewed the feature in order to find any supportability concerns.  
 N/A
-- [x] The TOC has reviewed and approved promotion of the feature as part of the
+- [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
 
@@ -215,4 +215,4 @@ N/A
 
 [//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
 
-- [x] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
+- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
