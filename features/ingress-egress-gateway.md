@@ -14,7 +14,7 @@
 
 **Feature name:**
 
-Gateways: Ingress, Egress for all protocols
+Gateways: Ingress, Egress for gateways
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
@@ -30,7 +30,6 @@ Support Ingress and Egress traffic for all protocols
 
 
 **Design Docs:**
-[BTS for gateway](https://docs.google.com/document/d/1DxwqhNqxm1r3fSomyQgJWy103bv29B0ZTEvu_hZqQgc/edit?resourcekey=0-uPN2Gtx-BHvj-sAvN9SGKA#)
 [Egress 0.2](https://docs.google.com/document/d/10XjjfVcA-gFJ0WuYZQJ-snCdbB9a1FfJUywNZDTFl_k/edit#)
 [HTTP 3 support for Gateways](https://docs.google.com/document/d/1Yqx_tCpMlCRDyBqHTyAZfJhjYF9B2BYHyXkHE2xXCho/edit#heading=h.xw1gqgyqs5b)
 
