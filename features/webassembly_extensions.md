@@ -21,7 +21,7 @@ WebAssembly Extensions
 **Primary lead(s):**
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
-Mandar Jog [mjog]
+Mandar Jog [mjog],  Pengyuan Bian[bianpengyuan], Kuat Yessenov[kyessenov], Daniel Grimm[dgn]
 
 **Short description:**
 
@@ -80,17 +80,16 @@ extension mechanism in Istio.
  [WebAssembly Runtime Validation](https://docs.google.com/document/d/12WUe09imQf6gGgbOZN_vQOcKkd_nek3v7-aGHdNeeSU/edit#)
  [Istio WebAssembly Plugin SDK](https://docs.google.com/document/d/1_MUmeaUxuL1Ialr_Dvk7vYchDp4GFAtHrLBJnBzODcs/edit#heading=h.xw1gqgyqs5b)
  [Wasm Extensions API](https://docs.google.com/document/d/1JKg2V86WUftNs5uYCuQ-9X4-JVyF-jM5dpfDyodm5r0/edit#heading=h.xw1gqgyqs5b)
- [Istio Extensions Configuration API](https://docs.google.com/document/d/1jFuZM4UCKw6AMDmXMIYqbdlyJk95ut2zMPLSNdrUtW8/edit#heading=h.qex63c29z2to)
+ [Istio Extensions Configuration API](https://preliminary.istio.io/latest/docs/reference/config/proxy_extensions/wasm-plugin/)
 
 **Config**
 
 - [X] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
 [Istio Ecosystem Wasm Extensions](https://github.com/istio-ecosystem/wasm-extensions)
-> Link to instructions for enabling
 
 **Docs**
 
-- [ ] Reference docs are published to preliminary.istio.io or the Istio wiki.
+- [X] Reference docs are published to preliminary.istio.io or the Istio wiki.
 - [X] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats.
   [Extensibility Concepts] (https://istio.io/latest/docs/concepts/wasm/) 
 - [X] Release notes entries added as appropriate
