@@ -69,34 +69,34 @@ to enable high availability and fast response time for workloads.
 
 **Design**
 
-- [ ] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
+- [x] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
 
 **Config**
 
-- [ ] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
+- [x] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
 
 > Link to instructions for enabling
 
 **Docs**
 
-- [ ] Reference docs are published to preliminary.istio.io or the Istio wiki.
-- [ ] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
-- [ ] Release notes entries added as appropriate
-- [ ] Upgrade notes entries added as appropriate
+- [x] Reference docs are published to preliminary.istio.io or the Istio wiki.
+- [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
+- [x] Release notes entries added as appropriate
+- [x] Upgrade notes entries added as appropriate
 
 **Tests**
 
-- [ ] Automated integration tests cover core use cases with the feature enabled. 
-- [ ] When disabled, the feature does not affect system stability or performance. 
+- [x] Automated integration tests cover core use cases with the feature enabled. 
+- [x] When disabled, the feature does not affect system stability or performance. 
 
 **API**
 
-- [ ] Initial API review.
+- [x] Initial API review.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
 ---
@@ -110,7 +110,7 @@ to enable high availability and fast response time for workloads.
 - [X] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
-- [ ] Feature coverage and test plans written and approved.
+- [x] Feature coverage and test plans written and approved.
 
 **Docs** 
 
@@ -125,13 +125,13 @@ to enable high availability and fast response time for workloads.
 
 - [X] Integration tests cover feature edge cases
 - [X] End-to-end tests cover samples/tutorials
-- [ ] Fixed issues have tests to prevent regressions
-- [ ] Stability/stress test suite includes coverage for the feature.
+- [x] Fixed issues have tests to prevent regressions
+- [x] Stability/stress test suite includes coverage for the feature.
 
 **Performance**
 
-- [ ] Feature coverage and test plans written and approved 
-- [ ] Tests exist with the feature enabled that can be integrated with our automated performance testing.
+- [x] Feature coverage and test plans written and approved 
+- [x] Tests exist with the feature enabled that can be integrated with our automated performance testing.
 
 **API**
 
@@ -139,11 +139,11 @@ to enable high availability and fast response time for workloads.
 
 **Tooling**
 
-- [ ] Any necessary tooling to use/debug the feature has been implemented and is complete. 
+- [x] Any necessary tooling to use/debug the feature has been implemented and is complete. 
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
+- [x] Feature has no known major issues.
 
 **Approvals**
 
