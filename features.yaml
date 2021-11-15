@@ -279,7 +279,7 @@ features:
     id: "core.control_plane_installation"
     link: "/docs/setup/"
     level:
-      checklist: ""
+      checklist: features/control-plane-installation.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Core
