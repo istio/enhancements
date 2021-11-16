@@ -20,7 +20,7 @@ Pluggable Key/Cert Support for Istio CA
 
 **Primary lead(s):**
 
-Oliver Liu [myidpt]
+Oliver Liu [myidpt], Lei Tang [lei-tang]
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
@@ -96,41 +96,41 @@ Oliver Liu [myidpt]
 
 **Design**
 
-- [ ] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
+- [X] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
 
 **Config**
 
-- [ ] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
+- [X] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
 
-> Link to instructions for enabling
+[Plug in CA certificates](https://istio.io/latest/docs/tasks/security/cert-management/plugin-ca-cert/)
 
 **Docs**
 
-- [ ] Reference docs are published to preliminary.istio.io or the Istio wiki.
-- [ ] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
-- [ ] Release notes entries added as appropriate
-- [ ] Upgrade notes entries added as appropriate
+- [X] Reference docs are published to preliminary.istio.io or the Istio wiki.
+- [X] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
+- [X] Release notes entries added as appropriate
+- [X] Upgrade notes entries added as appropriate
 
 **Tests**
 
-- [ ] Automated integration tests cover core use cases with the feature enabled. 
-- [ ] When disabled, the feature does not affect system stability or performance. 
+- [X] Automated integration tests cover core use cases with the feature enabled. 
+- [X] When disabled, the feature does not affect system stability or performance. 
 
 **API**
 
-- [ ] Initial API review.
+- [X] Initial API review.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [X] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [X] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
 **Promotion**
 
 [//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
 
-- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
+- [X] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
 
 ---
 
@@ -140,49 +140,49 @@ Oliver Liu [myidpt]
 
 **Design**
 
-- [ ] Design doc describing the intention of the feature, how it will be
+- [X] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
-- [ ] Feature coverage and test plans written and approved.
+- [X] Feature coverage and test plans written and approved.
 
 **Docs** 
 
-- [ ] Documentation on istio.io includes performance expectations; may have caveats. 
-- [ ] Documentation on istio.io includes samples/tutorials. 
+- [X] Documentation on istio.io includes performance expectations; may have caveats. 
+- [X] Documentation on istio.io includes samples/tutorials. 
 - [ ] Documentation on istio.io includes appropriate glossary entries. 
-- [ ] All new documentation containing user actions includes istio.io tests.
-- [ ] Release notes have been added. 
-- [ ] Upgrade notes have been added. 
+- [X] All new documentation containing user actions includes istio.io tests.
+- [X] Release notes have been added. 
+- [X] Upgrade notes have been added. 
 
 **Tests**
 
-- [ ] Integration tests cover feature edge cases
-- [ ] End-to-end tests cover samples/tutorials
-- [ ] Fixed issues have tests to prevent regressions
+- [X] Integration tests cover feature edge cases
+- [X] End-to-end tests cover samples/tutorials
+- [X] Fixed issues have tests to prevent regressions
 - [ ] Stability/stress test suite includes coverage for the feature.
 
 **Performance**
 
-- [ ] Feature coverage and test plans written and approved 
+- [X] Feature coverage and test plans written and approved 
 - [ ] Tests exist with the feature enabled that can be integrated with our automated performance testing.
 
 **API**
 
-- [ ] TOC has reviewed the API and determined it to be complete. 
+- [X] TOC has reviewed the API and determined it to be complete. 
 
 **Tooling**
 
-- [ ] Any necessary tooling to use/debug the feature has been implemented and is complete. 
+- [X] Any necessary tooling to use/debug the feature has been implemented and is complete. 
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
+- [X] Feature has no known major issues.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [X] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The supportability review panel has reviewed promotion of the feature.  
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [X] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
 
@@ -190,7 +190,7 @@ Oliver Liu [myidpt]
 
 [//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
 
-- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
+- [X] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
 ---
 
 ## Stable
@@ -199,18 +199,18 @@ Oliver Liu [myidpt]
 
 **Performance**
 
-- [ ] Latency, throughput, and scalability are quantified and documented on
+- [X] Latency, throughput, and scalability are quantified and documented on
 	istio.io. 
 
 **Bugs**
 
-- [ ] Feature has no known major issues. 
+- [X] Feature has no known major issues. 
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [X] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The [supportability review panel](https://docs.google.com/document/d/1w0epyFhhDSf_TwFEfa_lrn1v61mXNJKpEp_kUgp4sSc/edit#) has reviewed the feature in order to find any supportability concerns.  
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [X] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
 
@@ -218,4 +218,4 @@ Oliver Liu [myidpt]
 
 [//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
 
-- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
+- [X] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
