@@ -89,35 +89,34 @@ https://istio.io/latest/docs/tasks/security/authorization/authz-dry-run/
 
 **Design**
 
-- [ ] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
+- [x] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. (https://docs.google.com/document/d/1xQdZsEgJ3Ld2qebfT3EJkg2COTtCR1TqBVojmnvI78g/edit#heading=h.gsm165li51ho)
 
 **Config**
 
-- [ ] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
+- [x] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action): Enabled by adding annotation on authorization policy resource.
 
 > Link to instructions for enabling
 
 **Docs**
 
-- [ ] Reference docs are published to preliminary.istio.io or the Istio wiki.
-- [ ] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
-- [ ] Release notes entries added as appropriate
-- [ ] Upgrade notes entries added as appropriate
+- [ ] Reference docs are published to preliminary.istio.io or the Istio wiki. (pending approval of the PR: https://github.com/istio/api/pull/2179)
+- [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. (https://istio.io/latest/docs/tasks/security/authorization/authz-dry-run/)
+- [ ] Release notes entries added as appropriate (pending approval of this PR for alpha graduation)
+- [x] Upgrade notes entries added as appropriate (No user changes needed for upgrade)
 
 **Tests**
 
-- [ ] Automated integration tests cover core use cases with the feature enabled. 
-- [ ] When disabled, the feature does not affect system stability or performance. 
+- [x] Automated integration tests cover core use cases with the feature enabled. (E2E tests for both HTTP and TCP traffic added: https://github.com/istio/istio/blob/master/tests/integration/telemetry/stackdriver/stackdriver_filter_dry_run_test.go)
+- [x] When disabled, the feature does not affect system stability or performance. (When disabled, the RBAC filter will not be added.)
 
 **API**
 
-- [ ] Initial API review.
+- [x] Initial API review: No API changes for alpha graduation.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
-	roadmap for a release.
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature. (graduation plan approved: https://docs.google.com/document/d/1toiHxec3r0dhoMji2ot2k9RV9Q8W7FcX48Fh6kEdSNc/edit#)
+- [ ] The TOC has reviewed and approved promotion of the feature as part of the roadmap for a release.
 
 ---
 
