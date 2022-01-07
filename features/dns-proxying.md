@@ -138,25 +138,25 @@ Proxy DNS requests to improve the performance and usability of the mesh.
 
 **Design**
 
-- [ ] Design doc describing the intention of the feature, how it will be
+- [X] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
-- [ ] Feature coverage and test plans written and approved.
+- [X] Feature coverage and test plans written and approved.
 
 **Docs** 
 
 - [ ] Documentation on istio.io includes performance expectations; may have caveats. 
-- [ ] Documentation on istio.io includes samples/tutorials. 
-- [ ] Documentation on istio.io includes appropriate glossary entries. 
-- [ ] All new documentation containing user actions includes istio.io tests.
-- [ ] Release notes have been added. 
-- [ ] Upgrade notes have been added. 
+- [X] Documentation on istio.io includes samples/tutorials.
+- [X] Documentation on istio.io includes appropriate glossary entries.
+- [X] All new documentation containing user actions includes istio.io tests.
+- [X] Release notes have been added.
+- [X] Upgrade notes have been added.
 
 **Tests**
 
-- [ ] Integration tests cover feature edge cases
-- [ ] End-to-end tests cover samples/tutorials
-- [ ] Fixed issues have tests to prevent regressions
+- [X] Integration tests cover feature edge cases
+- [X] End-to-end tests cover samples/tutorials
+- [X] Fixed issues have tests to prevent regressions
 - [ ] Stability/stress test suite includes coverage for the feature.
 
 **Performance**
@@ -174,11 +174,11 @@ Proxy DNS requests to improve the performance and usability of the mesh.
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
+- [X] Feature has no known major issues.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [X] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The supportability review panel has reviewed promotion of the feature.  
 - [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
@@ -188,7 +188,7 @@ Proxy DNS requests to improve the performance and usability of the mesh.
 
 [//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
 
-- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
+- [X] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
 ---
 
 ## Stable
