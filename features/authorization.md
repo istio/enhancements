@@ -22,7 +22,8 @@ Istio Authorization Policy
 
 **Primary lead(s):**
 
-Yangmin Zhu (ymzhu@google.com)
+Marco Li (liwenhao@google.com), Aryan Gupta (garyan@google.com)
+
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
 **Short description:**
@@ -190,16 +191,23 @@ Istio Authorization provides access control for workloads in the mesh at the nam
 
 - [ ] Latency, throughput, and scalability are quantified and documented on
 	istio.io. 
+- [X] Stability and Performance tests to test the policies addition and deletion in bulk.
+
+**Tests**
+
+- [X] Test all the possible fields from CRD to imporve the test coverage.
+= [X] Test the performance and stabiltity of control plane while applying and deleting the policies in bulk.
+- [X] Fix issues in multicluster scenarios.
 
 **Bugs**
 
-- [ ] Feature has no known major issues. 
+- [X] Feature has no known major issues. 
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The supportability review panel has reviewed promotion of the feature.  
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [X] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [X] The supportability review panel has reviewed promotion of the feature.  
+- [X] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
 
