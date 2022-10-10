@@ -163,6 +163,7 @@ N/A. Design doc presented instead.
 
 - [x] Documentation on istio.io includes performance expectations; may have caveats. 
 - [x] Documentation on istio.io includes samples/tutorials. 
+> Example task is [here](https://istio.io/latest/docs/tasks/security/authorization/authz-custom/).
 - [x] Documentation on istio.io includes appropriate glossary entries. 
 - [x] All new documentation containing user actions includes istio.io tests.
 - [x] Release notes have been added. [Here](https://istio.io/latest/news/releases/1.9.x/announcing-1.9/#integration-with-external-authorization-systems-experimental) and [Here](https://istio.io/latest/news/releases/1.9.x/announcing-1.9/change-notes/).
