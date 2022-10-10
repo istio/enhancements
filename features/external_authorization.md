@@ -165,7 +165,7 @@ N/A. Design doc presented instead.
 - [x] Documentation on istio.io includes samples/tutorials. 
 - [x] Documentation on istio.io includes appropriate glossary entries. 
 - [x] All new documentation containing user actions includes istio.io tests.
-- [ ] Release notes have been added. 
+- [x] Release notes have been added. [Here](https://istio.io/latest/news/releases/1.9.x/announcing-1.9/#integration-with-external-authorization-systems-experimental) and [Here](https://istio.io/latest/news/releases/1.9.x/announcing-1.9/change-notes/).
 - [x] Upgrade notes have been added. 
 
 **Tests**
