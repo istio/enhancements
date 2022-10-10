@@ -196,7 +196,7 @@ N/A. Design doc presented instead.
 
 - [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [x] The supportability review panel has reviewed promotion of the feature.  
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
 ---
