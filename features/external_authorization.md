@@ -157,6 +157,7 @@ N/A. Design doc presented instead.
 - [x] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
+> Design doc: https://docs.google.com/document/d/1V4mCQCw7mlGp0zSQQXYoBdbKMDnkPOjeyUb85U07iSI/edit
 - [x] Feature coverage and test plans written and approved.
 
 **Docs** 
