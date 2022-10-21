@@ -104,7 +104,7 @@ YES: User needs to create the `service-apis` CRDs and resources explicitly: prel
 
 https://preliminary.istio.io/latest/docs/tasks/traffic-management/ingress/service-apis/
 
-- [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
+- [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats.
 
 https://preliminary.istio.io/latest/docs/tasks/traffic-management/ingress/service-apis/
 
@@ -141,25 +141,34 @@ N/A: API is not owned by Istio. But its been extensively reviewed in the Kuberne
 
 **Design**
 
-- [ ] Design doc describing the intention of the feature, how it will be
+- [x] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
-- [ ] Feature coverage and test plans written and approved.
+
+	API design is by Kubernetes, we are only an implementation. The implementation has been reviewed and approved.
+
+- [x] Feature coverage and test plans written and approved.
+
+	Most testing is handled by the upstream conformance tests. Special tests for Istio specific features exist as end to end tests.
+	Additionally, docs tests cover core user tasks.
 
 **Docs** 
 
-- [ ] Documentation on istio.io includes performance expectations; may have caveats. 
-- [ ] Documentation on istio.io includes samples/tutorials. 
-- [ ] Documentation on istio.io includes appropriate glossary entries. 
-- [ ] All new documentation containing user actions includes istio.io tests.
-- [ ] Release notes have been added. 
-- [ ] Upgrade notes have been added. 
+- [x] Documentation on istio.io includes performance expectations; may have caveats.
+
+	No performance expectations; this is just a frontend API.
+
+- [x] Documentation on istio.io includes samples/tutorials.
+- [x] Documentation on istio.io includes appropriate glossary entries.
+- [x] All new documentation containing user actions includes istio.io tests.
+- [x] Release notes have been added.
+- [x] Upgrade notes have been added.
 
 **Tests**
 
-- [ ] Integration tests cover feature edge cases
-- [ ] End-to-end tests cover samples/tutorials
-- [ ] Fixed issues have tests to prevent regressions
+- [x] Integration tests cover feature edge cases
+- [x] End-to-end tests cover samples/tutorials
+- [x] Fixed issues have tests to prevent regressions
 - [ ] Stability/stress test suite includes coverage for the feature.
 
 **Performance**
@@ -169,15 +178,19 @@ N/A: API is not owned by Istio. But its been extensively reviewed in the Kuberne
 
 **API**
 
-- [ ] TOC has reviewed the API and determined it to be complete. 
+- [x] TOC has reviewed the API and determined it to be complete.
+
+	N/A - API is from Kubernetes
 
 **Tooling**
 
-- [ ] Any necessary tooling to use/debug the feature has been implemented and is complete. 
+- [X] Any necessary tooling to use/debug the feature has been implemented and is complete.
+
+	N/A - tooling is provided by Kubernetes
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
+- [X] Feature has no known major issues.
 
 **Approvals**
 
