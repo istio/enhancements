@@ -154,31 +154,33 @@ N/A. Design doc presented instead.
 
 **Design**
 
-- [ ] Design doc describing the intention of the feature, how it will be
+- [x] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
-- [ ] Feature coverage and test plans written and approved.
+> Design doc: https://docs.google.com/document/d/1V4mCQCw7mlGp0zSQQXYoBdbKMDnkPOjeyUb85U07iSI/edit
+- [x] Feature coverage and test plans written and approved.
 
 **Docs** 
 
-- [ ] Documentation on istio.io includes performance expectations; may have caveats. 
-- [ ] Documentation on istio.io includes samples/tutorials. 
-- [ ] Documentation on istio.io includes appropriate glossary entries. 
-- [ ] All new documentation containing user actions includes istio.io tests.
-- [ ] Release notes have been added. 
-- [ ] Upgrade notes have been added. 
+- [x] Documentation on istio.io includes performance expectations; may have caveats. 
+- [x] Documentation on istio.io includes samples/tutorials. 
+> Example task is [here](https://istio.io/latest/docs/tasks/security/authorization/authz-custom/).
+- [x] Documentation on istio.io includes appropriate glossary entries. 
+- [x] All new documentation containing user actions includes istio.io tests.
+- [x] Release notes have been added. [Here](https://istio.io/latest/news/releases/1.9.x/announcing-1.9/#integration-with-external-authorization-systems-experimental) and [Here](https://istio.io/latest/news/releases/1.9.x/announcing-1.9/change-notes/).
+- [x] Upgrade notes have been added. 
 
 **Tests**
 
-- [ ] Integration tests cover feature edge cases
-- [ ] End-to-end tests cover samples/tutorials
-- [ ] Fixed issues have tests to prevent regressions
-- [ ] Stability/stress test suite includes coverage for the feature.
+- [x] Integration tests cover feature edge cases
+- [x] End-to-end tests cover samples/tutorials
+- [x] Fixed issues have tests to prevent regressions
+- [x] Stability/stress test suite includes coverage for the feature.
 
 **Performance**
 
-- [ ] Feature coverage and test plans written and approved 
-- [ ] Tests exist with the feature enabled that can be integrated with our automated performance testing.
+- [x] Feature coverage and test plans written and approved 
+- [x] Tests exist with the feature enabled that can be integrated with our automated performance testing.
 
 **API**
 
@@ -186,17 +188,17 @@ N/A. Design doc presented instead.
 
 **Tooling**
 
-- [ ] Any necessary tooling to use/debug the feature has been implemented and is complete. 
+- [x] Any necessary tooling to use/debug the feature has been implemented and is complete. 
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
+- [x] Feature has no known major issues.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The supportability review panel has reviewed promotion of the feature.  
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The supportability review panel has reviewed promotion of the feature.  
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
 ---
