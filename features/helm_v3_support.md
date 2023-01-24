@@ -125,28 +125,33 @@ Helm install/upgrade commands are well known APIs. Configuring options via Helm 
 - [x] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
-- [ ] Feature coverage and test plans written and approved.
+- [x] Feature coverage and test plans written and approved.
 
 **Docs** 
 
 - [x] Documentation on istio.io includes performance expectations; may have caveats. 
 - [x] Documentation on istio.io includes samples/tutorials. 
+[Helm Documentation](https://preliminary.istio.io/latest/docs/setup/install/helm/) has been enhanced to include more usecases.
 - [x] Documentation on istio.io includes appropriate glossary entries. 
-- [ ] All new documentation containing user actions includes istio.io tests.
+- [x] All new documentation containing user actions includes istio.io tests.
+[Helm Documentation](https://preliminary.istio.io/latest/docs/setup/install/helm/) has tests enabled
 - [x] Release notes have been added. 
 - [x] Upgrade notes have been added. 
 
 **Tests**
 
-- [ ] Integration tests cover feature edge cases
+- [x] Integration tests cover feature edge cases
 - [x] End-to-end tests cover samples/tutorials
-- [ ] Fixed issues have tests to prevent regressions
+[Helm integration tests](https://github.com/istio/istio/tree/master/tests/integration/helm) have been simplified to make upgrade tests easier.
+- [x] Fixed issues have tests to prevent regressions
 - [ ] Stability/stress test suite includes coverage for the feature.
+N/A
 
 **Performance**
 
 - [ ] Feature coverage and test plans written and approved 
-- [ ] Tests exist with the feature enabled that can be integrated with our automated performance testing.
+N/A
+- [x] Tests exist with the feature enabled that can be integrated with our automated performance testing.
 
 **API**
 
@@ -155,10 +160,12 @@ Helm install/upgrade commands are well known APIs. Configuring options via Helm 
 **Tooling**
 
 - [x] Any necessary tooling to use/debug the feature has been implemented and is complete. 
+[Helm linting](https://github.com/istio/installer/pull/426) has been enabled.
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
+- [x] Feature has no known major issues.
+Majors issues and enhancements were tracked [here](https://github.com/istio/istio/issues/42565) and is now complete.
 
 **Approvals**
 
