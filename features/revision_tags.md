@@ -18,7 +18,7 @@
 
 **Short description:** Allows use of revisions with stable namespace labels.
 
-**Design Docs:**  [Initial design](https://docs.google.com/document/d/13IGuJg8swtLdNGW5cpF7ZdVkgge8voNp9DWBD93Wb1Q/edit#heading=h.xw1gqgyqs5b), [Default revision](https://www.google.com/url?sa=t&rct=j&esrc=s&source=appssearch&uact=8&cd=0&cad=rja&q&sig2=5UHj_mlYAbdKKUosJknKZA&ved=0ahUKEwjqq--y-eXxAhUWSWMKHYXzCfY4ABABKAAwAA&url=https://drive.google.com/a/google.com/open?id%3D1P1mNlrJOs-KHVqcKTrFLrvCUiLgyZ-Vlf7ezaZNvD6g%26usp%3Dchrome_omnibox&usg=AOvVaw2PlRZqUGQZejF0NW6RVYB8)
+**Design Docs:**  [Initial design](https://docs.google.com/document/d/13IGuJg8swtLdNGW5cpF7ZdVkgge8voNp9DWBD93Wb1Q/edit#heading=h.xw1gqgyqs5b), [Default revision](https://docs.google.com/document/d/1k5phTcgJBis4cvPzJAZ5WtHlhWsTmkshMGZ5gca4DVs/edit?resourcekey=0-4Rb5MUYcHJ4rqKMgxc82MQ#heading=h.xw1gqgyqs5b)
 
 **Relevant Documentation:** [Upgrade documentation](https://istio.io/latest/docs/setup/upgrade/canary/#stable-revision-labels-experimental), [Blog post](https://istio.io/latest/blog/2021/revision-tags/) 
 
@@ -35,7 +35,7 @@
 
 - [x] [RFC Authored](https://docs.google.com/document/d/13IGuJg8swtLdNGW5cpF7ZdVkgge8voNp9DWBD93Wb1Q/edit#heading=h.xw1gqgyqs5b)
 
-- [x] [Documentation](https://istio.io/latest/docs/setup/upgrade/canary/#stable-revision-labels-experimental) for enabling and using the feature.
+- [x] [Documentation](https://istio.io/latest/docs/setup/upgrade/canary/#stable-revision-labels) for enabling and using the feature.
 
 - [ ] [Feedback plan]().
 
@@ -66,17 +66,18 @@
 
 **Tests**
 
-- [x] Automated integration tests cover core use cases with the feature enabled [https://github.com/istio/istio/blob/master/tests/integration/pilot/revisions/revision_tag_test.go](https://github.com/istio/istio/blob/master/tests/integration/pilot/revisions/revision_tag_test.go).
+- [x] Automated integration tests cover core use cases with the feature enabled [Revision Tag Tests](https://github.com/istio/istio/blob/master/tests/integration/pilot/revisions/revision_tag_test.go).
 - [x] When disabled, the feature does not affect system stability or performance.
 
 **API**
 
-- [ ] Initial API review.
+- [x] Initial API review.
+
 
 **Approvals**
 
 - [x] The appropriate work group(s) have reviewed and approved promotion of the feature (Environments and UX)
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
   roadmap for a release.
 
 ---
@@ -97,25 +98,26 @@
 - [x] Documentation on istio.io includes performance expectations; may have caveats.
 - [x] Documentation on istio.io includes samples/tutorials.
 - [x] Documentation on istio.io includes appropriate glossary entries.
-- [ ] All new documentation containing user actions includes istio.io tests.
+- [x] All new documentation containing user actions includes istio.io tests.
 - [x] Release notes have been added.
 - [x] Upgrade notes have been added.
 
 **Tests**
 
-- [ ] Integration tests cover feature edge cases
+- [x] Integration tests cover feature edge cases
 - [x] End-to-end tests cover samples/tutorials
+  [Tests](https://github.com/istio/istio/tree/master/tests/integration/pilot/revisions) enhanced to cover more usecases
 - [x] Fixed issues have tests to prevent regressions
 - [ ] Stability/stress test suite includes coverage for the feature (N/A).
 
 **Performance**
 
-- [ ] Feature coverage and test plans written and approved (N/A)
-- [ ] Tests exist with the feature enabled that can be integrated with our automated performance testing (N/A).
+- [x] Feature coverage and test plans written and approved (N/A)
+- [x] Tests exist with the feature enabled that can be integrated with our automated performance testing (N/A).
 
 **API**
 
-- [ ] TOC has reviewed the API and determined it to be complete.
+- [x] TOC has reviewed the API and determined it to be complete.
 
 **Tooling**
 
@@ -127,9 +129,9 @@
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The supportability review panel has reviewed promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
   road map for a release.
 
 ---
