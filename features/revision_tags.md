@@ -20,7 +20,7 @@
 
 **Design Docs:**  [Initial design](https://docs.google.com/document/d/13IGuJg8swtLdNGW5cpF7ZdVkgge8voNp9DWBD93Wb1Q/edit#heading=h.xw1gqgyqs5b), [Default revision](https://docs.google.com/document/d/1k5phTcgJBis4cvPzJAZ5WtHlhWsTmkshMGZ5gca4DVs/edit?resourcekey=0-4Rb5MUYcHJ4rqKMgxc82MQ#heading=h.xw1gqgyqs5b)
 
-**Relevant Documentation:** [Upgrade documentation](https://istio.io/latest/docs/setup/upgrade/canary/#stable-revision-labels-experimental), [Blog post](https://istio.io/latest/blog/2021/revision-tags/) 
+**Relevant Documentation:** [Upgrade documentation](https://istio.io/latest/docs/setup/upgrade/canary/#stable-revision-labels), [Blog post](https://istio.io/latest/blog/2021/revision-tags/) 
 
 ---
 
