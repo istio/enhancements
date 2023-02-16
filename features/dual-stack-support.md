@@ -107,7 +107,7 @@ N/A
 
 **Config**
 
-- [x] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
+- [x] Explicit user action is required to enable this feature (Please refer to the `Installation` section in [Supporting Dual Stack](https://docs.google.com/document/d/15LP2XHpQ71ODkjCVItGacPgzcn19fsVhyE7ruMGXDyU/edit?usp=sharing) ). 
 
 > Link to instructions for enabling
 
