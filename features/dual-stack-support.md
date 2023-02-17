@@ -14,7 +14,7 @@
 
 **Feature name:**
 
-Dual Stack support for Kubernetes
+Dual stack support in Istio
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
@@ -83,6 +83,15 @@ Add support for Dual Stack network model in Istio. With this, besides both IPv6 
 [//]: # (or any other relevant information.)
 
 - [x] [Feedback plan](insert_your_link_here). N/A, we already have feedback from users that this is desired and useful.
+  There are some discussion on Dual Stack support as below issues:
+  
+  1. https://github.com/istio/istio/issues/24099
+  1. https://github.com/istio/istio/issues/32747
+  1. https://github.com/istio/istio/issues/34577
+  1. https://github.com/istio/istio/issues/35310
+  1. https://github.com/istio/istio/issues/35315
+  1. https://github.com/istio/istio/issues/40394
+  1. https://github.com/istio/istio/issues/41462
 
 [//]: # (This may include user feedback meetings, discuss.istio.io conversations, GitHub issues, or mailing lists.)
 
@@ -120,7 +129,7 @@ N/A
 
 **Tests**
 
-- [x] Automated integration tests cover core use cases with the feature enabled. 
+- [x] Automated integration tests cover core use cases with the feature enabled. (The integration tests cover below use case: 1. Deployed Dual Stack k8s cluster, single stack Istio and Dual Stack services. 2. Based on item 1 to test the connectivity and accessibility, the same functionality verification as IPv6 support. More integration tests should need TODO.)
 - [X] When disabled, the feature does not affect system stability or performance. 
 
 **API**
