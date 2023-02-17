@@ -179,7 +179,7 @@ YES - only a minor API in ProxyConfig which was approved.
 
 - [x] Any necessary tooling to use/debug the feature has been implemented and is complete. 
 
-YES - we essentially depend on Kubernetes Ephemeral Containers and document how to sue it
+YES - we essentially depend on Kubernetes Ephemeral Containers and document how to use it.
 
 **Bugs**
 
