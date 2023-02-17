@@ -20,7 +20,7 @@
 
 [//]: # (The primary lead or leads responsible for the feature. These individuals serve as a point of contact for the feature.)
 
-**Short description:**
+**Short description:** support for minimal distroless base images.
 
 [//]: # (A short description of the feature. One or two sentences maximum.)
 
@@ -46,41 +46,7 @@ https://istio.io/latest/docs/ops/configuration/security/harden-docker-images/
 
 ## Experimental
 
-### Requirements:
-
-[//]: # (All information in this section is mandatory for promotion. Please modify the links in this)
-[//]: # (section.)
-
-- [ ] [User stories](insert_your_link_here) reviewed in a work group meeting.
-
-[//]: # (User stories are a way to communicate user value. User stories follow the style)
-[//]: # (as a [type of user], I want [an action] so that [a benefit/a value]. Istio currently has no user)
-[//]: # (story template. Maybe you can make one?)
-
-[//]: # (User stories must be presented in a work group meeting. They need no approval and are later integrated)
-[//]: # (into the RFCs, which do need approval for alpha. You may find value to negotiate within the work group where the)
-[//]: # (user stories are presented to help clarify the user stories.)
-
-- [ ] [RFC Authored] - [create an RFC using template](https://docs.google.com/document/d/1ewJoCcw5-04crH-M0xw4zFxz1cfwVCPnNyW4K3m4Yyc/template/preview).
-
-[//]: # (An RFC is mandatory to graduate to experimental. The RFC does not have to be reviewed in a work group)
-[//]: # (meeting to graduate to experimental.)
-
-- [ ] [Documentation](insert_your_link_here) for enabling and using the feature.
-
-[//]: # (The documentation instructions may exist on the developer wiki or the team drive. They may include instructions)
-[//]: # (for building running a `istioctl experimental command`, or using the preview profile,)
-[//]: # (or any other relevant information.)
-
-- [ ] [Feedback plan](insert_your_link_here).
-
-[//]: # (This may include user feedback meetings, discuss.istio.io conversations, GitHub issues, or mailing lists.)
-
-- [ ] Disabled by default.
-
-- [ ] No impact on performance when the feature is disabled.
-
----
+Experimental steps were skipped as this features was around before enhancements.
 
 ## Alpha
 
@@ -90,33 +56,49 @@ https://istio.io/latest/docs/ops/configuration/security/harden-docker-images/
 
 - [ ] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
 
+No design doc has been written
+
 **Config**
 
-- [ ] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
+- [x] Explicit user action is required to enable this feature (e.g. a config field, config resource, or installation action). 
 
-> Link to instructions for enabling
+https://istio.io/latest/docs/ops/configuration/security/harden-docker-images/
 
 **Docs**
 
-- [ ] Reference docs are published to preliminary.istio.io or the Istio wiki.
-- [ ] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
-- [ ] Release notes entries added as appropriate
-- [ ] Upgrade notes entries added as appropriate
+All docs are found in https://istio.io/latest/docs/ops/configuration/security/harden-docker-images/
+
+- [x] Reference docs are published to preliminary.istio.io or the Istio wiki.
+- [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
+- [x] Release notes entries added as appropriate
+- [x] Upgrade notes entries added as appropriate
 
 **Tests**
 
-- [ ] Automated integration tests cover core use cases with the feature enabled. 
-- [ ] When disabled, the feature does not affect system stability or performance. 
+
+- [x] Automated integration tests cover core use cases with the feature enabled. 
+
+A CI/CD job runs with distroless images enabled on every PR.
+
+- [X] When disabled, the feature does not affect system stability or performance. 
+
+Feature is clearly on or off, cannot impact anything when not used.
 
 **API**
 
-- [ ] Initial API review.
+- [x] Initial API review.
+
+API has been approved in ProxyConfig
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+Feature was approved 
+
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
+
+Feature was approved in 2019 before TOC approval was required.
 
 ---
 
@@ -126,14 +108,15 @@ https://istio.io/latest/docs/ops/configuration/security/harden-docker-images/
 
 **Design**
 
-- [ ] Design doc describing the intention of the feature, how it will be
+- [x] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
 
-implemented, and any thoughts on how to test the feature has been approved by
-relevant work group leads
+This has been implemented and tested since 2019 (4 years!).
 
-- [ ] Feature coverage and test plans written and approved.
+- [x] Feature coverage and test plans written and approved.
+
+This pre-dates this part of the process, but the feature is tested.
 
 **Docs** 
 
@@ -143,7 +126,7 @@ YES - documentation lists it may have faster startup.
 
 - [x] Documentation on istio.io includes samples/tutorials. 
 
-N/A - I don't think we need samples here. We just need install steps, which we have
+N/A - I don't think we need samples here. We just need install steps, which we have.
 
 - [x] Documentation on istio.io includes appropriate glossary entries. 
 
@@ -151,29 +134,30 @@ N/A - we don't introduce any vocabulary here. Users may not understand "distrole
 
 - [x] All new documentation containing user actions includes istio.io tests.
 
-YES/NA - no user actions other than a single `--set tag=1.9.0-distroless`
+YES/NA - no user actions other than a single `--set values.global.variant=distroless`.
 
 - [x] Release notes have been added. 
 
-YES - when the feature was merged long ago
+YES - when the feature was merged long ago. Once promoted we will note the promotion in the release notes.
 
 - [x] Upgrade notes have been added. 
 
-YES - none needed
+YES - none needed.
 
 **Tests**
 
-- [ ] Integration tests cover feature edge cases
+- [x] Integration tests cover feature edge cases
 
-NO - we only cover basic integration test. We may have gaps in things that depend on internal tools, like istioctl. Probably not, but its not tested.
+YES - The full Istio integration test suite is ran on each PR.
 
 - [x] End-to-end tests cover samples/tutorials
 
-YES - e2e tests cover the full install
+YES - The full Istio integration test suite is ran on each PR. The only sample/tutorial is the install.
 
 - [x] Fixed issues have tests to prevent regressions
-- [ ] Stability/stress test suite includes coverage for the feature.
-NO. Its highly likely overkill to run 2x suite every time when this is extremely unlikely to have any impact. We can likely run it one-off?
+- [x] Stability/stress test suite includes coverage for the feature.
+
+N/A. Its overkill to run 2x suite every time when this is extremely unlikely to have any impact.
 
 **Performance**
 
@@ -183,29 +167,31 @@ N/A
 
 - [x] Tests exist with the feature enabled that can be integrated with our automated performance testing.
 
+YES - The full Istio integration test suite is ran on each PR.
+
 **API**
 
-- [ ] TOC has reviewed the API and determined it to be complete. 
+- [x] TOC has reviewed the API and determined it to be complete. 
 
-Like NA, as there is no API, unless we consider the docker tag name an API. Will leave to TOC to decide.
+YES - only a minor API in ProxyConfig which was approved.
 
 **Tooling**
 
-- [ ] Any necessary tooling to use/debug the feature has been implemented and is complete. 
+- [x] Any necessary tooling to use/debug the feature has been implemented and is complete. 
 
-NO - we essentially depend on Kubernetes Ephemeral Containers to be in widespread use in order to facilitate debugging of the proxy or control plane once distroless images are in use. This is apparently beta in Kubernetes 1.21.
+YES - we essentially depend on Kubernetes Ephemeral Containers and document how to sue it
 
 **Bugs**
 
 - [ ] Feature has no known major issues.
 
-No: https://github.com/istio/istio/issues?q=is%3Aissue+distroless+is%3Aopen+sort%3Aupdated-desc
+No: https://github.com/istio/istio/issues/37235. bug-report does not fully support this mode.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The supportability review panel has reviewed promotion of the feature.  
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
 ---
