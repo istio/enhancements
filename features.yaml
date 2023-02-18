@@ -395,7 +395,7 @@ features:
       maturity: Experimental
       nextExpectedPromotion: "1.13"
   - name: "Dual Stack Support in Istio"
-    id: "core.ipv6"
+    id: "core.dual_stack"
     level:
       checklist: features/dual-stack-support.md
       maturity: Experimental 
