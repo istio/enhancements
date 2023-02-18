@@ -343,7 +343,7 @@ features:
     level:
       checklist: features/ipv6-support.md
       maturity: Alpha
-      maturityNotes: Dual-stack IPv4 and IPv6 is not supported.
+      maturityNotes: Dual Stack IPv4 and IPv6 is not supported.
       nextExpectedPromotion: ""
     area: Core
   - name: "Distroless Base Images for Istio"
@@ -398,7 +398,7 @@ features:
     id: "core.ipv6"
     level:
       checklist: features/dual-stack-support.md
-      maturity: Alpha
-      maturityNotes: Dual-stack IPv4 and IPv6 is supported.
+      maturity: Experimental 
+      maturityNotes: Dual Stack IPv4 and IPv6 is supported.
       nextExpectedPromotion: ""
     area: Core
