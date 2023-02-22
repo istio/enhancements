@@ -14,7 +14,7 @@
 
 **Feature name:**
 
-Dual stack support in Istio
+Dual Stack support in Istio
 
 [//]: # (The name of the feature, e.g. Multiple control planes)
 
@@ -27,7 +27,7 @@ Steve Zhang (huailong.zhang@intel.com), Jacob Delgado (j.delgado@f5.com)
 
 **Short description:**
 
-Add support for Dual Stack network model in Istio. With this, besides both IPv6 and IPv4 network model, Istio now supports dual-stack at the moment.
+Add support for Dual Stack network model in Istio. With this, besides IPv4 only and IPv6 only network model, Istio now supports dual-stack at the moment.
 
 [//]: # (A short description of the feature. One or two sentences maximum.)
 
@@ -140,14 +140,14 @@ N/A
 **Approvals**
 
 - [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [x] The TOC has reviewed and approved promotion of the feature as part of the
+- [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
 **Promotion**
 
 [//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
 
-- [x] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
+- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
 
 ---
 
