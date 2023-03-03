@@ -276,7 +276,7 @@ features:
       maturity: Experimental
       nextExpectedPromotion: ""
     area: Security and policy enforcement
-  - name: "Istio Operator"
+  - name: "In-Cluster Operator"
     id: "core.in_cluster_operator"
     link: "/docs/setup/install/operator/"
     level:
