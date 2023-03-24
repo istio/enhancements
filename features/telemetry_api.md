@@ -114,13 +114,13 @@ The Telemetry API enables control of the telemetry production within a mesh.
 **Docs**
 
 - [X] Reference docs are published to preliminary.istio.io or the Istio wiki.
-- [ ] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats.
+- [X] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats.
 - [X] Release notes entries added as appropriate
-- [ ] Upgrade notes entries added as appropriate
+- [X] Upgrade notes entries added as appropriate
 
 **Tests**
 
-- [ ] Automated integration tests cover core use cases with the feature enabled.
+- [X] Automated integration tests cover core use cases with the feature enabled.
 - [X] When disabled, the feature does not affect system stability or performance.
 
 **API**
