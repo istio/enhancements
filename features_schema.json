@@ -9,7 +9,7 @@
             "items": {
                 "type": "object",
                 "properties": {
-                     "id": {
+                    "id": {
                        "type": "string",
                        "description":"A unique machine-readable identifier for the feature"
                      },
@@ -96,6 +96,38 @@
                             "state",
                             "details"
                         ]
+                    },
+                    "apis": {
+                        "type": "array",
+                        "description": "The contract between this feature and the user. These are the set of APIs that the feature exposes to the user. Note that these need not be Kubernetes resources; they can be a set of metric names, annotations, protocols, etc.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "description": "The name of the API."
+                                },
+                                "link": {
+                                    "type": "string",
+                                    "description": "A primary link that users can navigate to in order to find out more about an API. This link may be provided to users by tooling consuming features.yaml."
+                                },
+                                "maturity": {
+                                    "type": "string",
+                                    "description": "The current maturity level of the API. This can be experimental, alpha, beta, or stable. Experimental is an optional maturity level that can be skipped. For alpha, beta, and stable, all requirements for the previous levels must be met before a feature can meet the next level (i.e. a stable feature has met the requirements of both alpha and beta). There may be features for which a requirement is not applicable.",
+                                    "enum": [
+                                        "Experimental",
+                                        "Alpha",
+                                        "Beta",
+                                        "Stable"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "name",
+                                "link",
+                                "maturity"
+                            ]
+                        }
                     }
                 },
                 "required": [
