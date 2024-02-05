@@ -24,7 +24,7 @@ features:
   - name: "Resilience features: timeouts, retries, connection pools, outlier detection"
     id: "traffic.resilience"
     level:
-      checklist: ""
+      checklist: features/network-resiience.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Traffic Management
