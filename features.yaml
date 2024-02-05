@@ -67,7 +67,7 @@ features:
   - name: "Enabling custom filters in Envoy"
     id: "traffic.custom_envoy_filters"
     level:
-      checklist: ""
+      checklist: features/envoy-custom-filters.md
       maturity: Alpha
       nextExpectedPromotion: ""
     area: Traffic Management
