@@ -17,7 +17,7 @@ features:
   - name: "Traffic Control: label/content based routing, traffic shifting"
     id: "traffic.control"
     level:
-      checklist: ""
+      checklist: features/traffic-control.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Traffic Management
