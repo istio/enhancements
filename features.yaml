@@ -52,7 +52,7 @@ features:
   - name: "SNI (multiple certs) at ingress"
     id: "traffic.multi_cert_ingress_sni"
     level:
-      checklist: ""
+      checklist: features/sni-multiple-certs-gateway.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Traffic Management
