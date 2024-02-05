@@ -75,7 +75,7 @@ features:
     id: "traffic.sidecar"
     link: "/docs/reference/config/networking/sidecar/"
     level:
-      checklist: ""
+      checklist: features/sidecar_api.md
       maturity: Beta
       nextExpectedPromotion: ""
     area: Traffic Management
@@ -186,7 +186,7 @@ features:
     id: "observabilility.service_credential_distribution"
     link: "/docs/concepts/security/#pki"
     level:
-      checklist: ""
+      checklist: features/k8s-service-credential-distribution.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Security and policy enforcement
@@ -242,7 +242,7 @@ features:
     id: "security.vm_credential_distribution"
     link: "/docs/concepts/security/#pki"
     level:
-      checklist: ""
+      checklist: features/vm-service-credential-distribution.md
       maturity: Beta
       nextExpectedPromotion: ""
     area: Security and policy enforcement
@@ -282,7 +282,7 @@ features:
     id: "core.in_cluster_operator"
     link: "/docs/setup/install/operator/"
     level:
-      checklist: ""
+      checklist: features/standalone-operator.md
       maturity: Beta
       nextExpectedPromotion: ""
     area: Core
@@ -406,3 +406,31 @@ features:
       link: "https://istio.io/latest/docs/setup/additional-setup/dual-stack/"
       nextExpectedPromotion: ""
     area: Core
+  - name: "Canary Based Revision Installation"
+    link: "/docs/setup/upgrade/canary/"
+    level:
+      checklist: features/canary_based_revision_install.md
+      maturity: Beta
+      nextExpectedPromotion: ""
+    area: Core
+  - name: "Configuration Status"
+    link: "/docs/reference/config/config-status/"
+    level:
+      checklist: features/configuration_status.md
+      maturity: Beta
+      nextExpectedPromotion: ""
+    area: Core
+  - name: "Dry Run Authorization Policy"
+    link: "/docs/tasks/security/authorization/authz-dry-run/"
+    level:
+      checklist: features/dry_run_authorization_policy.md 
+      maturity: Experimental
+      nextExpectedPromotion: ""
+    area: Security and policy enforcement
+  - name: "Virtual Service Delegation"
+    link: "/docs/reference/config/networking/virtual-service/#Delegate"
+    level:
+      checklist: features/virtual_service_delegation.md
+      maturity: Alpha
+      nextExpectedPromotion: ""
+    area: Traffic Management 
