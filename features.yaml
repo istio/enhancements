@@ -322,7 +322,7 @@ features:
     id: "core.in_place_upgrade"
     link: "/docs/setup/upgrade/in-place"
     level:
-      checklist: ""
+      checklist: features/control-plane-upgrade.md
       maturity: Beta
       nextExpectedPromotion: ""
     area: Core
