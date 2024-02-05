@@ -202,7 +202,7 @@ features:
     id: "security.istioca_pluggable_cert_support"
     link: "/docs/tasks/security/cert-management/plugin-ca-cert/"
     level:
-      checklist: ""
+      checklist: features/pluggable-key-cert-istio-ca.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Security and policy enforcement
