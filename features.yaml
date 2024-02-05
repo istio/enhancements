@@ -45,7 +45,7 @@ features:
   - name: "TLS termination and SNI Support in Gateways"
     id: "traffic.tls_termination"
     level:
-      checklist: ""
+      checklist: features/sni-support-gateways.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Traffic Management
