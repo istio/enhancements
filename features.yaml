@@ -226,7 +226,7 @@ features:
     id: "security.peer_authentication"
     link: "/docs/reference/config/security/peer_authentication/"
     level:
-      checklist: ""
+      checklist: features/jwt-authentication.md
       maturity: Beta
       nextExpectedPromotion: ""
     area: Security and policy enforcement
