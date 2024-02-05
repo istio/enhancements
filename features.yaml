@@ -122,7 +122,7 @@ features:
     id: "observability.grafana"
     link: "/docs/tasks/observability/metrics/using-istio-dashboard/"
     level:
-      checklist: ""
+      checklist: features/grafana-dashboard.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Observability
