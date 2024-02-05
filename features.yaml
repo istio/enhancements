@@ -290,7 +290,7 @@ features:
     id: "core.envoy_installation"
     link: "/docs/setup/"
     level:
-      checklist: ""
+      checklist: features/envoy-install-traffic-interception.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Core
