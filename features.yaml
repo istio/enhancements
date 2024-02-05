@@ -31,7 +31,7 @@ features:
   - name: "Gateway: Ingress, Egress for all protocols"
     id: "traffic.ingress_gateway"
     level:
-      checklist: ""
+      checklist: features/ingress-egress-gateway.md
       maturity: Stable
       nextExpectedPromotion: ""
     area: Traffic Management
