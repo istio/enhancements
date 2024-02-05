@@ -162,7 +162,7 @@ features:
     id: "observability.request_classification"
     link: "/docs/tasks/observability/metrics/classify-metrics/"
     level:
-      checklist: ""
+      checklist: features/request-classification.md
       maturity: Beta
       nextExpectedPromotion: ""
     area: Observability
