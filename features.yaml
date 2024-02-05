@@ -170,7 +170,7 @@ features:
     id: "observability.webassembly"
     link: "/docs/reference/config/proxy_extensions/wasm-plugin/"
     level:
-      checklist: ""
+      checklist: features/webassembly_extensions.md
       maturity: Alpha
       nextExpectedPromotion: ""
     area: Extensibility
