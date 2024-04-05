@@ -194,9 +194,9 @@ N/A: API is not owned by Istio. But its been extensively reviewed in the Kuberne
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The supportability review panel has reviewed promotion of the feature.  
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
 
 ---
@@ -207,16 +207,16 @@ N/A: API is not owned by Istio. But its been extensively reviewed in the Kuberne
 
 **Performance**
 
-- [ ] Latency, throughput, and scalability are quantified and documented on
+- [x] Latency, throughput, and scalability are quantified and documented on
 	istio.io. 
 
 **Bugs**
 
-- [ ] Feature has no known major issues. 
+- [x] Feature has no known major issues. 
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
 - [ ] The supportability review panel has reviewed promotion of the feature.  
 - [ ] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
