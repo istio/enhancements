@@ -183,9 +183,7 @@ YES - we essentially depend on Kubernetes Ephemeral Containers and document how 
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
-
-No: https://github.com/istio/istio/issues/37235. bug-report does not fully support this mode.
+- [x] Feature has no known major issues.
 
 **Approvals**
 
@@ -202,18 +200,18 @@ No: https://github.com/istio/istio/issues/37235. bug-report does not fully suppo
 
 **Performance**
 
-- [ ] Latency, throughput, and scalability are quantified and documented on
+- [x] Latency, throughput, and scalability are quantified and documented on
 	istio.io. 
 
 **Bugs**
 
-- [ ] Feature has no known major issues. 
+- [x] Feature has no known major issues. 
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The supportability review panel has reviewed promotion of the feature.  
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [x] The supportability review panel has reviewed promotion of the feature.  
+- [x] The TOC has reviewed and approved promotion of the feature as part of the
 	roadmap for a release.
 
 
