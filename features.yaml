@@ -227,7 +227,7 @@ features:
     link: "/docs/reference/config/security/peer_authentication/"
     level:
       checklist: ""
-      maturity: Beta
+      maturity: Stable
       nextExpectedPromotion: ""
     area: Security and policy enforcement
   - name: "Automatic mutual TLS"
