@@ -278,6 +278,14 @@ features:
       maturity: Experimental
       nextExpectedPromotion: ""
     area: Security and policy enforcement
+  - name: "Custom CA Integration using Kubernetes CSR"
+    id: "security.custom_ca_integration"
+    link: "/docs/tasks/security/cert-management/custom-ca-k8s"
+    level:
+      checklist: features/custom_ca_k8s_csr.md
+      maturity: Experimental
+      nextExpectedPromotion: ""
+    area: Security and policy enforcement
   - name: "In-Cluster Operator"
     id: "core.in_cluster_operator"
     link: "/docs/setup/install/operator/"
@@ -401,7 +409,7 @@ features:
     id: "core.dual_stack"
     level:
       checklist: features/dual-stack-support.md
-      maturity: Experimental 
+      maturity: Experimental
       maturityNotes: Dual Stack IPv4 and IPv6 is supported.
       link: "https://istio.io/latest/docs/setup/additional-setup/dual-stack/"
       nextExpectedPromotion: ""
