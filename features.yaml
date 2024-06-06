@@ -395,7 +395,7 @@ features:
     link: "https://istio.io/latest/docs/tasks/observability/telemetry/"
     level:
       checklist: features/telemetry_api.md
-      maturity: Alpha
+      maturity: Stable
       nextExpectedPromotion: ""
   - name: "Dual Stack Support in Istio"
     id: "core.dual_stack"
