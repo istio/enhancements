@@ -401,7 +401,7 @@ features:
     id: "core.dual_stack"
     level:
       checklist: features/dual-stack-support.md
-      maturity: Experimental 
+      maturity: Alpha 
       maturityNotes: Dual Stack IPv4 and IPv6 is supported.
       link: "https://istio.io/latest/docs/setup/additional-setup/dual-stack/"
       nextExpectedPromotion: ""
