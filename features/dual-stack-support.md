@@ -111,26 +111,29 @@ Add support for Dual Stack network model in Istio. With this, besides IPv4 only 
 
 **Design**
 
-- [ ] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
-N/A
+- [x] RFC has been approved describing the intention of the feature as well as the user stories behind the feature. 
+[Original design document for Dual Stack support in Istio](https://docs.google.com/document/d/1oT6pmRhOw7AtsldU0-HbfA0zA26j9LYiBD_eepeErsQ/)
+[Istio endpoint changes for multiple address support](https://docs.google.com/document/d/1pw-WaZOnpSVuZwNuv4VNXEgrFvDI2zbxvR9NonDwkI4/)
 
 **Config**
 
-- [x] Explicit user action is required to enable this feature (Please refer to the `Installation` section in [Supporting Dual Stack](https://docs.google.com/document/d/15LP2XHpQ71ODkjCVItGacPgzcn19fsVhyE7ruMGXDyU/edit?usp=sharing) ). 
-
-> Link to instructions for enabling
+- [x] Explicit user action is required to enable this feature (Please refer to the `Installation Steps` section in [Install Istio in Dual-Stack mode](https://istio.io/latest/docs/setup/additional-setup/dual-stack/#installation-steps).
 
 **Docs**
 
 - [x] Reference docs are published to preliminary.istio.io or the Istio wiki.
-- [ ] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
+   1. https://istio.io/latest/docs/setup/additional-setup/dual-stack
+   1. https://github.com/istio/istio/blob/master/samples/bookinfo/platform/kube/bookinfo-details-dualstack.yaml
+- [x] Basic feature docs are published on preliminary.istio.io describing what the feature does, how to use it, and any caveats. 
 - [x] Release notes entries added as appropriate
-- [ ] Upgrade notes entries added as appropriate
+- [x] Upgrade notes entries added as appropriate
 
 **Tests**
 
-- [x] Automated integration tests cover core use cases with the feature enabled. (The integration tests cover below use case: 1. Deployed Dual Stack k8s cluster, single stack Istio and Dual Stack services. 2. Based on item 1 to test the connectivity and accessibility, the same functionality verification as IPv6 support. More integration tests should need TODO.)
-- [X] When disabled, the feature does not affect system stability or performance. 
+- [x] Automated integration tests cover core use cases with the feature enabled.The integration tests cover below use case:
+   1. Deploys k8s cluster, Istio and test services in dual-stack mode.
+   1. Runs all connectivity tests as in IPv4 mode in the dual-stack setup
+- [x] When disabled, the feature does not affect system stability or performance.
 
 **API**
 
@@ -139,15 +142,14 @@ N/A
 
 **Approvals**
 
-- [x] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
-	roadmap for a release.
+- [x] The appropriate work group(s) have reviewed and approved [promotion of the feature](https://github.com/istio/istio/issues/47998).
+- [x] The TOC has reviewed and approved promotion of the feature as part of the roadmap for a release.
 
 **Promotion**
 
 [//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
 
-- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
+- [x] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
 
 ---
 
