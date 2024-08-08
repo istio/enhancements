@@ -29,7 +29,8 @@
                             "Observability",
                             "Extensibility",
                             "Security and policy enforcement",
-                            "Core"
+                            "Core",
+                            "Ambient"
                         ]
                     },
                     "level": {
