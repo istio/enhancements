@@ -187,7 +187,7 @@ N/A
 
 **Bugs**
 
-- [ ] Feature has no known major issues. 
+- [x] Feature has no known major issues. 
 
 **Approvals**
 
