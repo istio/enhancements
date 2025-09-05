@@ -159,57 +159,68 @@ N/A
 
 **Design**
 
-- [ ] Design doc describing the intention of the feature, how it will be
+- [x] Design doc describing the intention of the feature, how it will be
 	implemented, and any thoughts on how to test the feature has been approved by
 	relevant work group leads
-- [ ] Feature coverage and test plans written and approved.
+   https://docs.google.com/document/d/1oT6pmRhOw7AtsldU0-HbfA0zA26j9LYiBD_eepeErsQ/
+- [x] Feature coverage and test plans written and approved.
 
 **Docs** 
 
-- [ ] Documentation on istio.io includes performance expectations; may have caveats. 
-- [ ] Documentation on istio.io includes samples/tutorials. 
-- [ ] Documentation on istio.io includes appropriate glossary entries. 
-- [ ] All new documentation containing user actions includes istio.io tests.
+- [x] Documentation on istio.io includes performance expectations; may have caveats. 
+- [x] Documentation on istio.io includes samples/tutorials.
+      https://github.com/istio/istio/blob/master/samples/bookinfo/platform/kube/bookinfo-details-dualstack.yaml
+- [x] Documentation on istio.io includes appropriate glossary entries. 
+- [x] All new documentation containing user actions includes istio.io tests.
+      https://istio.io/latest/docs/setup/additional-setup/dual-stack page is tested
 - [ ] Release notes have been added. 
 - [ ] Upgrade notes have been added. 
 
 **Tests**
 
-- [ ] Integration tests cover feature edge cases
-- [ ] End-to-end tests cover samples/tutorials
-- [ ] Fixed issues have tests to prevent regressions
-- [ ] Stability/stress test suite includes coverage for the feature.
+- [x] Integration tests cover feature edge cases
+      1. https://github.com/istio/istio/issues/53704
+      1. https://github.com/istio/istio/issues/52895
+      1. https://github.com/istio/test-infra/pull/5572
+- [x] End-to-end tests cover samples/tutorials
+      1. https://github.com/istio/test-infra/pull/5576
+      1. https://github.com/istio/test-infra/pull/5596
+- [x] Fixed issues have tests to prevent regressions
+      1. https://github.com/istio/istio/pull/56151
+      1. https://github.com/istio/istio/issues/55577
+- [x] Stability/stress test suite includes coverage for the feature.
 
 **Performance**
 
-- [ ] Feature coverage and test plans written and approved 
-- [ ] Tests exist with the feature enabled that can be integrated with our automated performance testing.
+- [x] Feature coverage and test plans written and approved 
+- [x] Tests exist with the feature enabled that can be integrated with our automated performance testing.
+      1. https://github.com/istio/test-infra/pull/5596 ambient tests newly added
 
 **API**
 
-- [ ] TOC has reviewed the API and determined it to be complete. 
+- [x] TOC has reviewed the API and determined it to be complete. 
 
 **Tooling**
 
-- [ ] Any necessary tooling to use/debug the feature has been implemented and is complete. 
+- [x] Any necessary tooling to use/debug the feature has been implemented and is complete. 
 
 **Bugs**
 
-- [ ] Feature has no known major issues.
+- [x] Feature has no known major issues.
+      1. Known issue https://github.com/istio/istio/issues/34577 has been documented via docs.
 
 **Approvals**
 
-- [ ] The appropriate work group(s) have reviewed and approved promotion of the feature.
-- [ ] The supportability review panel has reviewed promotion of the feature.  
-- [ ] The TOC has reviewed and approved promotion of the feature as part of the
+- [] The appropriate work group(s) have reviewed and approved promotion of the feature.
+- [] The supportability review panel has reviewed promotion of the feature.  
+- [] The TOC has reviewed and approved promotion of the feature as part of the
 	road map for a release.
-
 
 **Promotion**
 
 [//]: # (Once all other items are completed, features.yaml should be updated to promote the feature)
 
-- [ ] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
+- [x] [features.yaml](https://github.com/istio/enhancements/blob/master/features.yaml) updated for this feature
 ---
 
 ## Stable
