@@ -1,7 +1,7 @@
 # Agentgateway Support in Istio
 
 Istio is pursuing **experimental** support for running the [agentgateway](https://github.com/agentgateway/agentgateway/) proxy as a dataplane. More specifically, this integration will occur in two phases:
-Phase 1: Ingress and Gateway API style egress support
+Phase 1: Ingress and Egress exposed via the Gateway API specification
 Phase 2: Ambient waypoint mode support (incl. ambient-style egress)
 Sidecar mode is out of scope at this time.
 
