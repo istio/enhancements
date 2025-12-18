@@ -27,7 +27,6 @@ While agentgateway is not a CNCF project, it has been donated to the [Linux Foun
 - Agentgateway has maintainers from at least 2 different organizations.
 - Agentgateway has a defined security policy and a process for reporting and addressing vulnerabilities.
 - Positive feedback from early adopters and community members using the integration in real-world scenarios (including and especially AI).
-- Performance testing akin to [gateway-api-bench](https://github.com/howardjohn/gateway-api-bench/blob/v2/README-v2.md) demonstrating clear performance and scale improvements over the Envoy-based Gateway implementation in Istio.
 
 ## GA Criteria
 
